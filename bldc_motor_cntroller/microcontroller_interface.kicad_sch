@@ -870,7 +870,8 @@
 
 (property "Description" "" (at 142.24 93.98 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "STM32F405RGT7" (at 142.24 93.98 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0f17a8a5-f7f7-46c7-93bc-90bd66249939")) (pin "11" (uuid "1015d248-d543-4dfe-ad20-76401943184e")) (pin "12" (uuid "6e568540-83f3-4a03-bf40-681b35c50701")) (pin "13" (uuid "6a98046b-252f-492c-9c76-647d52509654")) (pin "14" (uuid "1c251338-4151-4485-a9ab-20b1ea262970")) (pin "15" (uuid "f43a2a05-ed2f-4ddb-bcd6-dbb8b8ff6e23")) (pin "16" (uuid "79c80aee-bbfa-4505-81da-607aa3e74494")) (pin "17" (uuid "e0ed7743-24e3-481e-b2d8-d68c9c3fe903")) (pin "18" (uuid "f66972b9-56d9-468d-9824-66fb1d8cda26")) (pin "19" (uuid "f53ea751-5826-47f0-beb5-8076e49ae63a")) (pin "20" (uuid "99d7a872-ca12-4da4-911d-dec62a32cf9c")) (pin "21" (uuid "88e949e0-a813-49c6-95f3-7f1391c1289d")) (pin "22" (uuid "189ef0bc-d5e4-4306-acc8-85f5901cdbe9")) (pin "23" (uuid "fdca8977-eb9e-4117-b60d-94fc97d920f8")) (pin "24" (uuid "66b90254-98d5-43de-9072-0a46db7611b1")) (pin "25" (uuid "1ea08100-9d5c-4f14-8e1b-1d6e9ba97e63")) (pin "26" (uuid "ad2b4839-3268-47fc-96c7-67f45e513b4d")) (pin "27" (uuid "2bd9dc46-afca-41f5-b74a-fc63f6b398a7")) (pin "28" (uuid "7c17b90f-2d63-4f01-8620-99167d5db82f")) (pin "29" (uuid "c83804ad-3198-4c59-8647-a99d4d6a023c")) (pin "30" (uuid "1d11ea3b-0eb8-4cb7-8487-28f738bccad9")) (pin "31" (uuid "b0d839e3-0a8a-417f-a720-bb2e6f068dcc")) (pin "32" (uuid "262cf8e4-5d6c-426c-8aa1-056c2e27d1e1")) (pin "33" (uuid "67e8093f-5bc4-4fd9-99c1-ed1ea1e814cb")) (pin "34" (uuid "156401d4-379a-4023-8ae1-b6b2a36dd320")) (pin "35" (uuid "42355121-9448-4817-9670-92af55f19e97")) (pin "36" (uuid "264904a5-5839-4327-aea0-8b51f83ae302")) (pin "7" (uuid "8530cb72-7adf-4193-b8e7-05ac8a0dbd0d")) (pin "8" (uuid "f89b1ec3-e263-4fff-9115-8d4f06d7b54e")) (pin "9" (uuid "5dc51316-f8a7-4aed-85bb-e9cd84a8c043")) (pin "10" (uuid "a6b05a24-0c9d-4cd8-8a11-7f528094c18b")) (pin "2" (uuid "71f7d5e8-81e3-4bc1-b781-63a10d8d17e7")) (pin "3" (uuid "eb915e0c-b866-4019-b4eb-7c0639666245")) (pin "4" (uuid "9a16e7d3-94f8-45c8-b62f-7cde0cdf557b")) (pin "5" (uuid "2eb734f2-5e88-496f-9219-ba6b04b30a23")) (pin "6" (uuid "48c5a706-18f1-45e9-aef7-c1593431e74c")) (pin "37" (uuid "d6edc420-b745-4654-b4f8-93c584820a12")) (pin "38" (uuid "8f6d7ed5-a94c-46c0-96b8-d3e211c030ab")) (pin "39" (uuid "61e26185-e71a-453a-a763-226c23b543c3")) (pin "40" (uuid "22724dc8-eaa1-4020-875f-4c617d2970f7")) (pin "41" (uuid "b306d80e-a67f-47d1-95ba-f664a84cfd68")) (pin "42" (uuid "799a2d64-817f-47df-9edc-3eb79c4b197c")) (pin "43" (uuid "d1006441-a321-4d96-a583-cf603de88782")) (pin "44" (uuid "999965c9-3945-4d9e-b48f-fb83b195716a")) (pin "45" (uuid "7790b421-5b18-4f0f-9784-e5add1bd0bca")) (pin "46" (uuid "fc033dc3-3910-4570-8cb6-110e8db027ce")) (pin "47" (uuid "c6e58bb1-541a-4662-b602-f41316363a74")) (pin "48" (uuid "c775e5cf-9952-482e-b735-87e1772ed05e")) (pin "49" (uuid "e5a46297-e8b9-4095-9348-2ece8a80467a")) (pin "50" (uuid "e624493b-2377-4d39-b64c-fa591dda5e4d")) (pin "51" (uuid "5dacd6ac-79d7-441d-9096-d0d8eff85012")) (pin "52" (uuid "054336f9-3fba-4ac9-8135-3c32d23923d3")) (pin "53" (uuid "be47dc8f-b7dd-461a-b97d-74d94914f1f8")) (pin "54" (uuid "6410bb5c-882a-4529-9579-cb35f1afb04d")) (pin "55" (uuid "251eeee6-eed4-414e-bb69-976b7188f9dc")) (pin "56" (uuid "73c109e3-4c21-4cc8-818a-a1f49b66c237")) (pin "57" (uuid "ef894dc9-22dd-46bf-a68e-ecf5efc6292d")) (pin "58" (uuid "c23d00c2-e010-4b22-b200-becf2ab118a1")) (pin "59" (uuid "d760428e-3dd7-483e-8b17-b28f9a991716")) (pin "60" (uuid "f83dabc0-714e-42c4-875a-92ceb31fd0be")) (pin "61" (uuid "787fca60-d7da-4cef-a1e0-32bdc245866a")) (pin "62" (uuid "ba5390ee-82bb-4cb9-815d-77299c8bbfcf")) (pin "63" (uuid "1a0b5e5c-c02b-44ae-9760-61fc634e84b7")) (pin "64" (uuid "f4b26555-fdc8-4c66-baaa-71abf2224a02")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "U6") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "U6") (unit 1))))) 
+(property "MPN" "STM32F405RGT7" (at 142.24 93.98 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0f17a8a5-f7f7-46c7-93bc-90bd66249939")) (pin "11" (uuid "1015d248-d543-4dfe-ad20-76401943184e")) (pin "12" (uuid "6e568540-83f3-4a03-bf40-681b35c50701")) (pin "13" (uuid "6a98046b-252f-492c-9c76-647d52509654")) (pin "14" (uuid "1c251338-4151-4485-a9ab-20b1ea262970")) (pin "15" (uuid "f43a2a05-ed2f-4ddb-bcd6-dbb8b8ff6e23")) (pin "16" (uuid "79c80aee-bbfa-4505-81da-607aa3e74494")) (pin "17" (uuid "e0ed7743-24e3-481e-b2d8-d68c9c3fe903")) (pin "18" (uuid "f66972b9-56d9-468d-9824-66fb1d8cda26")) (pin "19" (uuid "f53ea751-5826-47f0-beb5-8076e49ae63a")) (pin "20" (uuid "99d7a872-ca12-4da4-911d-dec62a32cf9c")) (pin "21" (uuid "88e949e0-a813-49c6-95f3-7f1391c1289d")) (pin "22" (uuid "189ef0bc-d5e4-4306-acc8-85f5901cdbe9")) (pin "23" (uuid "fdca8977-eb9e-4117-b60d-94fc97d920f8")) (pin "24" (uuid "66b90254-98d5-43de-9072-0a46db7611b1")) (pin "25" (uuid "1ea08100-9d5c-4f14-8e1b-1d6e9ba97e63")) (pin "26" (uuid "ad2b4839-3268-47fc-96c7-67f45e513b4d")) (pin "27" (uuid "2bd9dc46-afca-41f5-b74a-fc63f6b398a7")) (pin "28" (uuid "7c17b90f-2d63-4f01-8620-99167d5db82f")) (pin "29" (uuid "c83804ad-3198-4c59-8647-a99d4d6a023c")) (pin "30" (uuid "1d11ea3b-0eb8-4cb7-8487-28f738bccad9")) (pin "31" (uuid "b0d839e3-0a8a-417f-a720-bb2e6f068dcc")) (pin "32" (uuid "262cf8e4-5d6c-426c-8aa1-056c2e27d1e1")) (pin "33" (uuid "67e8093f-5bc4-4fd9-99c1-ed1ea1e814cb")) (pin "34" (uuid "156401d4-379a-4023-8ae1-b6b2a36dd320")) (pin "35" (uuid "42355121-9448-4817-9670-92af55f19e97")) (pin "36" (uuid "264904a5-5839-4327-aea0-8b51f83ae302")) (pin "7" (uuid "8530cb72-7adf-4193-b8e7-05ac8a0dbd0d")) (pin "8" (uuid "f89b1ec3-e263-4fff-9115-8d4f06d7b54e")) (pin "9" (uuid "5dc51316-f8a7-4aed-85bb-e9cd84a8c043")) (pin "10" (uuid "a6b05a24-0c9d-4cd8-8a11-7f528094c18b")) (pin "2" (uuid "71f7d5e8-81e3-4bc1-b781-63a10d8d17e7")) (pin "3" (uuid "eb915e0c-b866-4019-b4eb-7c0639666245")) (pin "4" (uuid "9a16e7d3-94f8-45c8-b62f-7cde0cdf557b")) (pin "5" (uuid "2eb734f2-5e88-496f-9219-ba6b04b30a23")) (pin "6" (uuid "48c5a706-18f1-45e9-aef7-c1593431e74c")) (pin "37" (uuid "d6edc420-b745-4654-b4f8-93c584820a12")) (pin "38" (uuid "8f6d7ed5-a94c-46c0-96b8-d3e211c030ab")) (pin "39" (uuid "61e26185-e71a-453a-a763-226c23b543c3")) (pin "40" (uuid "22724dc8-eaa1-4020-875f-4c617d2970f7")) (pin "41" (uuid "b306d80e-a67f-47d1-95ba-f664a84cfd68")) (pin "42" (uuid "799a2d64-817f-47df-9edc-3eb79c4b197c")) (pin "43" (uuid "d1006441-a321-4d96-a583-cf603de88782")) (pin "44" (uuid "999965c9-3945-4d9e-b48f-fb83b195716a")) (pin "45" (uuid "7790b421-5b18-4f0f-9784-e5add1bd0bca")) (pin "46" (uuid "fc033dc3-3910-4570-8cb6-110e8db027ce")) (pin "47" (uuid "c6e58bb1-541a-4662-b602-f41316363a74")) (pin "48" (uuid "c775e5cf-9952-482e-b735-87e1772ed05e")) (pin "49" (uuid "e5a46297-e8b9-4095-9348-2ece8a80467a")) (pin "50" (uuid "e624493b-2377-4d39-b64c-fa591dda5e4d")) (pin "51" (uuid "5dacd6ac-79d7-441d-9096-d0d8eff85012")) (pin "52" (uuid "054336f9-3fba-4ac9-8135-3c32d23923d3")) (pin "53" (uuid "be47dc8f-b7dd-461a-b97d-74d94914f1f8")) (pin "54" (uuid "6410bb5c-882a-4529-9579-cb35f1afb04d")) (pin "55" (uuid "251eeee6-eed4-414e-bb69-976b7188f9dc")) (pin "56" (uuid "73c109e3-4c21-4cc8-818a-a1f49b66c237")) (pin "57" (uuid "ef894dc9-22dd-46bf-a68e-ecf5efc6292d")) (pin "58" (uuid "c23d00c2-e010-4b22-b200-becf2ab118a1")) (pin "59" (uuid "d760428e-3dd7-483e-8b17-b28f9a991716")) (pin "60" (uuid "f83dabc0-714e-42c4-875a-92ceb31fd0be")) (pin "61" (uuid "787fca60-d7da-4cef-a1e0-32bdc245866a")) (pin "62" (uuid "ba5390ee-82bb-4cb9-815d-77299c8bbfcf")) (pin "63" (uuid "1a0b5e5c-c02b-44ae-9760-61fc634e84b7")) (pin "64" (uuid "f4b26555-fdc8-4c66-baaa-71abf2224a02")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "U6") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "U6") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "U6") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 142.24 142.24 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2dfcc9") 
 
@@ -882,7 +883,8 @@
 
 (property "Datasheet" "" (at 142.24 142.24 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 142.24 142.24 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "51e24379-3599-4d87-92c1-a9d675ecbc07")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0101") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0101") (unit 1))))) 
+(property "Description" "" (at 142.24 142.24 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "51e24379-3599-4d87-92c1-a9d675ecbc07")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0101") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0101") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0101") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 76.2 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2e2854") 
 
@@ -898,7 +900,8 @@
 
 (property "MPN" "GRM155R62A104KE14D" (at 76.2 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1525" (at 76.2 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5db455c2-f0f5-45cd-bb7a-d21bca457d66")) (pin "2" (uuid "2926c726-0d67-4d32-9aac-14b7c0220e9f")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C82") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C82") (unit 1))))) 
+(property "LCSC Part #" "C1525" (at 76.2 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5db455c2-f0f5-45cd-bb7a-d21bca457d66")) (pin "2" (uuid "2926c726-0d67-4d32-9aac-14b7c0220e9f")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C82") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C82") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C82") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 86.36 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2e2e09") 
 
@@ -914,7 +917,8 @@
 
 (property "MPN" "GRM155R62A104KE14D" (at 86.36 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1525" (at 86.36 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "76dbc538-965a-45e2-ac14-f2a28cd2eb2a")) (pin "2" (uuid "c68105bf-e001-46d8-849f-0a2cba202eaa")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C85") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C85") (unit 1))))) 
+(property "LCSC Part #" "C1525" (at 86.36 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "76dbc538-965a-45e2-ac14-f2a28cd2eb2a")) (pin "2" (uuid "c68105bf-e001-46d8-849f-0a2cba202eaa")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C85") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C85") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C85") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 96.52 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2e3167") 
 
@@ -930,7 +934,8 @@
 
 (property "MPN" "GRM155R62A104KE14D" (at 96.52 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1525" (at 96.52 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2ed74b60-83e5-4117-a0c5-d5ab442c6456")) (pin "2" (uuid "0f61a59b-3894-4b7e-a0b1-9948260c313b")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C87") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C87") (unit 1))))) 
+(property "LCSC Part #" "C1525" (at 96.52 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2ed74b60-83e5-4117-a0c5-d5ab442c6456")) (pin "2" (uuid "0f61a59b-3894-4b7e-a0b1-9948260c313b")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C87") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C87") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C87") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 106.68 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2e33cd") 
 
@@ -946,7 +951,8 @@
 
 (property "MPN" "GRM155R62A104KE14D" (at 106.68 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1525" (at 106.68 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f301833c-9020-464b-88b2-a4aa56c8c8ff")) (pin "2" (uuid "b3e0c4ff-2809-4a82-88a8-22cb780fd34b")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C89") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C89") (unit 1))))) 
+(property "LCSC Part #" "C1525" (at 106.68 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f301833c-9020-464b-88b2-a4aa56c8c8ff")) (pin "2" (uuid "b3e0c4ff-2809-4a82-88a8-22cb780fd34b")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C89") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C89") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C89") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 116.84 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2e3617") 
 
@@ -962,7 +968,8 @@
 
 (property "MPN" "GRM155R62A104KE14D" (at 116.84 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1525" (at 116.84 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e19b7e5f-5503-4a62-8656-301f098a5e16")) (pin "2" (uuid "2e441537-4731-455b-91d9-440b6a370c3c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C91") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C91") (unit 1))))) 
+(property "LCSC Part #" "C1525" (at 116.84 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e19b7e5f-5503-4a62-8656-301f098a5e16")) (pin "2" (uuid "2e441537-4731-455b-91d9-440b6a370c3c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C91") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C91") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C91") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 177.8 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2e66d1") 
 
@@ -978,7 +985,8 @@
 
 (property "MPN" "GMK105CC6105MV-F" (at 177.8 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C52923" (at 177.8 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "98dc5fe9-4e8a-4667-adca-b14f7bc84eec")) (pin "2" (uuid "a0ea17e0-2de1-4d48-9ef4-097ad8aa754c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C93") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C93") (unit 1))))) 
+(property "LCSC Part #" "C52923" (at 177.8 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "98dc5fe9-4e8a-4667-adca-b14f7bc84eec")) (pin "2" (uuid "a0ea17e0-2de1-4d48-9ef4-097ad8aa754c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C93") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C93") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C93") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 167.64 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2e6f13") 
 
@@ -994,7 +1002,8 @@
 
 (property "MPN" "GRM155R62A104KE14D" (at 167.64 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1525" (at 167.64 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7d86d655-1cb1-4f86-a6ee-a36db4dc9a4f")) (pin "2" (uuid "deafbd23-4899-4f9c-957b-aef2297557bf")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C92") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C92") (unit 1))))) 
+(property "LCSC Part #" "C1525" (at 167.64 40.64 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7d86d655-1cb1-4f86-a6ee-a36db4dc9a4f")) (pin "2" (uuid "deafbd23-4899-4f9c-957b-aef2297557bf")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C92") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C92") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C92") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 116.84 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2eb173") 
 
@@ -1006,7 +1015,8 @@
 
 (property "Datasheet" "" (at 116.84 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 116.84 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "620f086e-a0a9-42e7-bcce-547d76f7ed5c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0100") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0100") (unit 1))))) 
+(property "Description" "" (at 116.84 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "620f086e-a0a9-42e7-bcce-547d76f7ed5c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0100") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0100") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0100") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 106.68 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2eb307") 
 
@@ -1018,7 +1028,8 @@
 
 (property "Datasheet" "" (at 106.68 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 106.68 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2a8f2380-cdbb-43ee-a635-0fb284bf3184")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR098") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR098") (unit 1))))) 
+(property "Description" "" (at 106.68 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2a8f2380-cdbb-43ee-a635-0fb284bf3184")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR098") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR098") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR098") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 96.52 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2eb4da") 
 
@@ -1030,7 +1041,8 @@
 
 (property "Datasheet" "" (at 96.52 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 96.52 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2ceb3e67-88cb-407d-bbb5-f95830ecd825")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR096") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR096") (unit 1))))) 
+(property "Description" "" (at 96.52 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2ceb3e67-88cb-407d-bbb5-f95830ecd825")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR096") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR096") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR096") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 86.36 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2eb658") 
 
@@ -1042,7 +1054,8 @@
 
 (property "Datasheet" "" (at 86.36 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 86.36 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "bc6416e8-de25-4996-9678-a0b172109d9c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR094") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR094") (unit 1))))) 
+(property "Description" "" (at 86.36 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "bc6416e8-de25-4996-9678-a0b172109d9c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR094") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR094") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR094") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 76.2 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2eb7ca") 
 
@@ -1054,7 +1067,8 @@
 
 (property "Datasheet" "" (at 76.2 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 76.2 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "41c8c11e-7233-4268-87aa-50191415fb23")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR093") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR093") (unit 1))))) 
+(property "Description" "" (at 76.2 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "41c8c11e-7233-4268-87aa-50191415fb23")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR093") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR093") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR093") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 114.3 127 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2ed258") 
 
@@ -1068,7 +1082,8 @@
 
 (property "Description" "" (at 114.3 127 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "GRM155C81E225KE11D" (at 114.3 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e661def7-076f-467b-95e8-6827d2bafd16")) (pin "2" (uuid "8b8986f6-ea06-4721-b11c-022f320bb139")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C90") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C90") (unit 1))))) 
+(property "MPN" "GRM155C81E225KE11D" (at 114.3 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e661def7-076f-467b-95e8-6827d2bafd16")) (pin "2" (uuid "8b8986f6-ea06-4721-b11c-022f320bb139")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C90") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C90") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C90") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 104.14 127 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2edc07") 
 
@@ -1082,7 +1097,8 @@
 
 (property "Description" "" (at 104.14 127 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "GRM155C81E225KE11D" (at 104.14 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "173e37e0-ae7f-4401-9982-1db6eea84385")) (pin "2" (uuid "c7b91112-509a-4826-b2f5-62c795eef019")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C88") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C88") (unit 1))))) 
+(property "MPN" "GRM155C81E225KE11D" (at 104.14 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "173e37e0-ae7f-4401-9982-1db6eea84385")) (pin "2" (uuid "c7b91112-509a-4826-b2f5-62c795eef019")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C88") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C88") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C88") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 104.14 129.54 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2ede23") 
 
@@ -1094,7 +1110,8 @@
 
 (property "Datasheet" "" (at 104.14 129.54 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 104.14 129.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "235dafb7-dbfc-40f3-af5f-b9b127f6650b")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR097") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR097") (unit 1))))) 
+(property "Description" "" (at 104.14 129.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "235dafb7-dbfc-40f3-af5f-b9b127f6650b")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR097") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR097") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR097") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 114.3 129.54 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2ee0d8") 
 
@@ -1106,7 +1123,8 @@
 
 (property "Datasheet" "" (at 114.3 129.54 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 114.3 129.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "69bab87d-71ff-42f5-b9dd-1ab67d660643")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR099") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR099") (unit 1))))) 
+(property "Description" "" (at 114.3 129.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "69bab87d-71ff-42f5-b9dd-1ab67d660643")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR099") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR099") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR099") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 80.01 68.58 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2f1862") 
 
@@ -1122,7 +1140,8 @@
 
 (property "MPN" "GCQ1555C1H120FB01D" (at 80.01 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1547" (at 80.01 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "83b36fdc-f576-4ce6-a881-7a0e6d8b5763")) (pin "2" (uuid "9619e39f-d109-445c-8c3f-78f29729fd6c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C84") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C84") (unit 1))))) 
+(property "LCSC Part #" "C1547" (at 80.01 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "83b36fdc-f576-4ce6-a881-7a0e6d8b5763")) (pin "2" (uuid "9619e39f-d109-445c-8c3f-78f29729fd6c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C84") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C84") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C84") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 80.01 60.96 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2f208e") 
 
@@ -1138,7 +1157,8 @@
 
 (property "MPN" "GCQ1555C1H120FB01D" (at 80.01 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1547" (at 80.01 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e17221fb-71d9-419a-a8a4-b656e3bcf30e")) (pin "2" (uuid "fef5ab57-78c1-4fc5-bb68-1a985913edf8")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C83") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C83") (unit 1))))) 
+(property "LCSC Part #" "C1547" (at 80.01 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e17221fb-71d9-419a-a8a4-b656e3bcf30e")) (pin "2" (uuid "fef5ab57-78c1-4fc5-bb68-1a985913edf8")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C83") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C83") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C83") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 74.93 68.58 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e2f3e1c") 
 
@@ -1150,7 +1170,8 @@
 
 (property "Datasheet" "" (at 74.93 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 74.93 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "62c9de54-04d5-4df5-aa49-ab51a697b986")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR091") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR091") (unit 1))))) 
+(property "Description" "" (at 74.93 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "62c9de54-04d5-4df5-aa49-ab51a697b986")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR091") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR091") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR091") (unit 1))))) 
 
 (symbol (lib_id "power:+3.3V") (at 76.2 36.83 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00006082df3d") 
 
@@ -1162,7 +1183,8 @@
 
 (property "Datasheet" "" (at 76.2 36.83 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 76.2 36.83 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9e3e4175-f3f3-419d-9ac4-e5c7f524eaee")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR092") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR092") (unit 1))))) 
+(property "Description" "" (at 76.2 36.83 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9e3e4175-f3f3-419d-9ac4-e5c7f524eaee")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR092") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR092") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR092") (unit 1))))) 
 
 (symbol (lib_id "power:+3.3VA") (at 177.8 36.322 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060831c2c") 
 
@@ -1174,7 +1196,8 @@
 
 (property "Datasheet" "" (at 177.8 36.322 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 177.8 36.322 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d3bebbbc-391b-4ff5-9f4b-7d315938c597")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0104") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0104") (unit 1))))) 
+(property "Description" "" (at 177.8 36.322 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d3bebbbc-391b-4ff5-9f4b-7d315938c597")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0104") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0104") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0104") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 148.59 142.24 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00006083669a") 
 
@@ -1186,7 +1209,8 @@
 
 (property "Datasheet" "" (at 148.59 142.24 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 148.59 142.24 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "edf6aa63-f37a-4802-943a-c6d78308a308")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0102") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0102") (unit 1))))) 
+(property "Description" "" (at 148.59 142.24 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "edf6aa63-f37a-4802-943a-c6d78308a308")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0102") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0102") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0102") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 167.64 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060839fa0") 
 
@@ -1198,7 +1222,8 @@
 
 (property "Datasheet" "" (at 167.64 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 167.64 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e4b32c58-5aa7-4016-9245-6b43d4ac36bc")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0103") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0103") (unit 1))))) 
+(property "Description" "" (at 167.64 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e4b32c58-5aa7-4016-9245-6b43d4ac36bc")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0103") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0103") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0103") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 177.8 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00006083a53a") 
 
@@ -1210,7 +1235,8 @@
 
 (property "Datasheet" "" (at 177.8 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 177.8 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d2787642-a6ec-40d1-b201-d500af1b62c1")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0105") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0105") (unit 1))))) 
+(property "Description" "" (at 177.8 43.18 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d2787642-a6ec-40d1-b201-d500af1b62c1")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0105") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0105") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR0105") (unit 1))))) 
 
 (symbol (lib_id "Device:C_Small") (at 68.58 55.88 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00006084a155") 
 
@@ -1226,7 +1252,8 @@
 
 (property "MPN" "GRM155C81E225KE11D" (at 68.58 55.88 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "LCSC Part #" "C1525" (at 68.58 55.88 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "619c60a6-02c8-4f0a-9f96-25fff8284be5")) (pin "2" (uuid "125274f7-4e1b-4130-ba87-8f43eca0dd4e")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C86") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C86") (unit 1))))) 
+(property "LCSC Part #" "C1525" (at 68.58 55.88 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "619c60a6-02c8-4f0a-9f96-25fff8284be5")) (pin "2" (uuid "125274f7-4e1b-4130-ba87-8f43eca0dd4e")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C86") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C86") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "C86") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 68.58 58.42 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00006084daa8") 
 
@@ -1238,7 +1265,8 @@
 
 (property "Datasheet" "" (at 68.58 58.42 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 68.58 58.42 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a9e78e81-8804-40ec-b939-42141d382cb9")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR095") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR095") (unit 1))))) 
+(property "Description" "" (at 68.58 58.42 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a9e78e81-8804-40ec-b939-42141d382cb9")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR095") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR095") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "#PWR095") (unit 1))))) 
 
 (symbol (lib_id "Device:Crystal_GND3_Small") (at 88.9 64.77 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060a3d5da") 
 
@@ -1252,7 +1280,8 @@
 
 (property "Description" "" (at 88.9 64.77 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "CSTCE8M00G55-R0" (at 88.9 64.77 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "77617727-cf9e-4606-8a88-8df2491b0024")) (pin "2" (uuid "8eea40b0-f8e1-4086-912a-62c63aabc322")) (pin "3" (uuid "775d0bc3-4e07-4f0f-9256-608d42208a86")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "Y1") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "Y1") (unit 1))))) 
+(property "MPN" "CSTCE8M00G55-R0" (at 88.9 64.77 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "77617727-cf9e-4606-8a88-8df2491b0024")) (pin "2" (uuid "8eea40b0-f8e1-4086-912a-62c63aabc322")) (pin "3" (uuid "775d0bc3-4e07-4f0f-9256-608d42208a86")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "Y1") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "Y1") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "Y1") (unit 1))))) 
 
 (symbol (lib_id "Connector:TestPoint") (at 38.1 132.08 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (fields_autoplaced yes) (uuid "a97bdbab-2431-4b49-8444-bfce27c5d526") 
 
@@ -1264,7 +1293,8 @@
 
 (property "Datasheet" "~" (at 38.1 132.08 0) (effects (font (size 1.27 1.27)) hide)) 
 
-(property "Description" "" (at 38.1 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "f580e313-5492-431a-a16a-62fd93ea40dd")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP8") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP8") (unit 1))))) 
+(property "Description" "" (at 38.1 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "f580e313-5492-431a-a16a-62fd93ea40dd")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP8") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP8") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP8") (unit 1))))) 
 
 (symbol (lib_id "Connector:TestPoint") (at 48.26 132.08 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (fields_autoplaced yes) (uuid "2db9725e-50de-47ab-9960-93a557bea23a") 
 
@@ -1276,7 +1306,8 @@
 
 (property "Datasheet" "~" (at 48.26 132.08 0) (effects (font (size 1.27 1.27)) hide)) 
 
-(property "Description" "" (at 48.26 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "7ce4f389-5626-4817-a41a-d89546e1e025")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP9") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP9") (unit 1))))) 
+(property "Description" "" (at 48.26 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "7ce4f389-5626-4817-a41a-d89546e1e025")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP9") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP9") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP9") (unit 1))))) 
 
 (symbol (lib_id "Connector:TestPoint") (at 58.42 132.08 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (fields_autoplaced yes) (uuid "c56d1e1c-cbce-4bcd-9786-2f0bc6f996c9") 
 
@@ -1288,7 +1319,8 @@
 
 (property "Datasheet" "~" (at 58.42 132.08 0) (effects (font (size 1.27 1.27)) hide)) 
 
-(property "Description" "" (at 58.42 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "49cd0ad2-106b-4928-a5ef-db1265401643")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP10") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP10") (unit 1))))) 
+(property "Description" "" (at 58.42 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "49cd0ad2-106b-4928-a5ef-db1265401643")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP10") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP10") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP10") (unit 1))))) 
 
 (symbol (lib_id "Connector:TestPoint") (at 68.58 132.08 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (fields_autoplaced yes) (uuid "3204c341-3ec0-4411-b9de-32820a042168") 
 
@@ -1300,7 +1332,8 @@
 
 (property "Datasheet" "~" (at 68.58 132.08 0) (effects (font (size 1.27 1.27)) hide)) 
 
-(property "Description" "" (at 68.58 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "d1606eee-a8c4-4183-be13-807c3815a382")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP11") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP11") (unit 1))))) 
+(property "Description" "" (at 68.58 132.08 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "d1606eee-a8c4-4183-be13-807c3815a382")) (instances (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP11") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP11") (unit 1)))
+(project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d91c5" (reference "TP11") (unit 1))))) 
 
 (label "M0_SO1" (at 38.1 132.08 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid d9c5965b-f92e-472a-9491-f944c7212eda)) 
 
