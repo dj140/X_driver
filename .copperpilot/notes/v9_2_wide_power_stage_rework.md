@@ -1,34 +1,33 @@
-# V9.2 Power-Stage Copper Bottleneck Audit & `220 × 115 mm` Placement Specification
+# V9.2 Symmetrical 3-Leg Power Stage & North-Edge Connector Alignment (`220 × 115 mm`)
 
-## 1. Measured `v9.2` (`180 × 115 mm`) Phase & Shunt Copper Bottlenecks
+## 1. Fixes Applied to `bldc_motor_cntroller_v9.2`
 
-| Net | Layer | `v9.2` Narrowest Neck (mm) | Bottleneck Location & Root Cause | `220 × 115 mm` Target Width (mm) | Expansion Ratio |
+### A. Symmetrical 3-Leg Half-Bridge & Motor Connector (`J1` / `J2`) Alignment
+- **Root Cause Fixed**:
+  1. `AMASS_MR60PB-M_1x03_P5.50mm_Vertical` (`J1`, `J2`) anchors at `Pad 1` (`0, 0`), with `Pad 2` at `(5.5, 0)` and `Pad 3` at `(11.0, 0)`. Placing `J2` at `x = 57.0` and `J1` at `x = 175.0` (`rot = 180°`) shifted the three connector pins `-5.5 mm` West of the phase-pour centers, leaving `Pad 2` (`SH_B`) unconnected while `SH_B` and `SH_A` converged on the East leg.
+  2. On the `VDC` bus side, `Q9`/`Q7` (M1) and `Q3`/`Q1` (M0) previously shared one merged `VDC` pour (`10.0 mm` center-to-center) while two `1206` bus capacitors + `C_HF5`/`C_HF2` dropped an isolated `VDC` finger with no High-Side FET attached.
+- **Verified `v9.2` Geometry (`+118.00 mm` exact M1-to-M0 translation)**:
+
+| Phase Leg | M1 FETs (`y = 92.0, -90°`) | M0 FETs (`y = 92.0, -90°`) | Dedicated `VDC` Bank (`y = 80.5`) & `C_HF` (`y = 89.5`) | Phase Trunk Width (`F.Cu + B.Cu`) | `J2` / `J1` Pin Center (`y = 123.0`) |
 |---|---|---|---|---|---|
-| `SH_B`, `SH_C` (HS Source -> Trunk) | `F.Cu` | `0.00` (South) / `0.85` (North at `y=89.0`) | `9.2 mm` intra-phase FET pitch + `C_HF2/3/5/6` placed at `y=95.2` inside the intra-phase gap completely blocked `Q3/Q5/Q9/Q11` Source on `F.Cu` | `7.48` (inter-FET) -> `12.50–12.70` (trunk) | `> 8.8x` (restores full `F.Cu` path) |
-| `SH_B`, `SH_C` (LS South Drain -> Trunk) | `F.Cu` | `3.10` (`y=97.6`) | `R12/R16/R32/R36` shunt on West + `C_HF` `VDC` pad on East pinched LS South Drain exit | `12.50–12.75` (launch) -> `10.50–12.50` (trunk; `5.60` right between `MR60` `5.5 mm`-pitch outer pads) | `3.39x – 4.11x` (`1.81x` right at `MR60` pins, 100% of physical pin gap) |
-| `M1/SH_B` | `B.Cu` | `3.62` (`y=97.6`) | Diagonal `B.Cu` signal trace sliced through the `B.Cu` `SH_B` pour | `10.50–12.50` (`B.Cu` keepout protected) | `2.90x – 3.45x` |
-| `SH_A` (`Q1/Q2`, `Q7/Q8` -> Trunk) | `F.Cu` | `0.70` (step at `y=99.3`) / `2.40` (West slot) / `1.40` (East step) | `C_HF1/4` (`VDC <-> GND`) placed between `Q1` and `Q2` forced `SH_A` around outside edges and into `C71/C75` | `7.48` (inter-FET) -> `12.75` (trunk) | `3.12x` vs slot (`10.7x` vs `0.70 mm` step) |
-| `SL_B` (`Q4 -> R12`, `Q10 -> R32`) | `F.Cu` / `B.Cu` | `2.27` (`M0 F.Cu`) / `2.95` (`M1 F.Cu`) / `3.80` (`M1 B.Cu`) | `4.10 mm` `Q5–Q4` South Drain gap shared with `SP1/SN1` Kelvin pair | `5.20` at `0.7 mm` FET pad lip (> `3.65 mm` Source array) -> `6.80` continuous `F.Cu` + `B.Cu` trunk | `2.29x` at pad lip / `3.00x` along trunk |
-| `SL_C` (`Q6 -> R16`, `Q12 -> R36`) | `F.Cu` / `B.Cu` | `2.92` (`M1 F.Cu`) / `3.48` (`M0 B.Cu`) | Via/trace intrusion into narrow West `SL_C` turn | `5.20` at `0.7 mm` FET pad lip -> `7.00` continuous `F.Cu` + `B.Cu` trunk | `2.40x` (`F.Cu`) / `2.01x` (`B.Cu`) |
+| **Phase C** | `Q12` (`19.5`), `Q11` (`32.0`) | `Q6` (`137.5`), `Q5` (`150.0`) | `5× 1206` + `100 nF` + `C_HF6` (`13.8`) / `C_HF3` (`131.8`) | `12.50 mm` (`SH_C`), `6.30 mm` (`SL_C` -> `R36`/`R16`) | `J2.3 = 51.50` / `J1.3 = 169.50` (`100%` connected) |
+| **Phase B** | `Q10` (`49.5`), `Q9` (`62.0`) | `Q4` (`167.5`), `Q3` (`180.0`) | `5× 1206` + `C_HF5` (`43.5`) / `C_HF2` (`161.5`) | `12.30–12.50 mm` (`SH_B`), `6.30 mm` (`SL_B` -> `R32`/`R12`) | `J2.2 = 57.00` / `J1.2 = 175.00` (`100%` connected) |
+| **Phase A** | `Q7` (`76.5`), `Q8` (`89.0`) | `Q1` (`194.5`), `Q2` (`207.0`) | `5× 1206` + `100 nF` + `C_HF4` (`94.4`) / `C_HF1` (`212.4`) | `12.50 mm` (`SH_A`) | `J2.1 = 62.50` / `J1.1 = 180.50` (`100%` connected) |
 
-## 2. `DirectFET_L8` Output Window Reference
-- **Drain flange (`Pad 1`, 3 pads)**: `5.50 mm` pad span (`X0 ± 2.75 mm`), `6.10 × 7.10 mm` can width.
-- **Source array (`Pad 3`, 8 pads)**: `4.55 mm` wide (`X0 ± 2.275 mm`) × `3.65 mm` tall (`[Y0 - 1.275 .. Y0 + 2.375]`), inside a `6.80 mm` clear lateral window (`[Y0 - 3.40 .. Y0 + 3.40]`) on the non-gate side and `5.20 mm` (`[Y0 - 1.80 .. Y0 + 3.40]`) on the gate-exit side.
+### B. North-Edge Connectors Moved to Actual North Edge (`y = 15.00 mm`)
 
-## 3. Target `220.0 × 115.0 mm` Floorplan (`[0.0, 15.0] .. [220.0, 130.0]`, `+118.0 mm` Channel Symmetry)
-- **Channel M1 (`Q12..Q7` at `y = 92.0, rot = -90°`)**:
-  - `Q12` (`LS_C`): `x = 21.2` | `Q11` (`HS_C`): `x = 34.2` (`13.0 mm` pitch) -> `R36` at `(14.5, 104.5)`, `SL_C = 7.00 mm`, `SH_C = 7.48 -> 12.70 mm`
-  - `Q10` (`LS_B`): `x = 53.2` (`19.0 mm` inter-phase) | `Q9` (`HS_B`): `x = 66.2` (`13.0 mm` pitch) -> `R32` at `(46.75, 104.5)`, `SL_B = 6.80 mm`, `SH_B = 7.48 -> 12.50 mm`
-  - `Q7` (`HS_A`): `x = 76.2` (`10.0 mm` shared-`VDC` pitch) | `Q8` (`LS_A`): `x = 89.2` (`13.0 mm` pitch) -> `SH_A = 7.48 -> 12.75 mm`, `Q8` `GND` exits East into central `GND` spine
-  - `J2` (`MR60PB-M` M1): `(57.0, 123.0, 180°)` (`J2.3=51.5, J2.2=57.0, J2.1=62.5`)
-- **Central Battery Spine (`x = 92.5 .. 126.5`)**:
-  - `J3` (`XT90PB-M`): `(110.0, 123.0, 0°)` (`J3.1 GND = 104.55`, `J3.2 VDC = 115.45`)
-- **Channel M0 (`Q6..Q1` = exact `+118.00 mm` X-translation of M1)**:
-  - `Q6 = 139.2`, `Q5 = 152.2`, `Q4 = 171.2`, `Q3 = 184.2`, `Q1 = 194.2`, `Q2 = 207.2`
-  - `R16 = (132.5, 104.5)`, `R12 = (164.75, 104.5)`, `J1 = (175.0, 123.0, 180°)`
-- **Routing-Driven Component Placement Optimizations**:
-  1. `C_HF1–C_HF6` moved out of intra-phase `SH` channels onto the `VDC`-to-`SL`/`GND` commutation boundaries (`C_HF6` at `(15.0, 88.0)`, `C_HF5` at `(44.2, 88.0)`, `C_HF4` at `(94.0, 88.0)`, and `+118.0 mm` on M0).
-  2. `U2` centered at `(55.0, 69.5, -90°)` and `U1` at `(173.0, 69.5, -90°)` with vertical South bootstrap/Kelvin capacitors (`y = 77.2`) aligned directly under their `DRV8301` pins.
-  3. `U1` `+5V` buck converter (`D1, L1, C12, C18, C19, C1, R4..R7, C17, C20`) relocated to the East/North-East of `U1` (`x = 183..198, y = 55..72`) right beside `U1` `PH`/`BST_BK` pins `50–56`, eliminating switching-node wrap-around and freeing `U1` North digital fanout.
-  4. `U3` / `Q13` / `Q14` brake chopper centered around `x = 110..122, y = 60..72` with `R47/R48` gate resistors West of `Q13/Q14` so `/Power Management/HS` forms a single unbroken `F.Cu + B.Cu` polygon.
-  5. `U6` (`STM32F405`) centered at `(110.0, 44.0)` with radially aligned decoupling caps, `4 mm` Westward spacing on `C6,C7,C27,C28`/`TP8–TP11`, and clean `Y1` oscillator spacing (`0` `silk_overlap`).
+| Reference(s) | Function / Package | Prior `Y` (mm) | New `Y` (mm) | Courtyard North Edge (mm) | SMD Pad North Edge (mm) | Clearance to `y = 15.00 mm` `Edge.Cuts` |
+|---|---|---|---|---|---|---|
+| `J11`, `J10` | `ENC1`, `ENC0` (`JST_SH_SM05B-SRSS-TB`, `180°`) | `20.50` | **`18.30`** | `15.020` | `15.525` (`MP` pad) | `0.525 mm` (`>= 0.50 mm` rule, `0` DRC errors) |
+| `J5`, `J9`, `J6`, `J8`, `J7` | GPIO / SWD / CAN / Thermistor (`JST_SH_SMxxB-SRSS-TB`, `180°`) | `20.50` | **`18.30`** | `15.020` | `15.525` (`MP` pad) | `0.525 mm` (`>= 0.50 mm` rule, `0` DRC errors) |
+| `SW1` | DFU / `BOOT0` tactile switch (`SW_SPST_B3U-1000P`, `180°`) | `20.50` | **`16.70`** | `15.050` | `15.850` | `0.850 mm` (`>= 0.50 mm` rule, `0` DRC errors) |
+| `C95–C100`, `R55–R61` | Local encoder RC filters & `BOOT0` resistor | `25.50 / 29.20 / 25.00` | **`23.30 / 26.80 / 21.50`** | Inside board | Inside board | Shifted `-2.20 mm` North behind `J10`/`J11`/`SW1` |
+
+---
+
+## 2. Post-Promotion Verification Summary (`bldc_motor_cntroller_v9.2`)
+
+- **Copper DRC & Parity (`run_drc`)**: `0` errors, `0` schematic-parity errors, `0` `copper_edge_clearance` errors, `0` `zones_intersect` errors, `0` `via_dangling` warnings, `0` `hole_to_hole` warnings (`391` unrouted signal/tie items remain for the signal-routing phase; `0` unconnected items on `J1`, `J2`, `C_HF1–C_HF6`, `R12`, `R16`, `R32`, `R36`, or any power/phase pour).
+- **Courtyard & Boundary Audit (`query_design(what="overlaps")`)**: `0` courtyard overlaps, `0` components outside `Edge.Cuts`.
+- **`In1.Cu` Commutation Return Plane Solidity**: `100.00%` solid `In1.Cu` `GND` under both FET commutation zones (`y = 85.8 .. 97.6 mm`) and within `3.5 mm` of `C_HF1–C_HF6` (`0` non-`GND` vias in the commutation zone).
+- **3D Model Verification**: Top-side 3D raytraced verification completed via `kicad-cli pcb render`; per-package `review_pcb_footprint_3d_model` remains scheduled for final sign-off after signal routing.
