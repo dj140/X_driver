@@ -9,15 +9,13 @@
 | `v9.1` | `bldc_motor_cntroller_v9.1/bldc_motor_cntroller_v9.1.*` | `180.0 x 115.0 mm` | `1 x 6` `DirectFET_L8`, inline `2512` shunts | Units 2–4 promoted (`5ba6300`: 82 power-stage nets routed, `100%` solid `In1.Cu` `GND`) |
 | `v9.2` | `bldc_motor_cntroller_v9.2/bldc_motor_cntroller_v9.2.*` | `220.0 x 115.0 mm` | Spread 3-leg `DirectFET_L8`, `7–12.7 mm` phase pours, aligned `MR60PB-M` (`J1`/`J2`), north-edge `J5–J11`/`SW1` | Promoted (`01602f0`: `0` ERC/copper-DRC/parity/overlap errors) |
 | `v9.3` | `bldc_motor_cntroller_v9.3/bldc_motor_cntroller_v9.3.*` | `220.0 x 115.0 mm` | Frozen snapshot of verified `v9.2` 3-leg power stage | Promoted (`7697cb6`: `0` ERC/copper-DRC/parity/overlap errors) |
-| `v9_4` | `bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.*` | `220.0 x 115.0 mm` | Active branch from `v9.3` for heatsink keepout + aligned `H1`/`H3` + `10` `1206` caps/phase | Base branch committed (`7b2d16c`, `0` ERC/copper-DRC/parity/overlap errors); ready for Unit 1 & Unit 2 execution |
+| `v9_4` | `bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.*` | `220.0 x 115.0 mm` | `6 x 10` (`60x 1206`) phase-leg `VDC` banks, aligned `H1 (5.5, 92.0)` / `H3 (214.5, 92.0)` heatsink end holes, unobstructed `>= 5.42 mm` North + inter-FET heatsink keepout | Units 1 & 2 promoted (`0` ERC/DRC/parity/overlap errors, `100%` solid `In1.Cu` `GND` under FETs; `384` signal/tie items ready for FreeRouting) |
 
-## Next Action in Fresh Chat Session
-
-Execute [./.copperpilot/notes/v9_4_heatsink_h1_h3_execution_handoff.md](./.copperpilot/notes/v9_4_heatsink_h1_h3_execution_handoff.md) on `bldc_motor_cntroller_v9_4`:
-1. **Unit 1 (Schematic)**: Keep `H1` & `H3` (`H2` & `H4` removed), set `motor_driver.kicad_sch` and `motor_driver2.kicad_sch` to `A3`, add `C103–C132` (`+30 x 1206` `100uF 50V` `GMK105CC6105MV-F` `VDC`-to-`GND` caps -> `10` caps per phase leg), verify `0` ERC errors, promote, and checkpoint.
-2. **Unit 2 (PCB)**: Sync `C103–C132` and remove `H2`/`H4`, align `H1 (5.50, 92.00)` & `H3 (214.50, 92.00)` on the `y = 92.00 mm` FET centerline, keep `y = [81.60 .. 97.40 mm]` clear of all components except `Q1–Q12`/`H1`/`H3` (`>= 5.22 mm` North of FET courtyards / `5.95 mm` North of `0.70 mm`-tall `DirectFET_L8` cans, `0` parts between FETs) with component-keepout rule areas, place `6 x 10` `1206` phase banks + `SL_B`/`SL_C` `F.Cu` return strips for `C_HF2/3/5/6` + `VDC`/`GND` stitching vias, refill zones, verify `0` DRC/parity/overlap errors, promote, and checkpoint.
+## Next Action
+- Signal routing on `bldc_motor_cntroller_v9_4` via headless FreeRouting (`route --nets` per net group: `0.50 mm` zero-via `F.Cu` FET gates, `0.20 mm` driver/bootstrap taps, `0.16 mm` coupled Kelvin sense pairs, `90 Ohm` USB, and upper-board MCU/IO nets).
 
 ## Key Engineering Notes & Plans
+- `v9_4` completion summary: `./.copperpilot/notes/v9_4_heatsink_and_10cap_completion.md`
 - Handoff spec (`v9_4`): `./.copperpilot/notes/v9_4_heatsink_h1_h3_execution_handoff.md`
 - Detailed `v9_4` spec: `./.copperpilot/notes/v9_4_heatsink_h1_h3_and_10cap_spec.md`
 - `v9.3` snapshot summary: `./.copperpilot/notes/v9_3_snapshot_summary.md`
