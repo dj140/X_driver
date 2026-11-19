@@ -1,0 +1,400 @@
+{
+  "project": "bldc_motor_cntroller",
+  "scope": "scoped_design_task",
+  "task": "Power-Stage Commutation Decoupling, Compacted Mirrored FET Banks, Buck Loop, and BOM Fixes",
+  "kicad_version": "10.0.8",
+  "baseline_hashes": {
+    "bldc_motor_cntroller/bldc_motor_cntroller.kicad_sch": "1848064821822c124a9aa5f16008477d002fc6fed1db3a35be146619a658abff",
+    "bldc_motor_cntroller/motor_driver.kicad_sch": "c27467b13d2916a44614af2e1cb9268b3df953b0b6334892186ff5b84d81ec5f",
+    "bldc_motor_cntroller/motor_driver2.kicad_sch": "a9f12f242a8eb20bfcf148fb2e2c5940c07c2a0122cc54ad55d64e2a4c88ee99",
+    "bldc_motor_cntroller/microcontroller_interface.kicad_sch": "87a5a284937e3fc33f13028887ed41418c839561d063cdb6adb92e7ba76ba11f",
+    "bldc_motor_cntroller/power_management.kicad_sch": "8cd0f46c9a785a1dac5675cfdbf580ca877d8f2c5272e620114067e9f287211c",
+    "bldc_motor_cntroller/bldc_motor_cntroller.kicad_pcb": "02e37eea7993ac575f5557b33cb2126e3536616485132cfc7c236ab81a35a0ad",
+    "bldc_motor_cntroller/bldc_motor_cntroller_v3.kicad_pcb": "592a1a016e5cd7bf4b55dd6bac11e75223ed0ac44509322c10f3ddffcfc50da2",
+    "bldc_motor_cntroller/bldc_motor_cntroller.kicad_pro": "6027aea38c630d16b59fafdae5954d2128b4dc2d5fea95f531ba59c29016f7be"
+  },
+  "decisions": {
+    "connector_mpn": {
+      "value": "MR60PB-M",
+      "manufacturer": "Changzhou Amass Electronics Co., Ltd.",
+      "state": "adapted_partial_reference",
+      "source": "Amass Official Product Catalog (c1ae9604bbe795ebfd366c9063019e3e.pdf, pp. 16-17) + garypippi/pippitank@665d1d1d15a6fa854aae7045a3e9a7719a26daaa + project-local AMASS_XT90-M_1x02_P10.90mm_Vertical convention",
+      "identity_disposition": "allowed"
+    },
+    "dc_bus_capacitors_and_bom_fixes": {
+      "C39_to_C77_1206": {
+        "value": "4.7uF 50V",
+        "mpn": "HMK325C7475KN-TE",
+        "package": "Capacitor_SMD:C_1206_3216Metric",
+        "count": 29
+      },
+      "C78_to_C81_0402": {
+        "value": "100nF 50V",
+        "mpn": "GCM155L8EH104KE07D",
+        "package": "Capacitor_SMD:C_0402_1005Metric",
+        "count": 4
+      },
+      "D1_schottky": {
+        "value": "MBR2H100SFT3G",
+        "mpn": "MBR2H100SFT3G",
+        "package": "Diode_SMD:D_SOD-123F"
+      },
+      "Y1_resonator": {
+        "value": "CSTCE8M00G55-R0",
+        "mpn": "CSTCE8M00G55-R0",
+        "removed_load_caps": [
+          "C83",
+          "C84"
+        ]
+      },
+      "state": "exact_reference",
+      "source": "odrive-sasasu@aa720cff554198ea71cac7a9456401e8a0286b54 + existing C16/C35 (HMK325C7475KN-TE), C10/C13-C15 (GCM155L8EH104KE07D), D4 (MBR2H100SFT3G), and Murata CSTCE8M00G55-R0 datasheet (built-in 33 pF load caps)",
+      "identity_disposition": "allowed"
+    },
+    "compacted_mirrored_fet_banks_and_gate_loops": {
+      "U1_pos_mm": [
+        106.0,
+        78.5,
+        -90.0
+      ],
+      "U2_pos_mm": [
+        44.0,
+        78.5,
+        -90.0
+      ],
+      "M1_fet_row_x_mm": [
+        29.75,
+        35.25,
+        41.25,
+        46.75,
+        52.75,
+        58.25
+      ],
+      "M0_fet_row_x_mm": [
+        91.75,
+        97.25,
+        103.25,
+        108.75,
+        114.75,
+        120.25
+      ],
+      "fet_row_y_mm": 89.5,
+      "hs_to_ls_pitch_mm": 5.5,
+      "leg_to_leg_pitch_mm": 11.5,
+      "bank_span_mm": 28.5,
+      "gate_resistors_y_mm": 84.8,
+      "max_drv_to_gate_loop_mm": 9.8,
+      "state": "adapted_partial_reference",
+      "source": "odrive-sasasu ODrive.kicad_pcb@aa720cff554198ea71cac7a9456401e8a0286b54 + TI DRV8301 layout guidelines",
+      "identity_disposition": "allowed"
+    },
+    "per_leg_commutation_decoupling": {
+      "topology": "Dedicated 4.7uF 50V 1206 + 100nF 50V 0402 ceramic pair tightly across each HS-drain/LS-source pair (<4 mm loop) plus symmetric 14x 1206 per motor bank on F.Cu",
+      "state": "adapted_partial_reference",
+      "source": "odrive-sasasu ODrive.kicad_pcb@aa720cff554198ea71cac7a9456401e8a0286b54",
+      "identity_disposition": "allowed"
+    },
+    "tight_buck_loop_and_brake_throat": {
+      "buck_components": "D1 (115.2, 75.5), C10 (114.8, 72.8), L1 (119.5, 75.5), C12/C18/C19 adjacent to U1 PH pins (<4.5 mm PH trace)",
+      "brake_chopper_offset": "Shunt brake chopper Q13/Q14/U3/C48/H5/H6 offset to x=78.0..86.0 mm leaving unobstructed x=60.0..77.0 mm 60A VDC/GND throat from J3 (72.55, 107.5)",
+      "state": "adapted_partial_reference",
+      "source": "odrive-sasasu ODrive.kicad_pcb@aa720cff554198ea71cac7a9456401e8a0286b54",
+      "identity_disposition": "allowed"
+    },
+    "power_planes_30A": {
+      "In1.Cu": "Full-board continuous GND plane [10.5, 15.5] to [139.5, 113.0] mm",
+      "In2.Cu": "Wide VDC bus plane [10.5, 66.0] to [139.5, 113.0] mm (47 mm height across both half-rows from J3) + upper logic +3.3V zone",
+      "F.Cu_B.Cu": "High-current VDC and GND copper zones feeding MOSFET drains, per-leg ceramic banks, and low-side shunt returns directly to J3",
+      "state": "adapted_partial_reference",
+      "source": "odrive-sasasu ODrive.kicad_pcb@aa720cff554198ea71cac7a9456401e8a0286b54 + IPC-2152 current capacity analysis (>=30 A per half-row)",
+      "identity_disposition": "allowed"
+    },
+    "3d_model_state": {
+      "J1": "missing_no_adequate_model",
+      "J2": "missing_no_adequate_model",
+      "TH4": "inherited_resolved",
+      "TH5": "inherited_resolved",
+      "R62": "inherited_resolved",
+      "R63": "inherited_resolved",
+      "C101": "inherited_resolved",
+      "C102": "inherited_resolved"
+    },
+    "v8_project_local_libraries_and_title_blocks": {
+      "symbols": [
+        "bldc_motor_cntroller:DRV8301DCAR (datasheet SLOS719F pin types: SDO=tri_state, ~{FAULT}/~{OCTW}=open_collector, AVDD/DVDD=power_out, GVDD/BST_*/CP1/CP2=passive, PH.50=output/PH.51=passive)",
+        "bldc_motor_cntroller:IRF7480MTRPBF",
+        "bldc_motor_cntroller:Net-Tie_2 (in_bom=no)",
+        "bldc_motor_cntroller:USB_C_Receptacle_USB2.0"
+      ],
+      "footprints": [
+        "MG-WDSON-8:Infineon-MG-WDSON-8-05_2016-901-MFG",
+        "Package_SON:WSON-8_4x4mm_P0.8mm",
+        "bldc_motor_cntroller:DRV8301DCA",
+        "bldc_motor_cntroller:CSTCE8M00G55-R0",
+        "bldc_motor_cntroller:TestPoint_Round",
+        "bldc_motor_cntroller:M00,M1,batt,DFU,USB,ENC0,ENC1,++"
+      ],
+      "title_blocks": "Title: Open Drive (root) / functional subsheet titles, Revision: v8, Company: '' (sanitized legacy Dj140)",
+      "state": "adapted_partial_reference",
+      "source": "odrive-sasasu/source/drv8301.pdf + M0.kicad_sch@aa720cff554198ea71cac7a9456401e8a0286b54 + bldc_motor_cntroller_v8.kicad_pcb",
+      "identity_disposition": "sanitized",
+      "3d_state": "inherited_resolved"
+    },
+    "v9_0_directfet_l8_and_180x115_rework": {
+      "mosfet_q1_to_q12": {
+        "mpn": "IRF7759L2TRPBF",
+        "lcsc": "C520641",
+        "symbol": "Transistor_FET:IRF7759L2",
+        "footprint": "Package_DirectFET:DirectFET_L8",
+        "3d_model": "${KICAD10_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_L8.step",
+        "ratings": "75V Vds, 160A Id, 2.3 mOhm max / 1.8 mOhm typ Rds(on), Qg=200nC typ / 300nC max",
+        "state": "exact_reference",
+        "source": "Infineon IRF7759L2PbF datasheet + Infineon AN-1035 Appendix A.28 + KiCad 10.0.8 stock libraries"
+      },
+      "board_envelope_and_power_stage": {
+        "outline_mm": [
+          [
+            0.0,
+            15.0
+          ],
+          [
+            180.0,
+            130.0
+          ]
+        ],
+        "size_mm": [
+          180.0,
+          115.0
+        ],
+        "corner_radius_mm": 5.0,
+        "m1_fet_x_mm": [
+          17.4,
+          26.6,
+          35.4,
+          44.6,
+          53.4,
+          62.6
+        ],
+        "m0_fet_x_mm": [
+          117.4,
+          126.6,
+          135.4,
+          144.6,
+          153.4,
+          162.6
+        ],
+        "fet_y_mm": 92.0,
+        "fet_rot_deg": -90.0,
+        "inline_shunts": "R36 (14.0, 104.5, -90), R32 (32.0, 104.5, -90), R16 (114.0, 104.5, -90), R12 (132.0, 104.5, -90) with straight 5 mm F.Cu+B.Cu SL_B/SL_C pours",
+        "in1_gnd_keepout": "Zero non-GND vias in [y=86.0..97.5 mm] under FET rows or within 3.5 mm of C_HF1..C_HF6 (>95% solid In1.Cu GND)",
+        "state": "adapted_partial_reference",
+        "source": "User approval + odrive-sasasu@aa720cff554198ea71cac7a9456401e8a0286b54 + garypippi-pippitank@665d1d1d15a6fa854aae7045a3e9a7719a26daaa"
+      },
+      "identity_disposition": "sanitized",
+      "3d_state": "assigned_exact"
+    }
+  },
+  "v8_baseline_hashes": {
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.kicad_pro": "4ac6d657dd9abb0b3ab27d6e94647e6679559283bb32b67ac2f6788a2b872d5d",
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.kicad_sch": "bc83ba94377ddf8f51d899c669b901ba61dede26b8ef487c72b323fb955e6895",
+    "bldc_motor_cntroller/power_management.kicad_sch": "5c799a41f449b5867fa9d616ae6a1d0641e1b58ccf9b498e142bf760fa0b63ed",
+    "bldc_motor_cntroller/motor_driver.kicad_sch": "09de9d1ad4105ddd027686b938ed600b015887bc5fd3e6da7185b9747122ed18",
+    "bldc_motor_cntroller/motor_driver2.kicad_sch": "e2a64b677ad402fc2bd85373fde9ac99c8587eb2e09ca67fc97777910a85d05d",
+    "bldc_motor_cntroller/microcontroller_interface.kicad_sch": "6d053e1be82ba98fc1ac0bcf5b053d9663b3ad7c21d69284f11c25b264725993",
+    "bldc_motor_cntroller/io_interface.kicad_sch": "58a2600955c9bd1a2a94115dc06d24981faecc27d4e05f538aee3ebf91d77a1d",
+    "bldc_motor_cntroller/sym-lib-table": "a6a403d5398fa7a1e1b525d692cdd3465fb17b37442e295cfb8c139e7aa3376c",
+    "bldc_motor_cntroller/fp-lib-table": "ed0711dd76c502b6143635bb027d1cbbf6f147d912d02bfca16e6a9214827ce6",
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.kicad_pcb": "44bf4618154744d4255986fa14435c1cd041016744d31d2effdd501a1a287aa3"
+  },
+  "v9_0_baseline_v8_3_hashes": {
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.3.kicad_pro": "540e5b124be78b17974ed387759ccfd9d3a9b4760fe7e1fa59e7e6215cc95b3d",
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.3.kicad_prl": "7fb9cddb1ba1ffeb90f5c8791b96927601df3b48dca0d208af3d2cb4b11d60d7",
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.3.kicad_dru": "72c9bddf18ff4dcc9934ae5ef421eae286c2503656609ba47c2941a8b5ba9b84",
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.3.kicad_sch": "7d60580cc614d7404308cb7442b6199812c8dd30f3a02e6243f31a0c9dfa10e3",
+    "bldc_motor_cntroller/bldc_motor_cntroller_v8.3.kicad_pcb": "f6ff8acfde4e97681ca5ce27b4314c15037a4be53bb36edb3aaf4336567dc9ad",
+    "bldc_motor_cntroller/motor_driver.kicad_sch": "58380d9c66a943eb9f05ada08f7cd97e9ae4fd83ad84b27b96a923fc31efdf64",
+    "bldc_motor_cntroller/motor_driver2.kicad_sch": "56858625edeab1acb3cae7181f963e4886e688b4ef1af54a37cb531c72072aa1",
+    "bldc_motor_cntroller/io_interface.kicad_sch": "808526171e52896b0ef0beb30bb64d9c5b9371854e451ddb3aab65ebe853fa2c",
+    "bldc_motor_cntroller/microcontroller_interface.kicad_sch": "c306834bfcc4eafd10e27aff11fa24ffdfcf6c3aed3673775308548e1a687ccd",
+    "bldc_motor_cntroller/power_management.kicad_sch": "2d4395df77fa303354e2cfe7258950bff07a5f0213c981e69bb356f44e8e3b4e"
+  },
+  "v9_1_rework": {
+    "project_dir": "bldc_motor_cntroller_v9.1",
+    "outline_mm": [
+      180.0,
+      115.0
+    ],
+    "edge_cuts_bbox_mm": [
+      0.0,
+      15.0,
+      180.0,
+      130.0
+    ],
+    "mosfet_upgrade": {
+      "refs": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12"
+      ],
+      "mpn": "IRF7759L2TRPBF",
+      "lcsc": "C520641",
+      "symbol": "Transistor_FET:IRF7759L2",
+      "footprint": "Package_DirectFET:DirectFET_L8",
+      "model_3d": "${KICAD10_3DMODEL_DIR}/Package_DirectFET.3dshapes/DirectFET_L8.step",
+      "state": "exact_reference",
+      "identity_disposition": "allowed"
+    },
+    "unit3_power_planes_and_stitching": {
+      "In1_GND_bbox_mm": [
+        1.0,
+        16.0,
+        179.0,
+        129.0
+      ],
+      "In2_3V3_bbox_mm": [
+        1.0,
+        16.0,
+        179.0,
+        56.5
+      ],
+      "In2_VDC_bbox_mm": [
+        1.0,
+        57.5,
+        179.0,
+        129.0
+      ],
+      "antipad_keepout_y_mm": [
+        86.0,
+        97.5
+      ],
+      "c_hf_keepout_radius_mm": 3.5,
+      "state": "adapted_partial_reference",
+      "source": "Infineon AN-1035 L8 land pattern + odrive-sasasu@aa720cff554198ea71cac7a9456401e8a0286b54 + IPC-2152 2oz/1oz solver",
+      "identity_disposition": "allowed"
+    }
+  },
+  "v9_4_heatsink_and_10cap_rework": {
+    "project_dir": "bldc_motor_cntroller_v9_4",
+    "heatsink_mounting_holes": {
+      "kept": {
+        "H1": [
+          5.5,
+          92.0,
+          0.0
+        ],
+        "H3": [
+          214.5,
+          92.0,
+          0.0
+        ]
+      },
+      "removed": [
+        "H2",
+        "H4"
+      ],
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+      "net": "GND",
+      "state": "adapted_partial_reference",
+      "source": "User confirmation (Keep H1 & H3 aligned with y=92.00 mm DirectFET_L8 row)",
+      "identity_disposition": "allowed"
+    },
+    "heatsink_keepout_envelope": {
+      "component_free_band_y_mm": [
+        81.6,
+        97.4
+      ],
+      "allowed_refs_in_band": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12",
+        "H1",
+        "H3"
+      ],
+      "min_north_clearance_courtyard_mm": 5.22,
+      "min_north_clearance_metal_can_mm": 5.945,
+      "inter_fet_components": 0,
+      "state": "adapted_partial_reference",
+      "source": "User constraint (inter-FET gaps + >=5.0 mm North of Q1-Q12 clear for heatsink) + Infineon AN-1035 L8 0.70 mm package height",
+      "identity_disposition": "allowed"
+    },
+    "phase_leg_10cap_expansion": {
+      "added_m0_refs": [
+        "C103",
+        "C104",
+        "C105",
+        "C106",
+        "C107",
+        "C108",
+        "C109",
+        "C110",
+        "C111",
+        "C112",
+        "C113",
+        "C114",
+        "C115",
+        "C116",
+        "C117"
+      ],
+      "added_m1_refs": [
+        "C118",
+        "C119",
+        "C120",
+        "C121",
+        "C122",
+        "C123",
+        "C124",
+        "C125",
+        "C126",
+        "C127",
+        "C128",
+        "C129",
+        "C130",
+        "C131",
+        "C132"
+      ],
+      "total_phase_leg_1206_caps": 60,
+      "per_phase_count": 10,
+      "value": "100uF 50V",
+      "mpn": "GMK105CC6105MV-F",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "3d_model": "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+      "state": "adapted_partial_reference",
+      "source": "Existing C39-C77 BOM parity + user instruction (double caps from 5 to 10 per phase)",
+      "identity_disposition": "allowed",
+      "3d_state": "assigned_exact"
+    },
+    "v9_4_baseline_hashes": {
+      "bldc_motor_cntroller_v9_4/bldc_motor_cntroller.kicad_sym": "d83bd114a5fbb1ae5e684e4e7b56cee41addcc6e0756c8ecd7da829de21cca66",
+      "bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.kicad_dru": "72c9bddf18ff4dcc9934ae5ef421eae286c2503656609ba47c2941a8b5ba9b84",
+      "bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.kicad_pcb": "dfff6388b8588a79b810f267018195f4c58dad052d0363bd197726b7aec621c6",
+      "bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.kicad_prl": "1d36019cc09a2e6f463ff06840525f164699bf0c1a1639468003d3cd30b84293",
+      "bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.kicad_pro": "2f1acb270e87c80a5cb8f1bb4ecb39d6252637cf3e08f39083331537cdb7421b",
+      "bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.kicad_sch": "ca992315fee4e711aa4afb30889802c1b92e64ebb0e89927cb3a6571eb44f878",
+      "bldc_motor_cntroller_v9_4/fp-lib-table": "0c0ea7bdfbf32ec56dc5122f3c43220409f67c595a872c39ce9df14307d39faf",
+      "bldc_motor_cntroller_v9_4/io_interface.kicad_sch": "d1219c12aead828c4475767f6b0e6c92bbadddc95c95ac4ee15e25a93c334907",
+      "bldc_motor_cntroller_v9_4/microcontroller_interface.kicad_sch": "cc2d8bd1eb48da413a31d41754a281e5bb2795f1ce1c871046d3588442c353bd",
+      "bldc_motor_cntroller_v9_4/motor_driver.kicad_sch": "1af1320848a8d07100e4fd0f915e91e23b4dc3319c838bf37ee041da96b8f8c3",
+      "bldc_motor_cntroller_v9_4/motor_driver2.kicad_sch": "a4e51265f3bbcca2e1c4c9ba8d98e053b08dc9d06b17afdf999cdc3635d63aea",
+      "bldc_motor_cntroller_v9_4/power_management.kicad_sch": "e3823073cf162a61ee6aa468907146613bf98ba2dd9608f1c5aa3ec460f51b02",
+      "bldc_motor_cntroller_v9_4/sym-lib-table": "5277d400661005d1a5e73f861c294b6935874fd65879fb5bff832634870c11e6"
+    }
+  }
+}

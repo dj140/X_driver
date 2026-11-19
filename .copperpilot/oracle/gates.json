@@ -1,0 +1,101 @@
+{
+  "project": "bldc_motor_cntroller",
+  "scope": "scoped_design_task",
+  "units": [
+    {
+      "unit": "unit1_mr60_footprint",
+      "intent": "Create and register Connector_AMASS:AMASS_MR60PB-M_1x03_P5.50mm_Vertical footprint in project-local Connector_AMASS.pretty",
+      "status": "passed",
+      "checks": {
+        "get_footprint": "pass (3 through-hole pads at 5.50 mm pitch, 3.30 mm drill, 4.80 mm size, 18 shapes on F.SilkS/F.Fab/F.CrtYd)",
+        "fp_export_svg": "pass",
+        "identity": "pass (allowed)"
+      }
+    },
+    {
+      "unit": "unit2_mr60_schematics",
+      "intent": "Update J1 in motor_driver.kicad_sch and J2 in motor_driver2.kicad_sch to MR60PB-M 30A (60A) and Connector_AMASS:AMASS_MR60PB-M_1x03_P5.50mm_Vertical",
+      "status": "passed",
+      "checks": {
+        "get_component_info": "pass",
+        "validate_schematic_layout": "pass (0 new layout violations against baseline: 38 on motor_driver, 30 on motor_driver2)",
+        "export_schematic_netlist": "pass (J1 -> SH_A/SH_B/SH_C, J2 -> SH_A/SH_B/SH_C)",
+        "run_erc": "pass (0 violations matching J1/J2; total ERC violations reduced from 662 to 661; 46 pre-existing errors, 615 pre-existing warnings)",
+        "sch_export_svg": "pass"
+      }
+    },
+    {
+      "unit": "unit3_mr60_pcb",
+      "intent": "Replace J1 and J2 on updated bldc_motor_cntroller.kicad_pcb (where J3 is at 72.55, 107.5 at 0 deg) with AMASS_MR60PB-M_1x03_P5.50mm_Vertical at (111.5, 107.5) and (49.5, 107.5) at 180 deg",
+      "status": "passed",
+      "checks": {
+        "get_pcb_footprint": "pass",
+        "query_design_overlaps": "pass (0 courtyard overlaps, 0 outside board)",
+        "run_drc": "pass (0 schematic parity issues on J1/J2; 0 silk_edge_clearance; total DRC violations reduced from 890 to 886; 351 pre-existing errors, 535 pre-existing warnings; 499 pre-existing unconnected items on unrouted board)",
+        "pcb_export_svg": "pass",
+        "pcb_render_3d": "pass (visualized top render; 3D model state recorded as missing_no_adequate_model)"
+      }
+    },
+    {
+      "unit": "v3_high_power_copper_pours",
+      "intent": "Construct 17 multi-layer high-power and ground copper zones (Priority 5 SH_C..A phase pours, Priority 4 SL_C..B shunt pours and HS brake chopper pour, Priority 3 coplanar VDC bus bar and chopper VDC pour on F.Cu, In2.Cu VDC plane, and F.Cu/In1.Cu/B.Cu GND planes) plus 293 0.8/0.4 mm stitching vias on bldc_motor_cntroller_v3.kicad_pcb",
+      "status": "passed",
+      "checks": {
+        "query_design_pcb_nets": "pass (17 zones, 293 vias: 115 VDC + 178 GND; 240/240 footprints on F.Cu, 0 on B.Cu)",
+        "query_design_overlaps": "pass (0 courtyard overlaps, 0 outside board)",
+        "run_drc": "pass (0 new errors and 0 new warnings vs baseline: 351 pre-existing errors, 571 pre-existing warnings, 0 isolated_copper, 0 via_dangling, 0 shorting_items; unconnected_items reduced from 499 to 288)",
+        "pcb_render_3d_and_pdf": "pass (.copperpilot/tmp/v3_final_top.png, .copperpilot/tmp/v3_final_bot.png, .copperpilot/tmp/v3_final_fcu_plot.png)",
+        "identity": "pass (allowed)"
+      }
+    },
+    {
+      "unit": "v8_downsize_oversized_vias",
+      "intent": "Downsize all 525 oversized vias (> 0.80/0.40 mm) on bldc_motor_cntroller_v8.kicad_pcb to 0.80 mm pad / 0.40 mm drill and refill all 53 copper zones",
+      "status": "passed",
+      "checks": {
+        "via_readback": "pass (531/531 vias at 0.80 mm size, 0.40 mm drill)",
+        "query_design_overlaps": "pass (0 courtyard overlaps, 0 outside board)",
+        "run_drc": "pass (0 new errors/warnings vs baseline; 0 clearance, 0 via_dangling, 0 isolated_copper; unconnected_items unchanged at 273)",
+        "pcb_render_3d": "pass (.copperpilot/tmp/v8_vias_candidate.png)",
+        "identity": "pass (allowed)"
+      }
+    }
+  ],
+  "v8_schematic_parity_and_erc_cleanup": {
+    "status": "passed",
+    "kicad_cli_version": "10.0.8",
+    "schematic_erc": {
+      "errors": 0,
+      "warnings": 477,
+      "warning_types": {
+        "endpoint_off_grid": 477
+      },
+      "lib_symbol_issues": 0,
+      "footprint_link_issues": 0
+    },
+    "pcb_drc_and_parity": {
+      "clearance_errors": 0,
+      "lib_footprint_issues": 0,
+      "footprint_symbol_mismatch": 0,
+      "footprint_symbol_field_mismatch": 0,
+      "extra_footprint_mounting_holes": 0,
+      "extra_footprint_silk_graphics": 8,
+      "net_conflict_electrical": 0,
+      "net_conflict_thermal_via_pads_V": 64,
+      "courtyard_overlaps": 0,
+      "unconnected_items_out_of_scope_signal_routing": 273,
+      "solder_mask_bridge_fine_pitch_0_5mm_pads": 181
+    }
+  },
+  "remove_all_531_vias": {
+    "status": "passed",
+    "promoted_sha256": "7de0963f71cac494beac8f298b9cce64b7d9e1f83a07329fb311630692d95425",
+    "vias_removed": 531,
+    "vias_remaining": 0,
+    "segments_preserved": 120,
+    "zones_preserved": 53,
+    "drc_errors": 260,
+    "new_drc_errors": 0,
+    "unconnected_items": 302
+  }
+}
