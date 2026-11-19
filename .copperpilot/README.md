@@ -9,12 +9,14 @@
 | `v9.1` | `bldc_motor_cntroller_v9.1/bldc_motor_cntroller_v9.1.*` | `180.0 x 115.0 mm` | `1 x 6` `DirectFET_L8`, inline `2512` shunts | Units 2–4 promoted (`5ba6300`: 82 power-stage nets routed, `100%` solid `In1.Cu` `GND`) |
 | `v9.2` | `bldc_motor_cntroller_v9.2/bldc_motor_cntroller_v9.2.*` | `220.0 x 115.0 mm` | Spread 3-leg `DirectFET_L8`, `7–12.7 mm` phase pours, aligned `MR60PB-M` (`J1`/`J2`), north-edge `J5–J11`/`SW1` | Promoted (`01602f0`: `0` ERC/copper-DRC/parity/overlap errors) |
 | `v9.3` | `bldc_motor_cntroller_v9.3/bldc_motor_cntroller_v9.3.*` | `220.0 x 115.0 mm` | Frozen snapshot of verified `v9.2` 3-leg power stage | Promoted (`7697cb6`: `0` ERC/copper-DRC/parity/overlap errors) |
-| `v9_4` | `bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.*` | `220.0 x 115.0 mm` | `6 x 10` (`60x 1206`) phase-leg `VDC` banks, aligned `H1 (5.5, 92.0)` / `H3 (214.5, 92.0)` heatsink end holes, unobstructed `>= 5.42 mm` North + inter-FET heatsink keepout | Units 1 & 2 promoted (`0` ERC/DRC/parity/overlap errors, `100%` solid `In1.Cu` `GND` under FETs; `384` signal/tie items ready for FreeRouting) |
+| `v9_4` | `bldc_motor_cntroller_v9_4/bldc_motor_cntroller_v9_4.*` | `220.0 x 115.0 mm` | `6 x 10` (`60x 1206`) phase-leg `VDC` banks, aligned `H1 (5.5, 92.0)` / `H3 (214.5, 92.0)` heatsink end holes, unobstructed `>= 5.42 mm` North + inter-FET heatsink keepout | Units 1 & 2 promoted (`a00d642`: `0` ERC/DRC/parity/overlap errors, `100%` solid `In1.Cu` `GND` under FETs) |
+| `v9_5` | `bldc_motor_cntroller_v9_5/bldc_motor_cntroller_v9_5.*` | `220.0 x 115.0 mm` | `v9_4` heatsink & `6 x 10` cap layout + Unit 3 power-stage routing (`475` segments, `457` vias, `97` refilled zones) | Promoted (`0` ERC/DRC/parity/overlap errors; `256` remaining upper-board/tie items ready for FreeRouting) |
 
 ## Next Action
-- Signal routing on `bldc_motor_cntroller_v9_4` via headless FreeRouting (`route --nets` per net group: `0.50 mm` zero-via `F.Cu` FET gates, `0.20 mm` driver/bootstrap taps, `0.16 mm` coupled Kelvin sense pairs, `90 Ohm` USB, and upper-board MCU/IO nets).
+- Complete remaining upper-board MCU/IO/brake-chopper and `GND`/`+3.3V` tie routing on `bldc_motor_cntroller_v9_5`.
 
 ## Key Engineering Notes & Plans
+- `v9_5` snapshot summary: `./.copperpilot/notes/v9_5_snapshot_summary.md`
 - `v9_4` completion summary: `./.copperpilot/notes/v9_4_heatsink_and_10cap_completion.md`
 - Handoff spec (`v9_4`): `./.copperpilot/notes/v9_4_heatsink_h1_h3_execution_handoff.md`
 - Detailed `v9_4` spec: `./.copperpilot/notes/v9_4_heatsink_h1_h3_and_10cap_spec.md`
