@@ -396,5 +396,189 @@
       "bldc_motor_cntroller_v9_4/power_management.kicad_sch": "e3823073cf162a61ee6aa468907146613bf98ba2dd9608f1c5aa3ec460f51b02",
       "bldc_motor_cntroller_v9_4/sym-lib-table": "5277d400661005d1a5e73f861c294b6935874fd65879fb5bff832634870c11e6"
     }
+  },
+  "v9_4_decisions": {
+    "heatsink_mounting_holes": {
+      "kept": [
+        "H1",
+        "H3"
+      ],
+      "removed": [
+        "H2",
+        "H4"
+      ],
+      "pcb_poses_mm": {
+        "H1": [
+          5.5,
+          92.0,
+          0.0
+        ],
+        "H3": [
+          214.5,
+          92.0,
+          0.0
+        ]
+      },
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+      "net": "GND",
+      "state": "adapted_partial_reference",
+      "source": "User-confirmed v9_4 mechanical heatsink spec + existing H1/H3 MountingHole_3.2mm_M3_Pad_Via on bldc_motor_cntroller_v9_4",
+      "identity_disposition": "allowed",
+      "3d_state": "missing_no_adequate_model"
+    },
+    "heatsink_keepout_band": {
+      "band_y_mm": [
+        81.6,
+        97.4
+      ],
+      "band_x_mm": [
+        1.0,
+        219.0
+      ],
+      "allowed_refs": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12",
+        "H1",
+        "H3"
+      ],
+      "north_courtyard_limit_y_mm": 81.48,
+      "north_clearance_to_fet_courtyard_mm": 5.22,
+      "north_clearance_to_fet_can_mm": 5.945,
+      "state": "adapted_partial_reference",
+      "source": "Infineon IRF7759L2PbF / AN-1035 DirectFET L8 package dimensions (0.70 mm height, 9.15 mm length) + user >=5.0 mm North & inter-FET heatsink requirement",
+      "identity_disposition": "allowed"
+    },
+    "ten_cap_per_phase_bank_upgrade": {
+      "added_m0_refs": [
+        "C103",
+        "C104",
+        "C105",
+        "C106",
+        "C107",
+        "C108",
+        "C109",
+        "C110",
+        "C111",
+        "C112",
+        "C113",
+        "C114",
+        "C115",
+        "C116",
+        "C117"
+      ],
+      "added_m1_refs": [
+        "C118",
+        "C119",
+        "C120",
+        "C121",
+        "C122",
+        "C123",
+        "C124",
+        "C125",
+        "C126",
+        "C127",
+        "C128",
+        "C129",
+        "C130",
+        "C131",
+        "C132"
+      ],
+      "symbol": "Device:C_Small",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "value": "100uF 50V",
+      "mpn": "GMK105CC6105MV-F",
+      "total_phase_1206_caps": 60,
+      "per_phase_count": 10,
+      "state": "adapted_partial_reference",
+      "source": "odrive-sasasu@aa720cff554198ea71cac7a9456401e8a0286b54 + existing C39-C77 BOM fields in power_management.kicad_sch + KiCad 10.0.8 Capacitor_SMD:C_1206_3216Metric",
+      "identity_disposition": "allowed",
+      "3d_state": "inherited_resolved"
+    }
+  },
+  "v9_4_heatsink_and_10cap_upgrade": {
+    "heatsink_end_holes": {
+      "kept": [
+        "H1",
+        "H3"
+      ],
+      "removed": [
+        "H2",
+        "H4"
+      ],
+      "positions_mm": {
+        "H1": [
+          5.5,
+          92.0,
+          0.0
+        ],
+        "H3": [
+          214.5,
+          92.0,
+          0.0
+        ]
+      },
+      "fet_centerline_y_mm": 92.0,
+      "heatsink_component_keepout_y_mm": [
+        81.6,
+        97.4
+      ],
+      "state": "adapted_partial_reference",
+      "source": "User explicit mechanical spec + Infineon IRF7759L2TRPBF / AN-1035 DirectFET L8 0.70 mm package height",
+      "identity_disposition": "allowed"
+    },
+    "ten_cap_per_phase_expansion": {
+      "added_refs_m0": [
+        "C103",
+        "C104",
+        "C105",
+        "C106",
+        "C107",
+        "C108",
+        "C109",
+        "C110",
+        "C111",
+        "C112",
+        "C113",
+        "C114",
+        "C115",
+        "C116",
+        "C117"
+      ],
+      "added_refs_m1": [
+        "C118",
+        "C119",
+        "C120",
+        "C121",
+        "C122",
+        "C123",
+        "C124",
+        "C125",
+        "C126",
+        "C127",
+        "C128",
+        "C129",
+        "C130",
+        "C131",
+        "C132"
+      ],
+      "total_1206_phase_caps": 60,
+      "caps_per_phase_leg": 10,
+      "value": "100uF 50V",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "mpn": "GMK105CC6105MV-F",
+      "state": "adapted_partial_reference",
+      "source": "Existing bldc_motor_cntroller_v9_4/power_management.kicad_sch C39-C77 BOM fields + user 10-cap-per-phase requirement",
+      "identity_disposition": "allowed"
+    }
   }
 }
