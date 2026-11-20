@@ -141,5 +141,26 @@
         ]
       }
     }
+  },
+  "v9_5_u6_fanout": {
+    "status": "passed",
+    "promoted_sha256": "5ec42147a97b36db4170cc3708698f6c8120de6cf9799635e2769a283f28761b",
+    "u6_connected_pins": 64,
+    "u6_fanout_vias_added": 64,
+    "outward_vias": 38,
+    "inward_vias": 26,
+    "via_spec_mm": [
+      0.6,
+      0.3
+    ],
+    "pad_to_via_center_dist_range_mm": [
+      1.68,
+      3.03
+    ],
+    "min_diff_net_via_pitch_mm": 1.331,
+    "drc_errors": 0,
+    "parity_errors": 0,
+    "courtyard_overlaps": 0,
+    "new_isolated_copper_islands": 0
   }
 }
