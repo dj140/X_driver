@@ -1,4 +1,4 @@
-(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0") (uuid "bc49a848-63f3-4109-a373-8fec55c1ae4d") (paper "A4") (title_block (title "Power Management") (rev "v9_7")) (lib_symbols 
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0") (uuid "bc49a848-63f3-4109-a373-8fec55c1ae4d") (paper "A3") (title_block (title "Power Management") (rev "v9_7")) (lib_symbols 
 
 (symbol "Connector:TestPoint" (pin_numbers (hide yes)) (pin_names (offset 0.762) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
 
@@ -642,7 +642,343 @@
 
 (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))) 
 
-(symbol "VDC_1_1" (pin power_in line (at 0 0 90) (length 0) (name "" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))) 
+(symbol "VDC_1_1" (pin power_in line (at 0 0 90) (length 0) (name "" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) 
+
+(symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
+
+(property "Reference" "J" (at 0 2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "Screw_Terminal_01x02" (at 0 -5.08 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_keywords" "screw terminal" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(symbol "Screw_Terminal_01x02_1_1" 
+
+(rectangle (start -1.27 1.27) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type background))) 
+
+(polyline (pts 
+
+(xy -0.5334 0.3302) 
+
+(xy 0.3302 -0.508)) (stroke (width 0.1524) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.5334 -2.2098) 
+
+(xy 0.3302 -3.048)) (stroke (width 0.1524) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.3556 0.508) 
+
+(xy 0.508 -0.3302)) (stroke (width 0.1524) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.3556 -2.032) 
+
+(xy 0.508 -2.8702)) (stroke (width 0.1524) (type default)) (fill (type none))) (circle (center 0 0) (radius 0.635) (stroke (width 0.1524) (type default)) (fill (type none))) (circle (center 0 -2.54) (radius 0.635) (stroke (width 0.1524) (type default)) (fill (type none))) (pin passive line (at -5.08 0 0) (length 3.81) (name "Pin_1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at -5.08 -2.54 0) (length 3.81) (name "Pin_2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) 
+
+(symbol "Device:D_Zener" (pin_numbers (hide yes)) (pin_names (offset 1.016) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
+
+(property "Reference" "D" (at 0 2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "D_Zener" (at 0 -2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Description" "Zener diode" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_keywords" "diode" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(symbol "D_Zener_0_1" 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy -1.27 1.27) 
+
+(xy -0.762 1.27)) (stroke (width 0.254) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.27 0) 
+
+(xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.27 -1.27) 
+
+(xy 1.27 1.27) 
+
+(xy -1.27 0) 
+
+(xy 1.27 -1.27)) (stroke (width 0.254) (type default)) (fill (type none)))) 
+
+(symbol "D_Zener_1_1" (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) 
+
+(symbol "Reference_Voltage:LM4040DBZ-2.5" (pin_names (offset 0.0254) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
+
+(property "Reference" "U" (at 0 2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "LM4040DBZ-2.5" (at 0 -3.175 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 0 -5.08 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) (italic yes)))) 
+
+(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) (italic yes)))) 
+
+(property "Description" "2.500V Precision Micropower Shunt Voltage Reference, SOT-23" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_keywords" "diode device voltage reference shunt" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_fp_filters" "SOT?23*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(symbol "LM4040DBZ-2.5_0_1" 
+
+(polyline (pts 
+
+(xy -1.27 0) 
+
+(xy 0 0) 
+
+(xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 0.635 0) 
+
+(xy -1.27 1.27) 
+
+(xy -1.27 -1.27)) (stroke (width 0.2032) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0 -1.27) 
+
+(xy 0.635 -1.27) 
+
+(xy 0.635 1.27) 
+
+(xy 1.27 1.27)) (stroke (width 0.2032) (type default)) (fill (type none)))) 
+
+(symbol "LM4040DBZ-2.5_1_1" (pin passive line (at 3.81 0 180) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at -3.81 0 0) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin no_connect line (at -1.27 0 0) (length 2.54) (hide yes) (name "NC" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) 
+
+(symbol "Comparator:LM393" (pin_names (offset 0.127)) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
+
+(property "Reference" "U" (at 3.81 3.81 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "LM393" (at 6.35 -3.81 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_locked" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_keywords" "cmp open collector" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(symbol "LM393_1_1" 
+
+(polyline (pts 
+
+(xy -5.08 5.08) 
+
+(xy 5.08 0) 
+
+(xy -5.08 -5.08) 
+
+(xy -5.08 5.08)) (stroke (width 0.254) (type default)) (fill (type background))) 
+
+(polyline (pts 
+
+(xy 3.302 -0.508) 
+
+(xy 2.794 -0.508) 
+
+(xy 3.302 0) 
+
+(xy 2.794 0.508) 
+
+(xy 2.286 0) 
+
+(xy 2.794 -0.508) 
+
+(xy 2.286 -0.508)) (stroke (width 0.127) (type default)) (fill (type none))) (pin open_collector line (at 7.62 0 180) (length 2.54) (name "" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at -7.62 -2.54 0) (length 2.54) (name "-" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin input line (at -7.62 2.54 0) (length 2.54) (name "+" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))) 
+
+(symbol "LM393_2_1" 
+
+(polyline (pts 
+
+(xy -5.08 5.08) 
+
+(xy 5.08 0) 
+
+(xy -5.08 -5.08) 
+
+(xy -5.08 5.08)) (stroke (width 0.254) (type default)) (fill (type background))) 
+
+(polyline (pts 
+
+(xy 3.302 -0.508) 
+
+(xy 2.794 -0.508) 
+
+(xy 3.302 0) 
+
+(xy 2.794 0.508) 
+
+(xy 2.286 0) 
+
+(xy 2.794 -0.508) 
+
+(xy 2.286 -0.508)) (stroke (width 0.127) (type default)) (fill (type none))) (pin input line (at -7.62 2.54 0) (length 2.54) (name "+" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin input line (at -7.62 -2.54 0) (length 2.54) (name "-" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27))))) (pin open_collector line (at 7.62 0 180) (length 2.54) (name "" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))) 
+
+(symbol "LM393_3_1" (pin power_in line (at -2.54 -7.62 90) (length 3.81) (name "V-" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin power_in line (at -2.54 7.62 270) (length 3.81) (name "V+" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) 
+
+(symbol "Diode:BAT54J" (pin_numbers (hide yes)) (pin_names (offset 1.016) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
+
+(property "Reference" "D" (at 0 2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "BAT54J" (at 0 -2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Diode_SMD:D_SOD-323F" (at 0 -4.445 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Description" "30V 200mA Schottky diode, SOD-323F" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_keywords" "diode Schottky" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_fp_filters" "D*SOD?323F*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(symbol "BAT54J_0_1" 
+
+(polyline (pts 
+
+(xy -1.905 0.635) 
+
+(xy -1.905 1.27) 
+
+(xy -1.27 1.27) 
+
+(xy -1.27 -1.27) 
+
+(xy -0.635 -1.27) 
+
+(xy -0.635 -0.635)) (stroke (width 0.254) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.27 1.27) 
+
+(xy 1.27 -1.27) 
+
+(xy -1.27 0) 
+
+(xy 1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.27 0) 
+
+(xy -1.27 0)) (stroke (width 0) (type default)) (fill (type none)))) 
+
+(symbol "BAT54J_1_1" (pin passive line (at -3.81 0 0) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 0 180) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) 
+
+(symbol "74xGxx:74LVC1G32" (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
+
+(property "Reference" "U" (at -5.08 7.62 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "74LVC1G32" (at 7.62 -7.62 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Description" "Single OR Gate, Low-Voltage CMOS" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_keywords" "Single Gate OR LVC CMOS" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_fp_filters" "SOT* SG-*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(symbol "74LVC1G32_0_1" (arc (start -7.62 5.08) (mid -5.838 0) (end -7.62 -5.08) (stroke (width 0.254) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -7.62 2.54) 
+
+(xy -6.35 2.54)) (stroke (width 0.254) (type default)) (fill (type background))) 
+
+(polyline (pts 
+
+(xy -7.62 -2.54) 
+
+(xy -6.35 -2.54)) (stroke (width 0.254) (type default)) (fill (type background))) (arc (start 5.08 0) (mid 3.202 -3.202) (end 0 -5.08) (stroke (width 0.254) (type default)) (fill (type none))) (arc (start 0 5.08) (mid 3.2271 3.2271) (end 5.08 0) (stroke (width 0.254) (type default)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0 5.08) 
+
+(xy -7.62 5.08)) (stroke (width 0.254) (type default)) (fill (type background))) 
+
+(polyline (pts 
+
+(xy 0 -5.08) 
+
+(xy -7.62 -5.08)) (stroke (width 0.254) (type default)) (fill (type background)))) 
+
+(symbol "74LVC1G32_1_1" (pin input line (at -15.24 2.54 0) (length 7.62) (name "" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at -15.24 -2.54 0) (length 7.62) (name "" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0 -10.16 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin output line (at 12.7 0 180) (length 7.62) (name "" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0 10.16 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))) (embedded_fonts no)) 
+
+(symbol "74xGxx:74LVC1G08" (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) 
+
+(property "Reference" "U" (at -5.08 7.62 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "74LVC1G08" (at 7.62 -7.62 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "Description" "Single AND Gate, Low-Voltage CMOS" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_keywords" "Single Gate AND LVC CMOS" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27)))) 
+
+(symbol "74LVC1G08_0_1" (arc (start 0 5.08) (mid 5.0579 0) (end 0 -5.08) (stroke (width 0.254) (type default)) (fill (type background))) 
+
+(polyline (pts 
+
+(xy 0 -5.08) 
+
+(xy -7.62 -5.08) 
+
+(xy -7.62 5.08) 
+
+(xy 0 5.08)) (stroke (width 0.254) (type default)) (fill (type background)))) 
+
+(symbol "74LVC1G08_1_1" (pin input line (at -15.24 2.54 0) (length 7.62) (name "" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at -15.24 -2.54 0) (length 7.62) (name "" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0 -10.16 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin output line (at 12.7 0 180) (length 7.62) (name "" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0 10.16 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))) 
 
 (junction (at 219.583 35.56) (diameter 0) (color 0 0 0 0) (uuid "058fbdf6-d19d-41d2-aacb-97b63a0305e6")) 
 
@@ -934,12 +1270,6 @@
 
 (wire (pts 
 
-(xy 68.453 75.692) 
-
-(xy 58.039 75.692)) (stroke (width 0) (type default)) (uuid "2284ce43-9df7-4e50-bedb-42da23d93939")) 
-
-(wire (pts 
-
 (xy 122.555 150.495) 
 
 (xy 130.175 150.495)) (stroke (width 0) (type default)) (uuid "2354eca2-5099-4147-9c81-4a24a190b761")) 
@@ -1141,12 +1471,6 @@
 (xy 233.68 99.06) 
 
 (xy 233.68 101.6)) (stroke (width 0) (type default)) (uuid "58b3a6b2-0364-410b-a4f2-4672dccb76ab")) 
-
-(wire (pts 
-
-(xy 124.079 75.692) 
-
-(xy 149.987 75.692)) (stroke (width 0) (type default)) (uuid "59fa1281-1ef5-426e-9b82-8740e88d66f5")) 
 
 (wire (pts 
 
@@ -1480,12 +1804,6 @@
 
 (wire (pts 
 
-(xy 149.987 75.692) 
-
-(xy 149.987 73.533)) (stroke (width 0) (type default)) (uuid "c0b8a911-86a4-4cc8-baf6-726e0e69bfb8")) 
-
-(wire (pts 
-
 (xy 60.96 61.849) 
 
 (xy 60.96 62.992)) (stroke (width 0) (type default)) (uuid "c136479d-ef1d-40d3-8f68-360dc3b66da8")) 
@@ -1618,12 +1936,6 @@
 
 (wire (pts 
 
-(xy 61.976 73.152) 
-
-(xy 58.039 73.152)) (stroke (width 0) (type default)) (uuid "e72e0dd1-f213-49f2-a94c-ad6680685fb8")) 
-
-(wire (pts 
-
 (xy 219.583 35.56) 
 
 (xy 225.552 35.56)) (stroke (width 0) (type default)) (uuid "e73c541b-63bd-494d-8a26-fd345fa81943")) 
@@ -1702,7 +2014,7 @@
 
 (global_label "GVDD" (shape passive) (at 55.245 61.849 180) (effects (font (size 1.2446 1.2446)) (justify right)) (uuid "dbd16149-5da0-484a-9976-d49fd81d56fe") 
 
-(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.245 61.849 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) (hierarchical_label "VBUS_SENSE" (shape output) (at 59.182 119.38 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6e3d4090-dfe0-40b6-ae79-bb626f338ac2")) (hierarchical_label "CTRL_LI" (shape input) (at 58.039 75.692 180) (effects (font (size 1.2446 1.2446)) (justify right)) (uuid "b0412e5c-5f29-42c6-ae3c-c5c85fa84db8")) (hierarchical_label "CTRL_HI" (shape input) (at 58.039 73.152 180) (effects (font (size 1.2446 1.2446)) (justify right)) (uuid "b589edae-06ae-4c66-909d-eaffcd9e9726")) (hierarchical_label "TEMP_SENSE" (shape output) (at 200.533 70.612 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "e2edc700-4f53-4716-99f9-dc45796a05e1")) 
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.245 61.849 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) (hierarchical_label "VBUS_SENSE" (shape output) (at 59.182 119.38 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6e3d4090-dfe0-40b6-ae79-bb626f338ac2")) (hierarchical_label "CTRL_LI" (shape input) (at 45.72 76.2 180) (effects (font (size 1.2446 1.2446)) (justify right)) (uuid "b0412e5c-5f29-42c6-ae3c-c5c85fa84db8")) (hierarchical_label "CTRL_HI" (shape input) (at 45.72 73.66 180) (effects (font (size 1.2446 1.2446)) (justify right)) (uuid "b589edae-06ae-4c66-909d-eaffcd9e9726")) (hierarchical_label "TEMP_SENSE" (shape output) (at 200.533 70.612 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "e2edc700-4f53-4716-99f9-dc45796a05e1")) 
 
 (symbol (lib_id "power:GND") (at 154.051 40.894 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00005e320493") 
 
@@ -1848,7 +2160,7 @@
 
 (property "Description" "" (at 71.882 114.3 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "CRCW040210K0FKEDC" (at 71.882 114.3 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "MPN" "CRCW040218K0FKEDC" (at 71.882 114.3 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "LCSC Part #" "C25762" (at 71.882 114.3 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "96ab24f6-ffed-488f-b3eb-a83d79bee3ec")) (pin "2" (uuid "0a8efa30-5347-4b27-9e60-e2d6f5808248")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R45") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R45") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R45") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R45") (unit 1))))) 
 
@@ -2706,7 +3018,7 @@
 
 (property "Description" "" (at 107.569 63.5 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "CRCW040210K0FKEDC" (at 107.569 63.5 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "16f98578-b3e3-493e-8fac-fb2a931a5c6b")) (pin "2" (uuid "f7326740-beb8-48bb-bfd8-d21506cdb938")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))))) 
+(property "MPN" "CRCW04022R20FKEDC" (at 107.569 63.5 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "16f98578-b3e3-493e-8fac-fb2a931a5c6b")) (pin "2" (uuid "f7326740-beb8-48bb-bfd8-d21506cdb938")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R47") (unit 1))))) 
 
 (symbol (lib_id "Device:R") (at 110.363 81.28 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060887071") 
 
@@ -2720,7 +3032,7 @@
 
 (property "Description" "" (at 110.363 81.28 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "CRCW040210K0FKEDC" (at 110.363 81.28 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2f579400-2b1e-4c8c-9b6a-43d2d1fcaac7")) (pin "2" (uuid "256d0d1a-b66d-4799-8070-0dea05c0ebcb")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))))) 
+(property "MPN" "CRCW04022R20FKEDC" (at 110.363 81.28 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2f579400-2b1e-4c8c-9b6a-43d2d1fcaac7")) (pin "2" (uuid "256d0d1a-b66d-4799-8070-0dea05c0ebcb")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R48") (unit 1))))) 
 
 (symbol (lib_id "Device:Thermistor") (at 192.913 65.532 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-00006088c8a5") 
 
@@ -2858,7 +3170,7 @@
 
 (property "Description" "" (at 61.976 80.264 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "CRCW040210K0FKEDC" (at 61.976 80.264 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "MPN" "CRCW04023K30FKEDC" (at 61.976 80.264 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "LCSC Part #" "C25890" (at 61.976 80.264 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "91b8436a-2dc9-4a4c-8f5e-4714fc37f343")) (pin "2" (uuid "d07a33a0-a851-478b-9935-03df32aee5cc")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R43") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R43") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R43") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R43") (unit 1))))) 
 
@@ -2874,7 +3186,7 @@
 
 (property "Description" "" (at 68.453 80.518 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "CRCW040210K0FKEDC" (at 68.453 80.518 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "MPN" "CRCW04023K30FKEDC" (at 68.453 80.518 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "LCSC Part #" "C25890" (at 68.453 80.518 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "eb0c58e5-d8ed-4018-9770-053c0aa17938")) (pin "2" (uuid "3e93f29b-203b-4677-b47f-85c6af26b896")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R44") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R44") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R44") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R44") (unit 1))))) 
 
@@ -2914,7 +3226,7 @@
 
 (property "Description" "" (at 60.96 66.548 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "GMK105CC6105MV-F" (at 60.96 66.548 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "MPN" "GRM155R61E225ME15D" (at 60.96 66.548 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "LCSC Part #" "C12530" (at 60.96 66.548 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "cb5c4715-9a48-4302-b6e8-732c60792794")) (pin "2" (uuid "cebe8c30-9044-4cc8-aaf7-c60493e91977")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C41") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C41") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C41") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C41") (unit 1))))) 
 
@@ -2922,13 +3234,15 @@
 
 (property "Reference" "D2" (at 80.01 47.0662 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Value" "MBR140SFT1G" (at 80.01 49.3776 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "Value" "STPS1H100A" (at 80.01 49.3776 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Footprint" "Diode_SMD:D_SOD-123F" (at 80.01 48.133 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "Footprint" "Diode_SMD:D_SMA" (at 80.01 48.133 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" (at 80.01 52.578 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 80.01 52.578 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d684b8f1-6216-441d-ac97-7f710d4840b2")) (pin "2" (uuid "abc725d6-7d79-4fce-a522-b71856896128")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1))))) 
+(property "Description" "100V 1A Schottky Rectifier, DO-214AC SMA" (at 80.01 52.578 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d684b8f1-6216-441d-ac97-7f710d4840b2")) (pin "2" (uuid "abc725d6-7d79-4fce-a522-b71856896128")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D2") (unit 1)))) 
+
+(property "MPN" "STPS1H100A" (at 80.01 52.578 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) 
 
 (symbol (lib_id "power:GND") (at 72.771 84.328 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-0000608bb3e9") 
 
@@ -2958,15 +3272,15 @@
 
 (property "Reference" "C52" (at 99.822 70.866 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) 
 
-(property "Value" "100nF 50V" (at 93.98 70.358 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) 
+(property "Value" "470nF 50V" (at 93.98 70.358 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) 
 
-(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 97.282 67.056 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 97.282 67.056 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "Datasheet" "~" (at 97.282 67.056 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "Description" "" (at 97.282 67.056 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "Description" "470nF 50V X7R 0603 Bootstrap Cap" (at 97.282 67.056 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "GMK105CC6105MV-F" (at 97.282 67.056 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
+(property "MPN" "GRM188R71H474KA93D" (at 97.282 67.056 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "LCSC Part #" "C1525" (at 97.282 67.056 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "4fef9c41-df04-4491-a908-fe7898d58899")) (pin "2" (uuid "409e459f-f54a-4515-85df-e10ed25bb69a")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C52") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C52") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C52") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C52") (unit 1))))) 
 
@@ -3030,30 +3344,6 @@
 
 (property "Description" "" (at 124.079 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "16855895-8897-409e-b541-16c6fae8849c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR078") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR078") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR078") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR078") (unit 1))))) 
 
-(symbol (lib_id "Mechanical:MountingHole_Pad") (at 152.527 66.675 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-0000609195b1") 
-
-(property "Reference" "H5" (at 156.337 65.5066 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) 
-
-(property "Value" "MountingHole_Pad" (at 156.337 67.818 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) 
-
-(property "Footprint" "bldc_motor_cntroller:TestPoint_Round" (at 152.527 66.675 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Datasheet" "~" (at 152.527 66.675 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Description" "" (at 152.527 66.675 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e35b4c5f-eb1b-48ba-8089-a86138126f06")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H5") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H5") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H5") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H5") (unit 1))))) 
-
-(symbol (lib_id "Mechanical:MountingHole_Pad") (at 152.527 73.533 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060919bd7") 
-
-(property "Reference" "H6" (at 156.337 72.3646 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) 
-
-(property "Value" "MountingHole_Pad" (at 156.337 74.676 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) 
-
-(property "Footprint" "bldc_motor_cntroller:TestPoint_Round" (at 152.527 73.533 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Datasheet" "~" (at 152.527 73.533 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Description" "" (at 152.527 73.533 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3c284b33-7c12-406d-aec0-2ae65e09143f")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H6") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H6") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H6") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "H6") (unit 1))))) 
-
 (symbol (lib_id "power:VDC") (at 122.555 58.42 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060921e6e") 
 
 (property "Reference" "#PWR077" (at 122.555 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
@@ -3065,18 +3355,6 @@
 (property "Datasheet" "" (at 122.555 58.42 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
 (property "Description" "" (at 122.555 58.42 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "cf2b5929-bfc1-4791-8f80-9cba6c4c8eb0")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR077") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR077") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR077") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR077") (unit 1))))) 
-
-(symbol (lib_id "power:GND") (at 149.987 66.675 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060930560") 
-
-(property "Reference" "#PWR083" (at 143.637 66.675 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Value" "GND" (at 145.5928 66.802 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Footprint" "" (at 149.987 66.675 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Datasheet" "" (at 149.987 66.675 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
-
-(property "Description" "" (at 149.987 66.675 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e82765ba-dfaa-4f00-994a-23a3dd87904a")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR083") (unit 1))) (project "bldc_motor_cntroller_v8.2" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR083") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR083") (unit 1))) (project "bldc_motor_cntroller_v9_7" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR083") (unit 1))))) 
 
 (symbol (lib_id "power:GND") (at 71.882 128.778 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "00000000-0000-0000-0000-000060a2ad07") 
 
@@ -3280,4 +3558,1211 @@
 
 (xy 243.84 101.6) 
 
-(xy 243.84 101.6)) (stroke (width 0) (type default)) (uuid c1169e33-e601-4eb2-a8b3-457cb84da48a)))
+(xy 243.84 101.6)) (stroke (width 0) (type default)) (uuid c1169e33-e601-4eb2-a8b3-457cb84da48a)) 
+
+(symbol (lib_id "Connector:Screw_Terminal_01x02") (at 154.94 71.12 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "e7d5a280-9227-4e51-a9c8-7237b94dda95") 
+
+(property "Reference" "J12" (at 154.94 77.97000000000001 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "DB910-7.62-2P-GN-S" (at 154.94 80.51 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "bldc_motor_cntroller:DORABO_DB910-7.62-2P" (at 154.94 71.12 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 154.94 71.12 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "2-pos 7.62mm 30A 300V PCB Screw Terminal Block (External Brake Resistor)" (at 154.94 71.12 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "7c90a180-0952-4722-a7fd-249ea23da457")) (pin "2" (uuid "47cb01df-05d9-4d2e-bfd8-f8399a6c5fca")) (instances (project "" (path "/bc49a848-63f3-4109-a373-8fec55c1ae4d" (reference "J12") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "J12") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d5e03" (reference "J12") (unit 1)))) 
+
+(property "LCSC" "C395876" (at 154.94 71.12 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "MPN" "DB910-7.62-2P-GN-S" (at 154.94 71.12 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(label "HS" (at 149.86 71.12 90.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid f7a9d630-1f0f-4769-8f52-a636bf158614)) 
+
+(symbol (lib_id "power:GND") (at 149.86 73.66 270.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "952551c3-8ee4-4b88-8f11-99908c2a994c") 
+
+(property "Reference" "#PWR204" (at 151.93 72.39 90.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 151.93 74.92999999999999 90.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 149.86 73.66 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 149.86 73.66 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 149.86 73.66 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "e7a35552-d870-4893-b0e0-ddd72dc36083")) (instances (project "" (path "/bc49a848-63f3-4109-a373-8fec55c1ae4d" (reference "#PWR204") (unit 1))) (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR204") (unit 1))) (project "bldc_motor_cntroller" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d5e03" (reference "#PWR204") (unit 1))))) 
+
+(text "OFF-BOARD BRAKE RESISTOR (CHASSIS-MOUNT ON HEATSINK PLATE, NOT PCB-MOUNTED):\\nDefault: VO RX24/150W-3R3 +/-5% (LCSC C22395400, 13.6A/614W burst @45V, 5x/5s overload, 112mm M4 mount)\\nAlt High-Regen: VO RX24/200W-2R (LCSC C49375368, 22.5A/1013W @45V) | Alt Gentle: 4.5R 110W (LCSC C49375358)" (at 144.78 88.9 0.0) (effects (font (size 1.27 1.27)) (justify left)) (uuid 2af63386-2b63-44b0-b163-de9df8b619e0)) 
+
+(symbol (lib_id "Device:D_Zener") (at 25.400000000000002 189.23 270.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "d2ac82d6-daef-4b40-8d8d-69c855439fc8") 
+
+(property "Reference" "D7" (at 22.86 189.23 90.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "5.0SMDJ48A" (at 27.94 189.23 90.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Diode_SMD:D_SMC" (at 25.400000000000002 189.23 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 25.400000000000002 189.23 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "5kW 48V Unidirectional TVS Diode, DO-214AB SMC" (at 25.400000000000002 189.23 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "29f2cebe-319c-4633-8e5c-8d20b3de91a3")) (pin "2" (uuid "ca669a1c-2c5f-4cf3-95c5-6395d9142628")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D7") (unit 1)))) 
+
+(property "MPN" "5.0SMDJ48A" (at 25.400000000000002 189.23 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 39.370000000000005 181.61 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "5ba7d57a-89a3-4aa9-9b19-5123b80e0151") 
+
+(property "Reference" "R66" (at 44.45 180.34 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "180k" (at 44.45 182.88 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 39.370000000000005 181.61 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 39.370000000000005 181.61 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "180k 1% 0603 >=75V" (at 39.370000000000005 181.61 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "bccf2e61-75f3-4b3b-b209-42d6510981d4")) (pin "2" (uuid "f12e27b4-225e-4ec5-8fbd-1a0d8714ea0d")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R66") (unit 1)))) 
+
+(property "MPN" "RC0603FR-07180KL" (at 39.370000000000005 181.61 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 39.370000000000005 196.85 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "ee25226f-7e4b-44a8-963b-c9dd0626b64a") 
+
+(property "Reference" "R67" (at 44.45 195.57999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "10k" (at 39.37 204.97 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 39.370000000000005 196.85 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 39.370000000000005 196.85 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "10.0k 1% 0402" (at 39.370000000000005 196.85 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "761ba58c-03ec-45a6-8ce3-190cf1b71ad6")) (pin "2" (uuid "4827d2b1-9bf9-425f-bfda-d1efa58ea3ec")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R67") (unit 1)))) 
+
+(property "MPN" "RC0402FR-0710KL" (at 39.370000000000005 196.85 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:C_Small") (at 50.800000000000004 196.85 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "e8a3c123-2917-44a0-a72e-d24802ead270") 
+
+(property "Reference" "C133" (at 54.14000000000001 195.57999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "100pF 50V" (at 54.14000000000001 198.12 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 50.800000000000004 196.85 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 50.800000000000004 196.85 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "100pF 50V C0G 0402" (at 50.800000000000004 196.85 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "444c2913-213b-41c5-8780-d15a1fbbd99e")) (pin "2" (uuid "c677788e-6f6a-42b6-aed0-92c0d975f312")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C133") (unit 1)))) 
+
+(property "MPN" "GRM1555C1H101JA01D" (at 50.800000000000004 196.85 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 78.74 175.26 90.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "342966a4-d3db-45a5-997d-fd1827b181da") 
+
+(property "Reference" "R68" (at 76.19999999999999 175.26 90.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "330k" (at 81.28 175.26 90.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 78.74 175.26 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 78.74 175.26 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "330k 1% 0402" (at 78.74 175.26 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "c6e709da-2457-448b-91d3-8a6a800b7e99")) (pin "2" (uuid "3819e441-85a2-4673-a964-c0ae0948a2d9")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R68") (unit 1)))) 
+
+(property "MPN" "RC0402FR-07330KL" (at 78.74 175.26 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 39.370000000000005 215.9 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "af9b4c83-fac0-40c5-86bc-9d1d0c444256") 
+
+(property "Reference" "R69" (at 44.45 214.63 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "1k" (at 44.45 217.17000000000002 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 39.370000000000005 215.9 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 39.370000000000005 215.9 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "1.0k 1% 0402" (at 39.370000000000005 215.9 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "bcf5fb11-56e0-4add-92e3-7a6dca0ac99b")) (pin "2" (uuid "d4c1588b-988f-4a72-b588-efdb015bc8f9")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R69") (unit 1)))) 
+
+(property "MPN" "RC0402FR-071KL" (at 39.370000000000005 215.9 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Reference_Voltage:LM4040DBZ-2.5") (at 39.370000000000005 229.87 90.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "525b483d-a661-4f09-9e8d-60cdbf528f66") 
+
+(property "Reference" "D5" (at 36.83 229.87 90.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "LM4040C25IDBZR" (at 44.45 231.14 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 39.370000000000005 229.87 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" (at 39.370000000000005 229.87 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "2.500V 0.5% Shunt Reference, SOT-23" (at 39.370000000000005 229.87 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "b7bc8001-1c43-4975-8fe5-e4ec19365b8d")) (pin "2" (uuid "7f91c2c3-32e4-4631-a22c-3f54330cc135")) (pin "3" (uuid "b2554240-2e7e-40f3-b712-37ea7a031144")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D5") (unit 1)))) 
+
+(property "MPN" "LM4040C25IDBZR" (at 39.370000000000005 229.87 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Comparator:LM393") (at 78.74 189.23 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "b0bd291a-49b9-45d4-9cc6-2d425c12b743") 
+
+(property "Reference" "U9" (at 78.74 197.35 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "LM393BIDR" (at 78.74 199.89 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 78.74 189.23 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf" (at 78.74 189.23 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "Dual Comparator, SOIC-8" (at 78.74 189.23 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "8248e9c0-6122-405d-ae1f-b8ff72c49b3e")) (pin "2" (uuid "8c2a2e28-8698-425d-82a3-cfecc2523f29")) (pin "3" (uuid "98c73965-8d82-42bb-94e4-8ae704f71e1b")) (pin "5" (uuid "46323411-5f7e-48bf-bc37-5eda305432cc")) (pin "6" (uuid "f1d49fd2-0f76-4b17-863a-db5a7269248d")) (pin "7" (uuid "6313c4aa-9fec-4cf1-8be2-2ae670f20ee0")) (pin "4" (uuid "db39d1ca-e011-433c-b055-233cc46943f2")) (pin "8" (uuid "c89b03fc-f13e-411d-a416-7cba2ee7b9a0")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "U9") (unit 1)))) 
+
+(property "MPN" "LM393BIDR" (at 78.74 189.23 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 96.52 181.61 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "2334e50b-5aa4-4397-b333-44b062488fc3") 
+
+(property "Reference" "R70" (at 101.6 180.34 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "4.7k" (at 99.05999999999999 182.88 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 96.52 181.61 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 96.52 181.61 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "4.7k 1% 0402" (at 96.52 181.61 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "2ca0f78b-06bc-4802-91e3-071de978d95d")) (pin "2" (uuid "1dde588a-f7ea-4fad-8598-c34cb33b9590")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R70") (unit 1)))) 
+
+(property "MPN" "RC0402FR-074K7L" (at 96.52 181.61 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 104.14 212.09 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "03c1d363-2436-4959-87f4-7d4242739998") 
+
+(property "Reference" "R71" (at 109.22 210.82 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "4.7k" (at 109.22 213.36 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 104.14 212.09 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 104.14 212.09 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "4.7k 1% 0402" (at 104.14 212.09 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "73a424e0-70b2-45d7-bfc5-d2156b13d64c")) (pin "2" (uuid "bfe5ab38-adac-4bf2-b449-ec68d13e5c86")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R71") (unit 1)))) 
+
+(property "MPN" "RC0402FR-074K7L" (at 104.14 212.09 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 60.96 213.36 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "521a9cba-df7f-4fff-9ea1-c17d8b170376") 
+
+(property "Reference" "R72" (at 66.03999999999999 212.09 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "10k" (at 66.03999999999999 214.63 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 60.96 213.36 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 60.96 213.36 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "10.0k 1% 0402" (at 60.96 213.36 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "14c890c5-5c14-47d8-b2b3-e7468ed36052")) (pin "2" (uuid "cdfb6a45-6105-40f6-8532-c89351e05cb2")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R72") (unit 1)))) 
+
+(property "MPN" "RC0402FR-0710KL" (at 60.96 213.36 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 60.96 228.6 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "110925d6-8045-441c-a332-c95ec5a14f62") 
+
+(property "Reference" "R73" (at 66.03999999999999 227.32999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "10k" (at 60.96 236.72 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 60.96 228.6 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 60.96 228.6 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "10.0k 1% 0402" (at 60.96 228.6 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "0e835393-52e5-4ad8-843a-bd6a6f1e26f3")) (pin "2" (uuid "d4eb9d71-5f5b-4a96-bea1-455241c893fc")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R73") (unit 1)))) 
+
+(property "MPN" "RC0402FR-0710KL" (at 60.96 228.6 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 115.57 182.88 90.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "7b930826-7f46-4498-b7c7-d8bb262e50ce") 
+
+(property "Reference" "R74" (at 118.91 181.60999999999999 90.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "1k" (at 120.64999999999999 184.15 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 115.57 182.88 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 115.57 182.88 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "1.0k 1% 0402" (at 115.57 182.88 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "49443c7a-1f15-4f47-abb8-03cc66e91b62")) (pin "2" (uuid "1e497827-9774-44d7-83bd-c663abef52fc")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R74") (unit 1)))) 
+
+(property "MPN" "RC0402FR-071KL" (at 115.57 182.88 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Diode:BAT54J") (at 115.57 191.76999999999998 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "bef4e8a5-895a-4083-a700-a82d4d3ffa7e") 
+
+(property "Reference" "D6" (at 118.59249999999999 190.5 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "BAT54J" (at 118.59249999999999 193.04 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Diode_SMD:D_SOD-323F" (at 115.57 191.76999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf" (at 115.57 191.76999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "30V 200mA Schottky Diode, SOD-323F" (at 115.57 191.76999999999998 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "c4b60a7a-8098-4b77-9429-75684442ce44")) (pin "2" (uuid "b679e8fa-6dac-4cd1-859d-0737eb9bc77d")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "D6") (unit 1)))) 
+
+(property "MPN" "BAT54J,115" (at 115.57 191.76999999999998 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:C_Small") (at 129.54000000000002 194.31 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "d6e69892-6603-4408-a95f-245f53a6328d") 
+
+(property "Reference" "C134" (at 132.88000000000002 193.04 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "470pF 50V" (at 132.88000000000002 195.58 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 129.54000000000002 194.31 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 129.54000000000002 194.31 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "470pF 50V C0G 0402" (at 129.54000000000002 194.31 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "a8320a00-d1d6-4195-9fcf-0a6542342f50")) (pin "2" (uuid "5a957914-f4c8-46a6-a964-0668e33b0d75")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C134") (unit 1)))) 
+
+(property "MPN" "GRM1555C1H471JA01D" (at 129.54000000000002 194.31 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 140.97 186.69 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "19527e60-cd0d-42bc-99ae-de456e644075") 
+
+(property "Reference" "R75" (at 146.05 185.42000000000002 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "100k" (at 140.97 194.81 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 140.97 186.69 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 140.97 186.69 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "100k 1% 0402" (at 140.97 186.69 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "fe8c5f56-070a-44e2-9469-23a12913d321")) (pin "2" (uuid "92dcc421-1f7d-4042-99fa-36d3390f160e")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R75") (unit 1)))) 
+
+(property "MPN" "RC0402FR-07100KL" (at 140.97 186.69 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:R") (at 142.24 214.63 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "2005d59b-9a2c-4868-ac4b-f538043b1f6d") 
+
+(property "Reference" "R76" (at 147.32000000000002 213.36 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "100k" (at 142.24 222.75 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 142.24 214.63 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 142.24 214.63 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "100k 1% 0402" (at 142.24 214.63 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "eb8c7e86-36f0-4067-9e26-e02f07c2e888")) (pin "2" (uuid "de802666-0b12-4090-8258-1b017139617e")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "R76") (unit 1)))) 
+
+(property "MPN" "RC0402FR-07100KL" (at 142.24 214.63 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "74xGxx:74LVC1G32") (at 170.18 184.15 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "06a2f0f2-2689-4dd1-919c-fb0bbe449e8e") 
+
+(property "Reference" "U11" (at 166.37 192.26999999999998 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SN74LVC1G32DBVR" (at 166.37 194.81 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 170.18 184.15 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 170.18 184.15 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "Single 2-Input OR Gate, SOT-23-5" (at 170.18 184.15 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "aec309a3-9f53-4a79-8e16-20743e63eaeb")) (pin "2" (uuid "f205bb92-1020-4f61-8376-770ff8cd305e")) (pin "3" (uuid "fb9e07d0-14a5-4697-a927-d3b4f1975097")) (pin "4" (uuid "f14aa274-7f20-4d9b-909f-153eba106ed4")) (pin "5" (uuid "b4f68c8b-7815-44ae-a56d-9faba7b01080")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "U11") (unit 1)))) 
+
+(property "MPN" "SN74LVC1G32DBVR" (at 170.18 184.15 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "74xGxx:74LVC1G08") (at 170.18 219.70999999999998 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "b5ec7094-afc4-4941-9589-c121190447ce") 
+
+(property "Reference" "U10" (at 166.37 227.82999999999998 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SN74LVC1G08DBVR" (at 166.37 230.37 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 170.18 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf" (at 170.18 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "Single 2-Input AND Gate, SOT-23-5" (at 170.18 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "5373a4cc-ea54-44db-aee9-387bd9f83ee5")) (pin "2" (uuid "027c11a9-040d-486a-a235-a6af8db4efca")) (pin "3" (uuid "ee20e436-8daf-4435-b5f3-2f853d469b60")) (pin "4" (uuid "7fcd21a6-a945-4eb5-a659-34277ae5fa6c")) (pin "5" (uuid "b0d4fcee-e843-4c17-9f38-74ba2b832f32")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "U10") (unit 1)))) 
+
+(property "MPN" "SN74LVC1G08DBVR" (at 170.18 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:C_Small") (at 119.38 232.41 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "0d5e539f-6b03-4b82-b81d-c86ec0635cc2") 
+
+(property "Reference" "C135" (at 122.72 231.14 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "100nF 16V" (at 122.72 233.68 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 119.38 232.41 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 119.38 232.41 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "100nF 16V X5R 0402" (at 119.38 232.41 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "0d4562f8-1648-42a3-bf06-aa138063cffe")) (pin "2" (uuid "900b3c97-3490-46ea-9365-ac48594b42ec")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C135") (unit 1)))) 
+
+(property "MPN" "GRM155R62A104KE14D" (at 119.38 232.41 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:C_Small") (at 126.99999999999999 232.41 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "2bdcec1a-ada4-41ca-b51f-d73d63534828") 
+
+(property "Reference" "C136" (at 130.34 231.14 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "100nF 16V" (at 130.34 233.68 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 126.99999999999999 232.41 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 126.99999999999999 232.41 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "100nF 16V X5R 0402" (at 126.99999999999999 232.41 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "9c3f900d-709e-476b-a529-2b4d134f3d26")) (pin "2" (uuid "473a5af5-5628-4efb-b852-370e82c9b8d3")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C136") (unit 1)))) 
+
+(property "MPN" "GRM155R62A104KE14D" (at 126.99999999999999 232.41 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Device:C_Small") (at 134.62 232.41 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "2d4d94ef-559b-4637-9b48-9893736412f2") 
+
+(property "Reference" "C137" (at 137.96 231.14 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Value" "100nF 16V" (at 137.96 233.68 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 134.62 232.41 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 134.62 232.41 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "100nF 16V X5R 0402" (at 134.62 232.41 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "66a25f14-15ee-462b-8ade-0ab690a50f70")) (pin "2" (uuid "112c59c0-f1cb-442c-a35b-7527e4b65633")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "C137") (unit 1)))) 
+
+(property "MPN" "GRM155R62A104KE14D" (at 134.62 232.41 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Comparator:LM393") (at 86.36 219.70999999999998 0.0) (unit 2) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "dc7e7a2e-0cc4-4057-b417-cdec40d6a047") 
+
+(property "Reference" "U9" (at 86.36 227.82999999999998 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "LM393BIDR" (at 86.36 230.37 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 86.36 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf" (at 86.36 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "Dual Comparator, SOIC-8" (at 86.36 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "e22f7f14-4f4c-48a6-b60f-0e7aef7a2968")) (pin "2" (uuid "81caf404-a65a-4ff1-ba2f-7217985693c3")) (pin "3" (uuid "4af78c90-218e-4572-b020-a7f2b1541ed2")) (pin "5" (uuid "554d2471-acf7-45d5-8ab3-f376e1aca7c4")) (pin "6" (uuid "f12bcbac-3fc9-45c8-923d-8ab974f1cec7")) (pin "7" (uuid "53f72eed-a960-4081-acb1-6fe6b4e7e421")) (pin "4" (uuid "f7373cad-faf8-4122-9d24-04a3310803ef")) (pin "8" (uuid "43e68e43-7f72-4b0b-8f79-704482116449")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "U9") (unit 2)))) 
+
+(property "MPN" "LM393BIDR" (at 86.36 219.70999999999998 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "Comparator:LM393") (at 109.22 229.87 0.0) (unit 3) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "a5b610c4-4f8c-429d-8cec-ecd1faced8b4") 
+
+(property "Reference" "U9" (at 109.22 237.99 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "LM393BIDR" (at 109.22 240.53 0.0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 109.22 229.87 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf" (at 109.22 229.87 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "Dual Comparator, SOIC-8" (at 109.22 229.87 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "2e9fbf3b-07e8-4a1e-b59d-5095990e39cb")) (pin "2" (uuid "1bcf1b5f-36f6-448c-aed1-4e4720fab464")) (pin "3" (uuid "25373aab-f64e-4c65-b642-811bb59dc4cc")) (pin "5" (uuid "3baa434e-bc06-4e83-becf-e5110155ac79")) (pin "6" (uuid "4a2355ff-46bd-4817-b037-9931dff298a1")) (pin "7" (uuid "e457fecc-6ed7-4b5b-879a-6ebea9f20197")) (pin "4" (uuid "4c1eecf6-7249-49a1-b6b0-6e99867037c6")) (pin "8" (uuid "9de9544c-7bb9-4f4f-b921-b28129c649f5")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "U9") (unit 3)))) 
+
+(property "MPN" "LM393BIDR" (at 109.22 229.87 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(symbol (lib_id "power:VDC") (at 25.400000000000002 182.88 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "6bf8d9d9-da89-43a9-983f-8b069afcd156") 
+
+(property "Reference" "#PWR1" (at 28.740000000000002 180.34 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "VDC" (at 28.740000000000002 182.88 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 25.400000000000002 182.88 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 25.400000000000002 182.88 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 25.400000000000002 182.88 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "6bf67c40-c5cd-4b82-98fe-10ac9fb65cbc")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR1") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 25.400000000000002 195.57999999999998 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "36e06f77-4e49-41f0-b4a4-619f3b7f1dbc") 
+
+(property "Reference" "#PWR2" (at 28.740000000000002 195.57999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 28.740000000000002 198.12 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 25.400000000000002 195.57999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 25.400000000000002 195.57999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 25.400000000000002 195.57999999999998 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "e6cf4a6f-4fb7-4c26-af76-1378afbb622e")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR2") (unit 1))))) 
+
+(symbol (lib_id "power:VDC") (at 39.370000000000005 175.26 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "d50d34bc-ffba-44e1-bab4-78894042726b") 
+
+(property "Reference" "#PWR3" (at 42.71 172.72 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "VDC" (at 42.71 175.26 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 39.370000000000005 175.26 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 39.370000000000005 175.26 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 39.370000000000005 175.26 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "bf9ffbec-57c0-499f-99d7-01b83416321c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR3") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 39.370000000000005 203.2 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "05008fd7-28f8-4af0-b7b4-af59041f03a4") 
+
+(property "Reference" "#PWR4" (at 42.71 203.2 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 42.71 205.74 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 39.370000000000005 203.2 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 39.370000000000005 203.2 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 39.370000000000005 203.2 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "c496f77b-55bc-48bb-b50e-b93482d79206")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR4") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 50.800000000000004 201.93 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "93e0ab88-49dc-412d-a5a5-1dce60a1063b") 
+
+(property "Reference" "#PWR5" (at 54.14000000000001 201.93 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 54.14000000000001 204.47 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 50.800000000000004 201.93 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 50.800000000000004 201.93 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 50.800000000000004 201.93 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "69d69047-e3eb-4ad7-a7fe-b2d4487525ec")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR5") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 39.370000000000005 209.55 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "58d00d64-8302-4bb9-adb5-734f2ba271c2") 
+
+(property "Reference" "#PWR6" (at 42.71 207.01 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 42.71 209.55 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 39.370000000000005 209.55 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 39.370000000000005 209.55 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 39.370000000000005 209.55 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "79f21497-9e2e-4bfe-a8d8-3da306301261")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR6") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 39.370000000000005 236.22 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "df2dc7ed-1281-4cde-b1e3-ffaa34e82a3c") 
+
+(property "Reference" "#PWR7" (at 42.71 236.22000000000003 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 42.71 238.76 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 39.370000000000005 236.22 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 39.370000000000005 236.22 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 39.370000000000005 236.22 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "fdb43c8f-cfac-4e55-947b-ca9550d231e4")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR7") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 96.52 175.26 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "bbe420f2-867e-44a9-977e-a29ccfa2049a") 
+
+(property "Reference" "#PWR8" (at 99.86 172.72 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 99.86 175.26 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 96.52 175.26 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 96.52 175.26 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 96.52 175.26 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "4ace0831-6aab-4d0f-a121-814cbb7e36bc")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR8") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 104.14 205.74 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "1192b1c9-d9d6-4681-a27e-e871fde2c47b") 
+
+(property "Reference" "#PWR9" (at 107.48 203.2 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 107.48 205.74 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 104.14 205.74 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 104.14 205.74 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 104.14 205.74 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "9e61d0f5-a8e6-4a1c-b676-0e7ddee82f64")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR9") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 60.96 207.01 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "f7a0a48d-ddac-464c-b0e9-714c0cf247d5") 
+
+(property "Reference" "#PWR10" (at 64.3 204.47 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 64.3 207.01 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 60.96 207.01 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 60.96 207.01 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 60.96 207.01 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "1e2644e9-0414-4f30-9688-a6e1dd2619f8")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR10") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 60.96 234.95 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "c39bbbf4-1fe9-442a-8747-b7fcd59c3677") 
+
+(property "Reference" "#PWR11" (at 64.3 234.95 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 64.3 237.49 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 60.96 234.95 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 60.96 234.95 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 60.96 234.95 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "f4a1c8b7-0563-484b-b0b1-ee9109816640")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR11") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 129.54000000000002 199.39 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "d79705f3-e2b1-4c10-b093-bbc69cc4b475") 
+
+(property "Reference" "#PWR12" (at 132.88 199.39 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 132.88 201.93 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 129.54000000000002 199.39 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 129.54000000000002 199.39 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 129.54000000000002 199.39 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "0c1de218-88a4-419f-b35c-a24d710d5596")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR12") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 140.97 193.04 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "4cac309d-10b9-428e-a4ec-324ceb6d7fd8") 
+
+(property "Reference" "#PWR13" (at 144.31 193.04 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 144.31 195.58 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 140.97 193.04 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 140.97 193.04 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 140.97 193.04 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "f5e26734-95e2-4e5d-bc96-972dc1b1f960")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR13") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 142.24 220.98000000000002 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "b2aef70b-e444-470f-a3fe-2756892be02c") 
+
+(property "Reference" "#PWR14" (at 145.58 220.98000000000002 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 145.58 223.51999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 142.24 220.98000000000002 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 142.24 220.98000000000002 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 142.24 220.98000000000002 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "a37f7036-3942-47fb-8dae-5a004973b566")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR14") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 119.38 227.32999999999998 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "46b25f22-a634-4e30-8a4f-75755b153044") 
+
+(property "Reference" "#PWR15" (at 122.72 224.79000000000002 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 122.72 227.32999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 119.38 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 119.38 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 119.38 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "9ab4d493-fb23-47b0-a06b-c31c86be823c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR15") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 119.38 237.49 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "b21424a6-de01-4358-bc39-76f6cef4fed9") 
+
+(property "Reference" "#PWR16" (at 122.72 237.49 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 122.72 240.02999999999997 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 119.38 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 119.38 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 119.38 237.49 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "834fef39-b2a1-4d2d-bf6a-1c0fcb21c8f4")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR16") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 126.99999999999999 227.32999999999998 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "634ac042-ffae-4cca-b658-bef66d72fb43") 
+
+(property "Reference" "#PWR17" (at 130.34 224.79000000000002 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 130.34 227.32999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 126.99999999999999 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 126.99999999999999 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 126.99999999999999 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "fbc7d87e-34cb-4c36-9bc8-0af12b27e33d")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR17") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 126.99999999999999 237.49 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "3b1097a4-33d5-4d3e-ad02-22e6978cc6ef") 
+
+(property "Reference" "#PWR18" (at 130.34000000000003 237.49 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 130.34000000000003 240.02999999999997 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 126.99999999999999 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 126.99999999999999 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 126.99999999999999 237.49 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "fb9ffe7e-5d32-4d63-a9f8-160b7e483da3")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR18") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 134.62 227.32999999999998 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "24bb4f98-e12e-412e-b0a7-4298eade3759") 
+
+(property "Reference" "#PWR19" (at 137.96 224.79000000000002 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 137.96 227.32999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 134.62 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 134.62 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 134.62 227.32999999999998 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "9e97e6e5-dc64-4d68-a95a-d8a6c2633566")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR19") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 134.62 237.49 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "e82af8d0-54be-478f-9e6e-5eff361b9399") 
+
+(property "Reference" "#PWR20" (at 137.96 237.49 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 137.96 240.02999999999997 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 134.62 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 134.62 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 134.62 237.49 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "d20998a1-da6b-4f7f-81c5-814bc83aa513")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR20") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 106.67999999999999 222.25 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "cf529677-0b9e-4cc8-a172-eea67e48be06") 
+
+(property "Reference" "#PWR21" (at 110.02 219.70999999999998 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 110.02 222.25 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 106.67999999999999 222.25 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 106.67999999999999 222.25 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 106.67999999999999 222.25 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "835a35fd-b812-4c29-8bf5-a9ab912937c9")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR21") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 106.67999999999999 237.49 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "d65ee8b0-0ef6-4eb7-826c-a37c3068ac09") 
+
+(property "Reference" "#PWR22" (at 110.02 237.49 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 104.14 237.49 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 106.67999999999999 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 106.67999999999999 237.49 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 106.67999999999999 237.49 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "2648b4b1-490c-46e1-84d5-8fb9e774b9a4")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR22") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 170.18 173.99 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "674b9098-2c4c-41d6-84a7-6a322d697ab0") 
+
+(property "Reference" "#PWR23" (at 173.52 171.45 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 173.52 173.99 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 170.18 173.99 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 170.18 173.99 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 170.18 173.99 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "1a3fa0c5-20c1-414e-a8d0-d2a185929a0b")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR23") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 170.18 194.31 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "6d4048f2-9296-4f70-a564-76aa5521f258") 
+
+(property "Reference" "#PWR24" (at 173.52 194.31 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 173.52 196.85 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 170.18 194.31 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 170.18 194.31 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 170.18 194.31 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "7cc1e3db-d98f-47a4-b1b5-854344ea8e3e")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR24") (unit 1))))) 
+
+(symbol (lib_id "power:+3.3V") (at 170.18 209.55 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "fb549f45-a128-42bd-80e9-bcc2527242c1") 
+
+(property "Reference" "#PWR25" (at 173.52 207.01 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "+3.3V" (at 173.52 209.55 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 170.18 209.55 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 170.18 209.55 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 170.18 209.55 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "2e40720b-0cc4-49db-985e-9ab3cd5a6ee3")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR25") (unit 1))))) 
+
+(symbol (lib_id "power:GND") (at 170.18 229.87 0.0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "7bc8fab2-e814-4241-98cf-f1f7635dcbc2") 
+
+(property "Reference" "#PWR26" (at 173.52 229.87 0.0) (effects (font (size 1.27 1.27)) (justify left) hide)) 
+
+(property "Value" "GND" (at 173.52 232.41 0.0) (effects (font (size 1.27 1.27)) (justify left))) 
+
+(property "Footprint" "" (at 170.18 229.87 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (at 170.18 229.87 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Description" "" (at 170.18 229.87 0) (effects (font (size 1.27 1.27)) hide)) (pin "1" (uuid "d6fccf5a-6ff8-4bb8-a53b-ecdcb764365c")) (instances (project "bldc_motor_cntroller_v8" (path "/d07af570-fd02-483e-846e-05c88e7d86cb/00000000-0000-0000-0000-00005e2d9349" (reference "#PWR26") (unit 1))))) 
+
+(label "OVP_VSENSE" (at 53.34 189.23 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f5ff102c-19e6-4aaf-9469-e0aa8d36fd3a")) 
+
+(label "OVP_VSENSE" (at 68.58 186.69 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "47435e6c-f844-4dc1-b094-6e395d286621")) 
+
+(label "OVP_VREF" (at 43.18 222.25 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e05ad569-8e76-492f-9932-0817f3742e13")) 
+
+(label "OVP_VREF" (at 68.58 191.76999999999998 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "d9a26429-7dc1-4796-8048-1abac4f1fa0d")) 
+
+(label "OVP_ACTIVE" (at 91.44 171.45 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f20aa301-3ebf-46d4-b6ee-3989bd41ee61")) 
+
+(label "OVP_ACTIVE" (at 69.85 222.25 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "492d85ed-d95b-42a6-9af6-b614bea95158")) 
+
+(label "OVP_VMID" (at 60.96 217.17000000000002 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "f332d4ef-8dce-4125-bda0-4889d3280a36")) 
+
+(label "nOVP_ACTIVE" (at 115.57 215.9 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "870dcec3-1cd2-43de-8114-5375e9d645fb")) 
+
+(label "nOVP_ACTIVE" (at 152.4 222.25 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "6110f14c-6f03-40a1-a22e-34695c890369")) 
+
+(label "OVP_ACTIVE_DLY" (at 124.46 179.07 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d66e9557-dfe9-4248-828f-5530d59a4260")) 
+
+(label "OVP_ACTIVE_DLY" (at 152.4 186.69 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "36ec89a0-e8ce-4619-aed9-ea4763dd3df5")) 
+
+(global_label "OVP_IN_HI" (shape input) (at 138.43 181.61 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "f8f54056-046d-48c3-9249-47b9b82e914c") 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.1791 181.61 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(global_label "OVP_IN_LI" (shape input) (at 139.70000000000002 210.82 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "f5583e98-f6b3-4203-a61d-5e916701516d") 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 133.44910000000002 210.82 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(global_label "U3_HI_DRV" (shape input) (at 182.88 184.15 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "e74611bb-bc33-43e4-8422-aaa948dd291e") 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 176.6291 184.15 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(global_label "U3_LI_DRV" (shape input) (at 182.88 219.70999999999998 0.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "4ee08220-3d51-4f80-b4eb-81f4c508c15e") 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 176.6291 219.70999999999998 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(junction (at 39.370000000000005 189.23) (diameter 0) (color 0 0 0 0) (uuid "bea0da19-1b66-408a-9a48-5cdb88428c5e")) 
+
+(junction (at 50.800000000000004 189.23) (diameter 0) (color 0 0 0 0) (uuid "cdb6f800-1f49-4d8e-a244-86b7960d1d5c")) 
+
+(junction (at 39.370000000000005 222.25) (diameter 0) (color 0 0 0 0) (uuid "0ffadf61-4d71-415f-9a27-5166705bc7f9")) 
+
+(junction (at 91.44 189.23) (diameter 0) (color 0 0 0 0) (uuid "73ce550a-46fb-465b-a26c-f82a899728a2")) 
+
+(junction (at 91.44 175.26) (diameter 0) (color 0 0 0 0) (uuid "a987646c-6a9d-4d47-8e66-f18227f2fa47")) 
+
+(junction (at 96.52 189.23) (diameter 0) (color 0 0 0 0) (uuid "126fb292-6718-49c5-946d-10342dabe10e")) 
+
+(junction (at 104.14 189.23) (diameter 0) (color 0 0 0 0) (uuid "b0666fc7-7b69-48a9-866d-43487c668e82")) 
+
+(junction (at 60.96 217.17000000000002) (diameter 0) (color 0 0 0 0) (uuid "18991dd7-507f-45f8-8702-5b0066107c57")) 
+
+(junction (at 104.14 215.9) (diameter 0) (color 0 0 0 0) (uuid "0d5a0cb4-6f0b-4466-a711-10b409942afd")) 
+
+(junction (at 104.14 219.70999999999998) (diameter 0) (color 0 0 0 0) (uuid "9b8d13a5-d6fe-4e7c-a519-9a6a8b236140")) 
+
+(junction (at 124.46 182.88) (diameter 0) (color 0 0 0 0) (uuid "59ea53de-2cce-4500-b26e-d5ceca213877")) 
+
+(junction (at 124.46 191.76999999999998) (diameter 0) (color 0 0 0 0) (uuid "e50beb65-0b4d-4a28-ba89-7fa42c3acc84")) 
+
+(junction (at 140.97 181.61) (diameter 0) (color 0 0 0 0) (uuid "53d16ea7-8cc0-4146-81f0-e9d5e3408a9b")) 
+
+(junction (at 142.24 210.82) (diameter 0) (color 0 0 0 0) (uuid "dcad5d82-3c25-48fb-a241-f4268a081277")) 
+
+(wire (pts 
+
+(xy 25.400000000000002 185.42000000000002) 
+
+(xy 25.400000000000002 182.88)) (stroke (width 0) (type default)) (uuid "a0aa4ca1-602d-4a99-9234-7900b6a411ea")) 
+
+(wire (pts 
+
+(xy 25.400000000000002 193.04) 
+
+(xy 25.400000000000002 195.57999999999998)) (stroke (width 0) (type default)) (uuid "2b6424a4-4fa9-4330-81ee-4c6ba1bc14d5")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 177.8) 
+
+(xy 39.370000000000005 175.26)) (stroke (width 0) (type default)) (uuid "e30b7cb1-bb99-423f-b27e-7e0a24750314")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 200.66) 
+
+(xy 39.370000000000005 203.2)) (stroke (width 0) (type default)) (uuid "94db44c0-780d-4a07-b8a2-f205487b60f4")) 
+
+(wire (pts 
+
+(xy 50.800000000000004 199.39) 
+
+(xy 50.800000000000004 201.93)) (stroke (width 0) (type default)) (uuid "11a4b857-75d8-4ae7-9fcf-0a693d764a6b")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 212.09) 
+
+(xy 39.370000000000005 209.55)) (stroke (width 0) (type default)) (uuid "d621112e-db65-4d6a-b428-ee3ff4df915b")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 233.68) 
+
+(xy 39.370000000000005 236.22)) (stroke (width 0) (type default)) (uuid "48e18e69-81f2-454c-8c87-a4aed8eea465")) 
+
+(wire (pts 
+
+(xy 96.52 177.8) 
+
+(xy 96.52 175.26)) (stroke (width 0) (type default)) (uuid "8438741a-c485-45ce-9ef7-1c011a373150")) 
+
+(wire (pts 
+
+(xy 104.14 208.28) 
+
+(xy 104.14 205.74)) (stroke (width 0) (type default)) (uuid "73f16096-dd47-4e99-8aca-ad30ab568769")) 
+
+(wire (pts 
+
+(xy 60.96 209.55) 
+
+(xy 60.96 207.01)) (stroke (width 0) (type default)) (uuid "d374522b-a698-437d-b8eb-29e2af58c544")) 
+
+(wire (pts 
+
+(xy 60.96 232.41) 
+
+(xy 60.96 234.95)) (stroke (width 0) (type default)) (uuid "a9c2c115-8d69-4364-b496-56921933aa4e")) 
+
+(wire (pts 
+
+(xy 129.54000000000002 196.85) 
+
+(xy 129.54000000000002 199.39)) (stroke (width 0) (type default)) (uuid "2702dd88-6436-4269-a535-8d4fb7599bfb")) 
+
+(wire (pts 
+
+(xy 140.97 190.5) 
+
+(xy 140.97 193.04)) (stroke (width 0) (type default)) (uuid "c708e8ce-dc3a-4474-8d09-c61170a585a0")) 
+
+(wire (pts 
+
+(xy 142.24 218.44) 
+
+(xy 142.24 220.98000000000002)) (stroke (width 0) (type default)) (uuid "334ac4b9-6db5-45b8-be79-cd9058be9ef6")) 
+
+(wire (pts 
+
+(xy 119.38 229.87) 
+
+(xy 119.38 227.32999999999998)) (stroke (width 0) (type default)) (uuid "968adf20-32c2-4ca3-9de6-d866a06da962")) 
+
+(wire (pts 
+
+(xy 119.38 234.95) 
+
+(xy 119.38 237.49)) (stroke (width 0) (type default)) (uuid "a8f1d639-3103-4f3a-b183-275a76c0a740")) 
+
+(wire (pts 
+
+(xy 126.99999999999999 229.87) 
+
+(xy 126.99999999999999 227.32999999999998)) (stroke (width 0) (type default)) (uuid "86733f43-9bf2-41ff-8a39-eb2dc82ee1d6")) 
+
+(wire (pts 
+
+(xy 126.99999999999999 234.95) 
+
+(xy 126.99999999999999 237.49)) (stroke (width 0) (type default)) (uuid "50812361-3e0c-4281-a8eb-e67aa9bfbf9b")) 
+
+(wire (pts 
+
+(xy 134.62 229.87) 
+
+(xy 134.62 227.32999999999998)) (stroke (width 0) (type default)) (uuid "5b4ac4f9-e712-45d3-af15-2116c7b77dc8")) 
+
+(wire (pts 
+
+(xy 134.62 234.95) 
+
+(xy 134.62 237.49)) (stroke (width 0) (type default)) (uuid "1e38dea2-ffbf-4e6e-81a2-3e2c9b7f3b40")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 185.42000000000002) 
+
+(xy 39.370000000000005 189.23)) (stroke (width 0) (type default)) (uuid "3e9329f1-2aee-4805-b412-a3bbfd9379b3")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 189.23) 
+
+(xy 39.370000000000005 193.04)) (stroke (width 0) (type default)) (uuid "51de13f3-96cc-4266-90c4-88b647ccd885")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 189.23) 
+
+(xy 50.800000000000004 189.23)) (stroke (width 0) (type default)) (uuid "5a27acd6-c05c-4367-8b5a-f524b3f4dff2")) 
+
+(wire (pts 
+
+(xy 50.800000000000004 189.23) 
+
+(xy 50.800000000000004 194.31)) (stroke (width 0) (type default)) (uuid "1601daf0-e8b9-4b6d-a19b-af2ff47a8f45")) 
+
+(wire (pts 
+
+(xy 50.800000000000004 189.23) 
+
+(xy 53.34 189.23)) (stroke (width 0) (type default)) (uuid "a9ad2a12-ac8d-4d50-bcb7-24f3ad1a06fa")) 
+
+(wire (pts 
+
+(xy 68.58 186.69) 
+
+(xy 71.11999999999999 186.69)) (stroke (width 0) (type default)) (uuid "9720c39b-9657-4f54-963c-cddbeafde878")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 219.70999999999998) 
+
+(xy 39.370000000000005 222.25)) (stroke (width 0) (type default)) (uuid "4a61749f-d8fd-46a0-8f6b-78b981b60803")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 222.25) 
+
+(xy 39.370000000000005 226.06)) (stroke (width 0) (type default)) (uuid "208b77de-a3ee-4b65-80ba-3eeb399fc0ec")) 
+
+(wire (pts 
+
+(xy 39.370000000000005 222.25) 
+
+(xy 43.18 222.25)) (stroke (width 0) (type default)) (uuid "7e47577f-2660-4ad6-9724-d4243147fabe")) 
+
+(wire (pts 
+
+(xy 71.11999999999999 191.76999999999998) 
+
+(xy 68.58 191.76999999999998)) (stroke (width 0) (type default)) (uuid "6dc726a6-ae65-412f-aed6-97eefd0e6d34")) 
+
+(wire (pts 
+
+(xy 86.36 189.23) 
+
+(xy 91.44 189.23)) (stroke (width 0) (type default)) (uuid "5634b13d-f656-4bbf-b680-bb0b7e87b530")) 
+
+(wire (pts 
+
+(xy 91.44 189.23) 
+
+(xy 96.52 189.23)) (stroke (width 0) (type default)) (uuid "773be5c0-e699-44a0-b613-7dee897376a3")) 
+
+(wire (pts 
+
+(xy 91.44 189.23) 
+
+(xy 91.44 175.26)) (stroke (width 0) (type default)) (uuid "f1f2ce22-fdb9-49f6-b6dd-f6f598fc300d")) 
+
+(wire (pts 
+
+(xy 91.44 175.26) 
+
+(xy 82.55 175.26)) (stroke (width 0) (type default)) (uuid "282953a7-3313-48b8-b14b-b9d451ff7f11")) 
+
+(wire (pts 
+
+(xy 91.44 175.26) 
+
+(xy 91.44 171.45)) (stroke (width 0) (type default)) (uuid "41a80240-36b8-400e-8d62-7a6bb2f8435c")) 
+
+(wire (pts 
+
+(xy 96.52 189.23) 
+
+(xy 96.52 185.42000000000002)) (stroke (width 0) (type default)) (uuid "65a64e0b-680b-41ad-bcd7-80a6fbcc91ff")) 
+
+(wire (pts 
+
+(xy 96.52 189.23) 
+
+(xy 104.14 189.23)) (stroke (width 0) (type default)) (uuid "97d98227-67bf-49f5-a195-499b7b1403bb")) 
+
+(wire (pts 
+
+(xy 60.96 217.17000000000002) 
+
+(xy 60.96 224.79000000000002)) (stroke (width 0) (type default)) (uuid "8a6c03c9-67d4-4a95-b3d0-67e5c91bf7b3")) 
+
+(wire (pts 
+
+(xy 104.14 219.70999999999998) 
+
+(xy 104.14 215.9)) (stroke (width 0) (type default)) (uuid "81e4ed49-5cf1-4f64-9be4-f73789e79fae")) 
+
+(wire (pts 
+
+(xy 104.14 215.9) 
+
+(xy 115.57 215.9)) (stroke (width 0) (type default)) (uuid "fce69fea-be64-4a9a-bcc5-60f9b6382faf")) 
+
+(wire (pts 
+
+(xy 154.94 222.25) 
+
+(xy 152.4 222.25)) (stroke (width 0) (type default)) (uuid "ae592c39-a7f6-4bd7-b005-b6bd5dc8f5be")) 
+
+(wire (pts 
+
+(xy 119.38 182.88) 
+
+(xy 124.46 182.88)) (stroke (width 0) (type default)) (uuid "98d79519-fa69-4244-8b29-1aa7d101f6f4")) 
+
+(wire (pts 
+
+(xy 124.46 182.88) 
+
+(xy 124.46 179.07)) (stroke (width 0) (type default)) (uuid "39c34398-42bb-44a0-bb09-1d898caf60ae")) 
+
+(wire (pts 
+
+(xy 124.46 182.88) 
+
+(xy 124.46 191.76999999999998)) (stroke (width 0) (type default)) (uuid "63bba42f-9ff7-4688-8482-df0762bd4230")) 
+
+(wire (pts 
+
+(xy 119.38 191.76999999999998) 
+
+(xy 124.46 191.76999999999998)) (stroke (width 0) (type default)) (uuid "11e441f9-a4dc-45b6-93c8-6ab942915835")) 
+
+(wire (pts 
+
+(xy 124.46 191.76999999999998) 
+
+(xy 129.54000000000002 191.76999999999998)) (stroke (width 0) (type default)) (uuid "d9aa4b46-50a7-406e-9248-de181b21b0d3")) 
+
+(wire (pts 
+
+(xy 154.94 186.69) 
+
+(xy 152.4 186.69)) (stroke (width 0) (type default)) (uuid "13a2118c-8bc9-447a-a68f-70d4de3636cf")) 
+
+(wire (pts 
+
+(xy 140.97 182.88) 
+
+(xy 140.97 181.61)) (stroke (width 0) (type default)) (uuid "f663ef18-38ec-48f4-9945-f8a5c77a8172")) 
+
+(wire (pts 
+
+(xy 140.97 181.61) 
+
+(xy 154.94 181.61)) (stroke (width 0) (type default)) (uuid "aa4d73e1-bcfb-49ea-a7f6-01d4659d8a2d")) 
+
+(wire (pts 
+
+(xy 140.97 181.61) 
+
+(xy 138.43 181.61)) (stroke (width 0) (type default)) (uuid "3be40382-965e-4426-9880-52b1d13f89d5")) 
+
+(wire (pts 
+
+(xy 142.24 210.82) 
+
+(xy 139.70000000000002 210.82)) (stroke (width 0) (type default)) (uuid "ff42adeb-2179-4267-a3a0-d6091e6e0502")) 
+
+(label "OVP_VSENSE" (at 72.39 175.26 180.0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "e66617e9-b9e1-4a33-a0d4-59564da88dab")) 
+
+(wire (pts 
+
+(xy 72.39 175.26) 
+
+(xy 74.92999999999999 175.26)) (stroke (width 0) (type default)) (uuid "d2b85ab8-c952-4a62-a075-9fd29042cc1f")) 
+
+(wire (pts 
+
+(xy 104.14 189.23) 
+
+(xy 104.14 182.88)) (stroke (width 0) (type default)) (uuid "6a3012d2-97bf-4034-a56a-61bdb97fb890")) 
+
+(wire (pts 
+
+(xy 104.14 182.88) 
+
+(xy 111.75999999999999 182.88)) (stroke (width 0) (type default)) (uuid "5dc338f7-8241-46a0-9026-65b766faef17")) 
+
+(wire (pts 
+
+(xy 104.14 189.23) 
+
+(xy 104.14 191.76999999999998)) (stroke (width 0) (type default)) (uuid "609f577a-0b41-4c2f-975b-ca19b9b2780d")) 
+
+(wire (pts 
+
+(xy 104.14 191.76999999999998) 
+
+(xy 111.75999999999999 191.76999999999998)) (stroke (width 0) (type default)) (uuid "ef54aefb-dffc-452a-a40e-ad5a16c61ff4")) 
+
+(wire (pts 
+
+(xy 142.24 210.82) 
+
+(xy 151.13000000000002 210.82)) (stroke (width 0) (type default)) (uuid "028c744c-16ee-4415-bff8-626530970b0c")) 
+
+(wire (pts 
+
+(xy 151.13000000000002 210.82) 
+
+(xy 151.13000000000002 217.17000000000002)) (stroke (width 0) (type default)) (uuid "d57f8ab8-c0cc-41a0-84ff-34f08ec8f9bc")) 
+
+(wire (pts 
+
+(xy 151.13000000000002 217.17000000000002) 
+
+(xy 154.94 217.17000000000002)) (stroke (width 0) (type default)) (uuid "ca6b65ab-a209-4c4d-8941-0ae25f9359c6")) 
+
+(text "HYBRID HARDWARE VDC OVP: Trip 48.86V / Clear 47.07V (LM393B + LM4040-2.5),\\n~400ns Break-Before-Make Interlock (U3.LI off before U3.HI on), 5.0SMDJ48A TVS" (at 20.32 165.1 0.0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "6c8f59cd-baea-4920-8c67-88472735460e")) 
+
+(wire (pts 
+
+(xy 60.96 217.17000000000002) 
+
+(xy 78.74 217.17000000000002)) (stroke (width 0) (type default)) (uuid "4d2a241b-d5ce-498f-94a1-13d980c924a6")) 
+
+(wire (pts 
+
+(xy 69.85 222.25) 
+
+(xy 78.74 222.25)) (stroke (width 0) (type default)) (uuid "db6d6958-e24d-494c-8324-836d9e7de885")) 
+
+(wire (pts 
+
+(xy 93.97999999999999 219.70999999999998) 
+
+(xy 104.14 219.70999999999998)) (stroke (width 0) (type default)) (uuid "f862532d-f23f-4fe6-9a34-b1421b810c8e"))
+	(global_label "OVP_IN_HI"
+		(shape output)
+		(at 45.72 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7813b224-82d9-4379-b486-8755297e9827")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OVP_IN_LI"
+		(shape output)
+		(at 45.72 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbf6a943-caeb-4228-82c4-9d83ad28ad50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3_HI_DRV"
+		(shape input)
+		(at 61.976 73.152 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cf704e2-05d7-4915-a3de-a377d3fa2a16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.976 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3_LI_DRV"
+		(shape input)
+		(at 68.453 75.692 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02104ae6-7779-4588-b607-b7ffdd6927b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.453 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)
