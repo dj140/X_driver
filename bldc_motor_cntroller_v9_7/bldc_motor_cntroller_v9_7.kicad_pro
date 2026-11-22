@@ -514,7 +514,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bldc_motor_cntroller_v9_6.kicad_pro",
+    "filename": "bldc_motor_cntroller_v9_7.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1031,8 +1031,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bldc_motor_cntroller_v9_6.kicad_sch",
-        "name": "bldc_motor_cntroller_v9_6",
+        "filename": "bldc_motor_cntroller_v9_7.kicad_sch",
+        "name": "bldc_motor_cntroller_v9_7",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],

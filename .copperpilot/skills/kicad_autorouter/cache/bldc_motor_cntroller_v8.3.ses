@@ -1,0 +1,1371 @@
+(session "bldc_motor_cntroller_v8.3"
+  (base_design "bldc_motor_cntroller_v8.3")
+  (placement
+    (resolution um 10)
+    (component "Capacitor_SMD:C_0402_1005Metric"
+      (place C22 502000 -750000 front 90)
+      (place C19 1063000 -598000 front 90)
+      (place C14 1120500 -818800 front 0)
+      (place C15 1094500 -818800 front 0)
+      (place C3 1045500 -818800 front 0)
+      (place C2 1068500 -818800 front 0)
+      (place C32 446500 -818800 front 0)
+      (place C33 420500 -818800 front 0)
+      (place C34 394500 -818800 front 0)
+      (place C38 355150 -663000 front 0)
+      (place R61 710000 -248000 front 0)
+      (place R42 355150 -640000 front 0)
+      (place TH2 385150 -635000 front 0)
+      (place C23 368500 -818800 front 0)
+      (place C24 345500 -818800 front 0)
+      (place C13 1146500 -818800 front 0)
+      (place R43 645000 -650000 front 0)
+      (place R44 645000 -665000 front 0)
+      (place R50 816000 -543000 front 0)
+      (place R45 645000 -695000 front 0)
+      (place R46 645000 -712000 front 0)
+      (place C96 1138000 -253000 front 0)
+      (place C98 1160000 -253000 front 0)
+      (place C36 1172500 -818800 front 0)
+      (place C6 834000 -464000 front 180)
+      (place C7 834000 -447000 front 180)
+      (place C91 834000 -412500 front 180)
+      (place C82 720000 -532000 front 270)
+      (place C87 787500 -532000 front 270)
+      (place C92 634000 -472500 front 270)
+      (place C93 612000 -472500 front 270)
+      (place C88 765000 -532000 front 270)
+      (place R26 431500 -698000 front 270)
+      (place R3 1131500 -698000 front 270)
+      (place R7 1199500 -671000 front 270)
+      (place R10 1139500 -671000 front 270)
+      (place R1 1210500 -833900 front 270)
+      (place R8 1155500 -833900 front 270)
+      (place R13 1030000 -833900 front 270)
+      (place R2 1281000 -833900 front 270)
+      (place R9 1085000 -833900 front 270)
+      (place R14 959500 -833900 front 270)
+      (place R30 439500 -671000 front 270)
+      (place R24 510500 -833900 front 270)
+      (place R25 581000 -833900 front 270)
+      (place R28 455500 -833900 front 270)
+      (place R33 330000 -833900 front 270)
+      (place R34 259500 -833900 front 270)
+      (place C59 903000 -525000 front 270)
+      (place C63 903000 -549000 front 270)
+      (place C52 730000 -605000 front 270)
+      (place R51 706000 -725000 front 270)
+      (place TH3 732000 -725000 front 270)
+      (place R29 385000 -833900 front 270)
+      (place C72 682000 -725000 front 270)
+      (place C4 1147500 -698000 front 270)
+      (place R54 1052000 -295000 front 270)
+      (place C85 665000 -410000 front 0)
+      (place C90 834000 -432500 front 0)
+      (place C84 698000 -532000 front 180)
+      (place C83 665000 -475000 front 180)
+      (place C102 618000 -905000 front 90)
+      (place C101 1194900 -631000 front 0)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::1"
+      (place C25 447500 -698000 front 270)
+      (place R60 298000 -292000 front 270)
+      (place R58 320000 -292000 front 270)
+      (place R57 1160000 -292000 front 270)
+      (place R55 1182000 -292000 front 270)
+      (place R59 1138000 -292000 front 270)
+      (place R56 342000 -292000 front 270)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::2"
+      (place C26 463500 -698000 front 90)
+      (place C8 1067500 -698000 front 90)
+      (place C9 1115500 -698000 front 90)
+      (place C10 1202000 -776000 front 90)
+      (place C21 883500 -905000 front 90)
+      (place C17 1243500 -698000 front 90)
+      (place C20 1219500 -671000 front 90)
+      (place C29 367500 -698000 front 90)
+      (place C30 415500 -698000 front 90)
+      (place R27 479500 -698000 front 90)
+      (place R5 1239500 -671000 front 90)
+      (place R6 1211500 -698000 front 90)
+      (place R4 1179500 -698000 front 90)
+      (place R19 1179500 -671000 front 90)
+      (place R20 1195500 -698000 front 90)
+      (place R21 1159500 -671000 front 90)
+      (place R23 883500 -883500 front 90)
+      (place R17 1099500 -698000 front 90)
+      (place R22 1227500 -698000 front 90)
+      (place R18 1083500 -698000 front 90)
+      (place R37 399500 -698000 front 90)
+      (place R38 383500 -698000 front 90)
+      (place R39 495500 -698000 front 90)
+      (place R40 479500 -671000 front 90)
+      (place TH1 883500 -862000 front 90)
+      (place C58 903000 -474000 front 90)
+      (place C62 903000 -498000 front 90)
+      (place C78 119500 -800000 front 90)
+      (place C80 819500 -800000 front 90)
+      (place C79 658500 -800000 front 90)
+      (place C31 336000 -750000 front 90)
+      (place C5 1163500 -698000 front 90)
+      (place C81 1358500 -800000 front 90)
+      (place C11 1036000 -750000 front 90)
+      (place C94 948000 -295000 front 90)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::3"
+      (place C43 740000 -532000 front 270)
+      (place C89 712500 -368000 front 270)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric"
+      (place C12 1037000 -598000 front 90)
+      (place C18 1010000 -598000 front 90)
+      (place C71 1284000 -1018000 front 270)
+      (place C53 584000 -1018000 front 270)
+      (place C56 558000 -1018000 front 270)
+      (place C75 1258000 -1018000 front 270)
+    )
+    (component "Diode_SMD:D_SOD-123F"
+      (place D1 1165000 -618000 front 270)
+      (place D4 215000 -285000 front 180)
+    )
+    (component "Inductor_SMD:L_Taiyo-Yuden_NR-60xx"
+      (place L1 1112000 -598000 front 180)
+    )
+    (component "NetTie:NetTie-2_SMD_Pad0.5mm"
+      (place NT3 979500 -1016500 front 0)
+      (place NT1 979500 -1042000 front 0)
+      (place NT7 279500 -1016500 front 0)
+      (place NT5 279500 -1042000 front 0)
+    )
+    (component "NetTie:NetTie-2_SMD_Pad0.5mm::1"
+      (place NT4 935500 -1004000 front 0)
+      (place NT2 935500 -1029500 front 0)
+      (place NT6 235500 -1029500 front 0)
+      (place NT8 235500 -1004000 front 0)
+    )
+    (component "Resistor_SMD:R_0402_1005Metric"
+      (place R52 175000 -350500 front 180)
+      (place R53 175000 -369500 front 180)
+      (place C95 298000 -253000 front 180)
+      (place C99 342000 -253000 front 180)
+      (place C41 645000 -635000 front 180)
+      (place C97 320000 -253000 front 180)
+      (place C100 1182000 -253000 front 180)
+      (place R63 618000 -883500 front 90)
+      (place TH5 618000 -862000 front 90)
+    )
+    (component "Resistor_SMD:R_0402_1005Metric::1"
+      (place R11 956500 -1042000 front 0)
+      (place R31 256500 -1042000 front 0)
+      (place R35 256500 -1016500 front 0)
+      (place R15 956500 -1016500 front 0)
+      (place C86 665000 -456000 front 0)
+    )
+    (component "Resistor_SMD:R_2512_6332Metric"
+      (place R16 960000 -975000 front 0)
+      (place R12 954500 -1071500 front 0)
+      (place R32 254500 -1071500 front 0)
+      (place R36 260000 -975000 front 0)
+    )
+    (component "TestPoint:TestPoint_Pad_D1.0mm"
+      (place TP4 205000 -346500 front 0)
+      (place TP5 205000 -373500 front 0)
+      (place TP1 986000 -568000 front 0)
+      (place TP3 848000 -543000 front 0)
+      (place TP2 848000 -518000 front 0)
+      (place TP6 836000 -485000 front 0)
+      (place TP9 865000 -445000 front 0)
+      (place TP11 789000 -338000 front 0)
+      (place TP8 865000 -467000 front 0)
+      (place TP7 645000 -605000 front 0)
+      (place TP10 763000 -338000 front 0)
+      (place TP12 848000 -568000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5"
+      (place U4 935000 -485000 front 90)
+      (place U5 935000 -536000 front 90)
+    )
+    (component "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+      (place U6 750000 -450000 front 0)
+    )
+    (component "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+      (place J10 1160000 -205000 front 180)
+      (place J11 320000 -205000 front 180)
+    )
+    (component "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+      (place J5 450000 -205000 front 180)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric::1"
+      (place C16 839000 -800000 front 90)
+      (place C69 1219500 -800000 front 90)
+      (place C76 1315000 -800000 front 90)
+      (place C74 1291500 -800000 front 90)
+      (place C60 625500 -800000 front 90)
+      (place C64 730000 -800000 front 90)
+      (place C65 682000 -800000 front 90)
+      (place C66 706000 -800000 front 90)
+      (place C67 977000 -813000 front 90)
+      (place C68 1001500 -813000 front 90)
+      (place C61 863500 -800000 front 90)
+      (place C45 277000 -813000 front 90)
+      (place C48 835000 -625000 front 90)
+      (place C42 778000 -800000 front 90)
+      (place C44 802000 -800000 front 90)
+      (place C40 754000 -800000 front 90)
+      (place C46 301500 -813000 front 90)
+      (place C47 504500 -800000 front 90)
+      (place C54 552500 -800000 front 90)
+      (place C57 601000 -800000 front 90)
+      (place C55 576500 -800000 front 90)
+      (place C39 163500 -800000 front 90)
+      (place C51 528500 -800000 front 90)
+      (place C70 1243500 -800000 front 90)
+      (place C73 1267500 -800000 front 90)
+      (place C77 1339500 -800000 front 90)
+      (place C35 139000 -800000 front 90)
+    )
+    (component "MG-WDSON-8:Infineon-MG-WDSON-8-05_2016-901-MFG"
+      (place Q6 958000 -882000 front 270)
+      (place Q5 1028500 -882000 front 270)
+      (place Q4 1083500 -882000 front 270)
+      (place Q3 1154000 -882000 front 270)
+      (place Q10 383500 -882000 front 270)
+      (place Q9 454000 -882000 front 270)
+      (place Q7 509000 -882000 front 270)
+      (place Q8 579500 -882000 front 270)
+      (place Q11 328500 -882000 front 270)
+      (place Q12 258000 -882000 front 270)
+      (place Q2 1279500 -882000 front 270)
+      (place Q1 1209000 -882000 front 270)
+    )
+    (component "LED_SMD:LED_0402_1005Metric"
+      (place D3 816000 -524000 front 0)
+    )
+    (component "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+      (place J9 580000 -205000 front 180)
+    )
+    (component "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+      (place J7 1035000 -205000 front 180)
+      (place J8 965000 -205000 front 180)
+    )
+    (component "Diode_SMD:D_SOD-123F::1"
+      (place D2 690000 -605000 front 0)
+    )
+    (component "bldc_motor_cntroller:TestPoint_Round"
+      (place H5 840000 -728000 front 0)
+      (place H6 840000 -684000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:TDSON-8-1"
+      (place Q13 775000 -625000 front 0)
+      (place Q14 775000 -690000 front 0)
+    )
+    (component "bldc_motor_cntroller:CSTCE8M00G55-R0"
+      (place Y1 665000 -504000 front 270)
+    )
+    (component "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+      (place J4 65000 -360000 front 270)
+    )
+    (component "Package_SON:WSON-8_4x4mm_P0.8mm"
+      (place U3 690000 -650000 front 0)
+    )
+    (component "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+      (place H1 65000 -815000 front 0)
+      (place H2 65000 -965000 front 0)
+      (place H3 1435000 -815000 front 0)
+      (place H4 1435000 -965000 front 0)
+    )
+    (component "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+      (place J6 840000 -205000 front 180)
+    )
+    (component "Button_Switch_SMD:SW_SPST_B3U-1000P"
+      (place SW1 710000 -205000 front 180)
+    )
+    (component "bldc_motor_cntroller:DRV8301DCA"
+      (place U2 418000 -764500 front 270)
+      (place U1 1118000 -764500 front 270)
+    )
+    (component "Fuse:Fuse_1206_3216Metric"
+      (place F1 158000 -285000 front 0)
+    )
+    (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (place U7 1000000 -295000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-6"
+      (place U8 142000 -360000 front 0)
+    )
+    (component "Connector_AMASS:AMASS_MR60PB-M_1x03_P5.50mm_Vertical"
+      (place J1 1165000 -1065000 front 180)
+      (place J2 465000 -1065000 front 180)
+    )
+    (component "Capacitor_SMD:C_0603_1608Metric"
+      (place "C_AUX1" 861000 -636000 front 90)
+    )
+    (component "Capacitor_SMD:C_0603_1608Metric::1"
+      (place "C_HF1" 1244250 -899500 front 90)
+      (place "C_HF3" 993500 -899500 front 90)
+      (place "C_HF4" 544250 -899500 front 90)
+      (place "C_HF5" 419000 -899500 front 90)
+      (place "C_HF6" 293500 -899500 front 90)
+      (place "C_HF2" 1119000 -899500 front 90)
+    )
+    (component "Fiducial:Fiducial_1mm_Mask2mm"
+      (place FD1 125000 -205000 front 0)
+      (place FD2 1375000 -205000 front 0)
+      (place FD3 125000 -1080000 front 0)
+    )
+    (component "Resistor_SMD:R_0402_1005Metric::2"
+      (place R64 138000 -321000 front 0)
+      (place R62 1194900 -608000 front 0)
+      (place TH4 1194900 -585000 front 0)
+      (place R65 138000 -399000 front 0)
+    )
+    (component "Connector_AMASS:AMASS_XT90-M_1x02_P10.90mm_Vertical"
+      (place J3 750000 -1065000 front 0)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::4"
+      (place C27 766000 -368000 front 90)
+      (place C28 786000 -368000 front 90)
+      (place R47 727000 -635000 front 90)
+      (place R48 727000 -695000 front 90)
+      (place C1 1202000 -750000 front 90)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::5"
+      (place C49 967000 -485000 front 90)
+      (place C50 967000 -536000 front 90)
+    )
+    (component "MountingHole:MountingHole_4.3mm_M4_Pad"
+      (place H9 55000 -1080000 front 0)
+      (place H7 55000 -205000 front 0)
+      (place H10 1445000 -1080000 front 0)
+      (place H8 1445000 -205000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "10.0.8-10.0.8~ubuntu26.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle In1.Cu 8000 0 0)
+        )
+        (shape
+          (circle In2.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_700:350_um"
+        (shape
+          (circle F.Cu 7000 0 0)
+        )
+        (shape
+          (circle In1.Cu 7000 0 0)
+        )
+        (shape
+          (circle In2.Cu 7000 0 0)
+        )
+        (shape
+          (circle B.Cu 7000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(U2-CP1)"
+        (wire
+          (path F.Cu 3000
+            454432 -705904
+            443730 -716606
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            447500 -693150
+            448768 -693150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            454432 -698814
+            454432 -705904
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            420500 -726273
+            420500 -716606
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            443730 -716606
+            420500 -716606
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            448768 -693150
+            454432 -698814
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U2-CP2)"
+        (wire
+          (path F.Cu 3000
+            490628 -708342
+            487500 -705214
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            440634 -689454
+            440634 -697055
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            415500 -735940
+            489130 -735940
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            489130 -735940
+            490628 -734442
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            446429 -702850
+            447500 -702850
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            483589 -686541
+            443547 -686541
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            415500 -726273
+            415500 -735940
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            443547 -686541
+            440634 -689454
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            440634 -697055
+            446429 -702850
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            487500 -690452
+            483589 -686541
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            490628 -734442
+            490628 -708342
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            487500 -705214
+            487500 -690452
+          )
+          (type protect)
+        )
+      )
+      (net "/Motor Driver/AVDD"
+        (wire
+          (path F.Cu 3000
+            1055500 -726273
+            1055500 -714850
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1055500 -714850
+            1067500 -702850
+          )
+          (type protect)
+        )
+      )
+      (net "/Motor Driver/DVDD"
+        (wire
+          (path F.Cu 3000
+            1075500 -726273
+            1075500 -716606
+            1101740 -716606
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1101740 -716606
+            1115500 -702850
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-BST_B)"
+        (wire
+          (path F.Cu 3000
+            1120500 -802727
+            1120500 -812394
+            1125350 -817244
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1125350 -817244
+            1125350 -818800
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D1-K)"
+        (wire
+          (path F.Cu 3000
+            1147000 -630817
+            1171890 -655709
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1208910 -764568
+            1208910 -774673
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1171890 -678801
+            1179080 -685992
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1187500 -705358
+            1208910 -726768
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1183290 -685992
+            1187500 -690200
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1160500 -812394
+            1155500 -812394
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1135500 -630817
+            1147000 -630817
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1160500 -791207
+            1160500 -812394
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1187500 -690200
+            1187500 -705358
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1208910 -774673
+            1202730 -780850
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1155500 -802727
+            1155500 -812394
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1147000 -630817
+            1165000 -612817
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1187140 -764568
+            1160500 -791207
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1202730 -780850
+            1202000 -780850
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1208910 -764568
+            1187140 -764568
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1179080 -685992
+            1183290 -685992
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1171890 -655709
+            1171890 -678801
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1165000 -604000
+            1165000 -612817
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1135500 -598000
+            1135500 -630817
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1208910 -726768
+            1208910 -764568
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-BST_BK)"
+        (wire
+          (path F.Cu 3000
+            1165500 -793060
+            1187410 -771150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1187410 -771150
+            1202000 -771150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1165500 -802727
+            1165500 -793060
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-BST_C)"
+        (wire
+          (path F.Cu 3000
+            1095500 -802727
+            1095500 -812394
+            1099350 -816244
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1099350 -816244
+            1099350 -818800
+          )
+          (type protect)
+        )
+      )
+      (net "/Motor Driver/SP2"
+        (wire
+          (path F.Cu 2000
+            911350 -816339
+            938036 -789653
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1041160 -818287
+            1040650 -818800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1055500 -811894
+            1047560 -811894
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1012530 -789653
+            1041160 -818287
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1047560 -811894
+            1041160 -818287
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1055500 -802727
+            1055500 -811894
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            930500 -1004000
+            911350 -984850
+            911350 -816339
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            938036 -789653
+            1012530 -789653
+          )
+          (type protect)
+        )
+      )
+      (net "/Motor Driver/SN2"
+        (wire
+          (path F.Cu 2000
+            1060500 -802727
+            1060500 -811894
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1050350 -818800
+            1056379 -824829
+            1076771 -824829
+            1079502 -822098
+            1079502 -814904
+            1076492 -811894
+            1060500 -811894
+          )
+        )
+      )
+      (net "/Motor_Driver2/AVDD"
+        (wire
+          (path F.Cu 3000
+            355500 -726273
+            355500 -714850
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            355500 -714850
+            367500 -702850
+          )
+          (type protect)
+        )
+      )
+      (net "/Motor_Driver2/DVDD"
+        (wire
+          (path F.Cu 3000
+            375500 -726273
+            375500 -716606
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            375500 -716606
+            401744 -716606
+            415500 -702850
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U2-BST_A)"
+        (wire
+          (path F.Cu 3000
+            445500 -802727
+            445500 -812394
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            445500 -812394
+            451350 -818244
+            451350 -818800
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U2-BST_B)"
+        (wire
+          (path F.Cu 3000
+            420500 -802727
+            420500 -812394
+            425350 -817244
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            425350 -817244
+            425350 -818800
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U2-BST_C)"
+        (wire
+          (path F.Cu 3000
+            395500 -802727
+            395500 -812394
+            399350 -816244
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            399350 -816244
+            399350 -818800
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(NT3-Pad1)"
+        (wire
+          (path F.Cu 2000
+            961350 -1016500
+            974500 -1016500
+          )
+          (type protect)
+        )
+      )
+      (net "/I{slash}O Interface/BOOT0"
+        (wire
+          (path F.Cu 2000
+            693000 -205000
+            700317 -205000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            732500 -265650
+            700317 -233467
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            700317 -205000
+            700317 -233467
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            732500 -265650
+            732500 -393250
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U6-NRST)"
+        (wire
+          (path F.Cu 2000
+            667161 -448989
+            671138 -448989
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            677627 -442500
+            693250 -442500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            660150 -456000
+            667161 -448989
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            671138 -448989
+            677627 -442500
+          )
+          (type protect)
+        )
+      )
+      (net "/I{slash}O Interface/DEBUG_SWDIO"
+        (wire
+          (path F.Cu 2000
+            558676 -217414
+            558676 -258978
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            585000 -225000
+            585000 -220799
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            558676 -258978
+            722198 -422500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            585000 -220799
+            578199 -213998
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            578199 -213998
+            562092 -213998
+            558676 -217414
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            722198 -422500
+            806750 -422500
+          )
+          (type protect)
+        )
+      )
+      (net "/I{slash}O Interface/DEBUG_SWCLK"
+        (wire
+          (path F.Cu 2000
+            710437 -404124
+            575000 -268687
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            575000 -268687
+            575000 -225000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            787500 -393250
+            787500 -401360
+            784736 -404124
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            784736 -404124
+            710437 -404124
+          )
+          (type protect)
+        )
+      )
+      (net "/Motor_Driver2/SP2"
+        (wire
+          (path F.Cu 2000
+            355500 -811894
+            347556 -811894
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            211382 -816181
+            238199 -789364
+            312240 -789364
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            341163 -818287
+            340650 -818800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            211382 -984882
+            211382 -816181
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            347556 -811894
+            341163 -818287
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            312240 -789364
+            341163 -818287
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            230500 -1004000
+            211382 -984882
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            355500 -802727
+            355500 -811894
+          )
+          (type protect)
+        )
+      )
+      (net "/Motor_Driver2/SN2"
+        (wire
+          (path F.Cu 2000
+            360500 -802727
+            360500 -811894
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            350350 -818800
+            356379 -824829
+            376771 -824829
+            379502 -822098
+            379502 -814904
+            376492 -811894
+            360500 -811894
+          )
+        )
+      )
+      (net "Net-(NT7-Pad1)"
+        (wire
+          (path F.Cu 2000
+            261350 -1016500
+            274500 -1016500
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D3-A)"
+        (wire
+          (path F.Cu 2000
+            820850 -524000
+            820850 -533300
+            811150 -543000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-BST_A)"
+        (wire
+          (path F.Cu 3000
+            1151350 -818244
+            1151350 -818800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1145500 -802727
+            1145500 -812394
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1145500 -812394
+            1151350 -818244
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D2-K)"
+        (wire
+          (path F.Cu 3000
+            676000 -605000
+            684817 -605000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            730000 -600150
+            728586 -600150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            709000 -638000
+            709000 -629183
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            709000 -629183
+            704277 -624459
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            728586 -600150
+            704277 -624459
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            704277 -624459
+            684817 -605000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(F1-Pad1)"
+        (wire
+          (path F.Cu 3000
+            105450 -384500
+            116017 -384500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            105450 -335500
+            116017 -335500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            116017 -384500
+            116017 -312983
+            144000 -285000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-CP1)"
+        (wire
+          (path F.Cu 3000
+            1120500 -716606
+            1128190 -716606
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1146430 -693150
+            1147500 -693150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1128190 -716606
+            1139500 -705295
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1139500 -705295
+            1139500 -700079
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1120500 -726273
+            1120500 -716606
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1139500 -700079
+            1146430 -693150
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-CP2)"
+        (wire
+          (path F.Cu 3000
+            1154140 -697441
+            1154140 -689219
+            1151510 -686585
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1127530 -686585
+            1122020 -692093
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1147500 -702850
+            1148740 -702850
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1122020 -707211
+            1115500 -713734
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1151510 -686585
+            1127530 -686585
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1122020 -692093
+            1122020 -707211
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1148740 -702850
+            1154140 -697441
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1115500 -713734
+            1115500 -726273
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D4-A)"
+        (wire
+          (path F.Cu 2000
+            172000 -285000
+            201000 -285000
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)
