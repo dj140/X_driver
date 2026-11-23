@@ -1,0 +1,4 @@
+(version 1)
+(rule "HV_Power_Track_Clearance_Outside_Drivers"
+  (condition "A.NetClass == 'Power' && A.NetName != 'GND' && B.NetClass != 'Power' && (A.Type == 'track' || B.Type == 'track') && !A.inCourtyard('U7') && !A.inCourtyard('U8') && !B.inCourtyard('U7') && !B.inCourtyard('U8')")
+  (constraint clearance (min 0.25mm)))
