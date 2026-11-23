@@ -265,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v9_10"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1033,13 +1033,38 @@
       {
         "filename": "bldc_motor_cntroller_v9_10.kicad_sch",
         "name": "bldc_motor_cntroller_v9_10",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "d07af570-fd02-483e-846e-05c88e7d86cb"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1-4,#PWR1-279,C1-158,C_AUX1,C_HF1-6,D1-8,F1,FD1-3,H1-6,J1-12,L1,NT1-8,Q1-14,R1-74,SW1,TH1-5,TP1-12,U1-11,Y1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d07af570-fd02-483e-846e-05c88e7d86cb",
+      "bldc_motor_cntroller_v9_10"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e2d9349",
+      "Power Management"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e2d92f4",
+      "Motor Driver"
+    ],
+    [
+      "00000000-0000-0000-0000-00006062dc24",
+      "Motor_Driver2"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e2d91c5",
+      "Microcontroller Interface"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e2d92a8",
+      "I/O Interface"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

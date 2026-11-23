@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffaa",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffab",
     "zone_display_mode": 0
   },
   "git": {
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "bldc_motor_cntroller_v9_6.kicad_prl",
+    "filename": "bldc_motor_cntroller_v9_10.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

@@ -9,7 +9,7 @@ import shutil
 import subprocess
 import time
 
-CAND_DIR = pathlib.Path(".copperpilot/tmp/staging/v9_10_u5/candidate/bldc_motor_cntroller_v9_10")
+CAND_DIR = pathlib.Path(".copperpilot/tmp/staging/v9_10_ps_route/candidate/bldc_motor_cntroller_v9_10")
 PCB = CAND_DIR / "bldc_motor_cntroller_v9_10.kicad_pcb"
 PRO = CAND_DIR / "bldc_motor_cntroller_v9_10.kicad_pro"
 JAVA = "/home/sam/.config/CopperPilot/runtimes/java/25.0.4.1+1/jdk-25.0.4.1+1-jre/bin/java"
