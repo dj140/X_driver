@@ -9,7 +9,7 @@ import shutil
 import subprocess
 import time
 
-CAND_DIR = pathlib.Path(".copperpilot/tmp/staging/v9_12_route/candidate/bldc_motor_cntroller_v9_12")
+CAND_DIR = pathlib.Path(".copperpilot/tmp/staging/v9_12_route_p3/candidate/bldc_motor_cntroller_v9_12")
 PCB = CAND_DIR / "bldc_motor_cntroller_v9_12.kicad_pcb"
 PRO = CAND_DIR / "bldc_motor_cntroller_v9_12.kicad_pro"
 JAVA = "/home/sam/.config/CopperPilot/runtimes/java/25.0.4.1+1/jdk-25.0.4.1+1-jre/bin/java"
@@ -33,7 +33,9 @@ def count_layers(pcb_path: pathlib.Path) -> dict:
 
 
 def main() -> int:
+    global CAND_DIR, PCB, PRO
     ap = argparse.ArgumentParser()
+    ap.add_argument("--cand-dir", default=str(CAND_DIR), help="Staged candidate directory")
     ap.add_argument("--tag", required=True)
     ap.add_argument("--nets", required=True, help="Comma-separated exact KiCad net names")
     ap.add_argument("--max-passes", type=int, default=15)
@@ -43,6 +45,11 @@ def main() -> int:
     ap.add_argument("--extra-fcu-box", action="append", default=[])
     ap.add_argument("--extra-bcu-box", action="append", default=[])
     args = ap.parse_args()
+
+    cand_dir = pathlib.Path(args.cand_dir)
+    pcb = cand_dir / "bldc_motor_cntroller_v9_12.kicad_pcb"
+    pro = cand_dir / "bldc_motor_cntroller_v9_12.kicad_pro"
+    CAND_DIR, PCB, PRO = cand_dir, pcb, pro
 
     if "__CP_ISO_" in PCB.read_text():
         print("ABORT: PCB already contains __CP_ISO_ before shield!")
