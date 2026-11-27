@@ -1,0 +1,2114 @@
+** Drc report for bldc_motor_cntroller_v9_7.kicad_pcb **
+** Created on 2026-11-22T13:56:21 **
+** Report includes: Errors, Warnings **
+
+** Found 493 DRC violations **
+[clearance]: Clearance violation ( clearance 0.1800 mm; actual 0.1770 mm)
+    Local override; error
+    @(164.2000 mm, 26.3150 mm): Pad 1 [+3.3V] of R55 on F.Cu
+    @(163.6180 mm, 23.9580 mm): Track [/I/O Interface/ENC0_Z] on F.Cu, length 3.0130 mm
+[clearance]: Clearance violation ( clearance 0.1600 mm; actual 0.1590 mm)
+    Local override; error
+    @(143.0671 mm, 53.9586 mm): Via [/I/O Interface/ENC0_Z] on F.Cu - B.Cu
+    @(143.6210 mm, 53.7460 mm): Track [/I/O Interface/GPIO_6] on F.Cu, length 1.3294 mm
+[clearance]: Clearance violation ( clearance 0.1600 mm; actual 0.1588 mm)
+    Local override; error
+    @(117.2721 mm, 44.8061 mm): Via [/Microcontroller Interface/M1_CH] on F.Cu - B.Cu
+    @(116.7900 mm, 45.3480 mm): Track [/Microcontroller Interface/M1_BH] on F.Cu, length 1.2030 mm
+[clearance]: Clearance violation ( clearance 0.1800 mm; actual 0.1770 mm)
+    Local override; error
+    @(132.9500 mm, 52.4000 mm): Pad 4 [unconnected-(U5-NC-Pad4)] of U5 on F.Cu
+    @(135.6380 mm, 51.5380 mm): Track [+3.3VA] on F.Cu, length 4.5880 mm
+[clearance]: Clearance violation ( clearance 0.1600 mm; actual 0.1593 mm)
+    Local override; error
+    @(179.7500 mm, 59.6773 mm): Pad 1 [Net-(U1-RT_CLK)] of U1 on F.Cu
+    @(180.6070 mm, 58.8010 mm): Track [Net-(U1-COMP)] on F.Cu, length 1.3570 mm
+[clearance]: Clearance violation ( clearance 0.1600 mm; actual 0.1594 mm)
+    Local override; error
+    @(91.4130 mm, 43.5920 mm): Track [/Microcontroller Interface/M0_SO1] on F.Cu, length 11.0490 mm
+    @(102.2374 mm, 44.1334 mm): Via [/Microcontroller Interface/M0_SO2] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.1800 mm; actual 0.1670 mm)
+    Local override; error
+    @(134.5380 mm, 53.6380 mm): Track [+5V] on F.Cu, length 3.4880 mm
+    @(132.0000 mm, 54.6000 mm): Pad 2 [GND] of U5 on F.Cu
+[clearance]: Clearance violation ( clearance 0.1800 mm; actual 0.1620 mm)
+    Local override; error
+    @(132.0000 mm, 48.6000 mm): Pad 2 [GND] of U4 on F.Cu
+    @(131.0500 mm, 47.6380 mm): Track [+5V] on F.Cu, length 1.9000 mm
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(184.9700 mm, 56.7500 mm): Reference field of R22
+    @(185.0500 mm, 56.9500 mm): Reference field of C20
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(180.2000 mm, 60.4500 mm): Segment of U1 on F.Silkscreen
+    @(181.0000 mm, 63.5000 mm): Reference field of U1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(194.9700 mm, 52.0000 mm): Reference field of C52
+    @(195.8900 mm, 52.1406 mm): Segment of C52 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(173.5000 mm, 37.2300 mm): Reference field of R67
+    @(173.2627 mm, 36.7225 mm): Segment of R66 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(185.5000 mm, 36.3300 mm): Reference field of R73
+    @(185.3464 mm, 35.8800 mm): Segment of R72 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(185.3464 mm, 31.8800 mm): Segment of R70 on F.Silkscreen
+    @(185.5000 mm, 32.3300 mm): Reference field of R71
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(185.3464 mm, 33.8800 mm): Segment of R71 on F.Silkscreen
+    @(185.5000 mm, 34.3300 mm): Reference field of R72
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(200.8000 mm, 38.6300 mm): Reference field of R76
+    @(200.6922 mm, 38.1600 mm): Segment of C136 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(63.0000 mm, 63.5000 mm): Reference field of U2
+    @(62.2000 mm, 60.4500 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6050 mm, 53.0300 mm): Reference field of C26
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(171.4619 mm, 70.4000 mm): Reference field of C14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.6000 mm, 70.4000 mm): Reference field of C3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(55.8400 mm, 70.4000 mm): Reference field of C32
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(50.6600 mm, 70.4500 mm): Reference field of C24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(173.6119 mm, 70.4000 mm): Reference field of C13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(198.0100 mm, 48.6000 mm): Reference field of R48
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(192.4800 mm, 52.0100 mm): Reference field of U3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(174.6300 mm, 53.2900 mm): Reference field of C5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(194.9700 mm, 52.0000 mm): Reference field of C52
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(185.5000 mm, 36.3300 mm): Reference field of R73
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(173.5000 mm, 37.2300 mm): Reference field of R67
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61.7500 mm, 59.3000 mm): Circle of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.4000 mm, 59.5000 mm): Reference field of C101
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(185.5000 mm, 32.3300 mm): Reference field of R71
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(173.5000 mm, 39.0400 mm): Reference field of C133
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(185.5000 mm, 34.3300 mm): Reference field of R72
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(200.8000 mm, 38.6300 mm): Reference field of R76
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(179.7500 mm, 59.3000 mm): Circle of U1 on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(63.4000 mm, 65.5400 mm): Reference field of C22
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(63.4000 mm, 65.5400 mm): Reference field of C22
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(53.6200 mm, 57.1750 mm): Reference field of C25
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(53.6200 mm, 57.1750 mm): Reference field of C25
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(56.6050 mm, 53.0300 mm): Reference field of C26
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(56.6050 mm, 53.0300 mm): Reference field of C26
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(109.5500 mm, 56.5000 mm): Reference field of C43
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(109.5500 mm, 56.5000 mm): Reference field of C43
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(90.2000 mm, 49.8500 mm): Reference field of C27
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(90.2000 mm, 49.8500 mm): Reference field of C27
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(136.4600 mm, 47.4900 mm): Reference field of C49
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(136.4600 mm, 47.4900 mm): Reference field of C49
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(90.2000 mm, 45.9500 mm): Reference field of C28
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(90.2000 mm, 45.9500 mm): Reference field of C28
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(165.1200 mm, 56.2519 mm): Reference field of C8
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(165.1200 mm, 56.2519 mm): Reference field of C8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(168.8415 mm, 53.0519 mm): Reference field of C9
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(168.8415 mm, 53.0519 mm): Reference field of C9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(171.4619 mm, 70.4000 mm): Reference field of C14
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(171.4619 mm, 70.4000 mm): Reference field of C14
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(300.4000 mm, 145.2000 mm): Reference field of C10
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(300.4000 mm, 145.2000 mm): Reference field of C10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(280.3000 mm, 147.9500 mm): Reference field of C15
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(280.3000 mm, 147.9500 mm): Reference field of C15
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(135.5000 mm, 193.9000 mm): Reference field of C12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(135.5000 mm, 193.9000 mm): Reference field of C12
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(201.3300 mm, 67.7690 mm): Reference field of C18
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(201.3300 mm, 67.7690 mm): Reference field of C18
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(128.8000 mm, 192.6000 mm): Reference field of C19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(128.8000 mm, 192.6000 mm): Reference field of C19
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(90.2000 mm, 42.3500 mm): Reference field of C6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(90.2000 mm, 42.3500 mm): Reference field of C6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.6500 mm, 58.5000 mm): Reference field of C17
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(187.6500 mm, 58.5000 mm): Reference field of C17
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(185.0500 mm, 56.9500 mm): Reference field of C20
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(185.0500 mm, 56.9500 mm): Reference field of C20
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(90.2000 mm, 44.1500 mm): Reference field of C7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(90.2000 mm, 44.1500 mm): Reference field of C7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(168.6000 mm, 70.4000 mm): Reference field of C3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(168.6000 mm, 70.4000 mm): Reference field of C3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(275.5500 mm, 149.7500 mm): Reference field of C2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(275.5500 mm, 149.7500 mm): Reference field of C2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(104.6700 mm, 56.5000 mm): Reference field of C82
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(104.6700 mm, 56.5000 mm): Reference field of C82
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(96.4000 mm, 37.3500 mm): Reference field of C85
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(96.4000 mm, 37.3500 mm): Reference field of C85
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(117.9500 mm, 56.5000 mm): Reference field of C87
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(117.9500 mm, 56.5000 mm): Reference field of C87
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(103.1500 mm, 30.8000 mm): Reference field of C89
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(103.1500 mm, 30.8000 mm): Reference field of C89
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(118.8000 mm, 37.3500 mm): Reference field of C91
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(118.8000 mm, 37.3500 mm): Reference field of C91
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(94.5500 mm, 47.1000 mm): Reference field of C92
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(94.5500 mm, 47.1000 mm): Reference field of C92
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(94.5500 mm, 48.9000 mm): Reference field of C93
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(94.5500 mm, 48.9000 mm): Reference field of C93
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(113.0500 mm, 56.5000 mm): Reference field of C88
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(113.0500 mm, 56.5000 mm): Reference field of C88
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(122.0500 mm, 40.1500 mm): Reference field of C90
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(122.0500 mm, 40.1500 mm): Reference field of C90
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(47.2300 mm, 56.2300 mm): Reference field of C29
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(47.2300 mm, 56.2300 mm): Reference field of C29
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(50.8900 mm, 53.0300 mm): Reference field of C30
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(50.8900 mm, 53.0300 mm): Reference field of C30
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(55.8400 mm, 70.4000 mm): Reference field of C32
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(55.8400 mm, 70.4000 mm): Reference field of C32
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(92.3000 mm, 147.9500 mm): Reference field of C34
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(92.3000 mm, 147.9500 mm): Reference field of C34
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(184.9500 mm, 67.3730 mm): Reference field of D1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(184.9500 mm, 67.3730 mm): Reference field of D1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(190.4000 mm, 64.5500 mm): Reference field of L1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(190.4000 mm, 64.5500 mm): Reference field of L1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(19.8500 mm, 37.7500 mm): Reference field of R53
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(19.8500 mm, 37.7500 mm): Reference field of R53
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(104.0250 mm, 22.4250 mm): Reference field of R61
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(104.0250 mm, 22.4250 mm): Reference field of R61
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(54.2350 mm, 53.0300 mm): Reference field of R26
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(54.2350 mm, 53.0300 mm): Reference field of R26
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(59.4150 mm, 53.4300 mm): Reference field of R27
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(59.4150 mm, 53.4300 mm): Reference field of R27
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(189.3000 mm, 58.5000 mm): Reference field of R5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(189.3000 mm, 58.5000 mm): Reference field of R5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(172.2900 mm, 53.2900 mm): Reference field of R3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(172.2900 mm, 53.2900 mm): Reference field of R3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(183.2000 mm, 56.9900 mm): Reference field of R6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(183.2000 mm, 56.9900 mm): Reference field of R6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(183.2800 mm, 53.6900 mm): Reference field of R7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(183.2800 mm, 53.6900 mm): Reference field of R7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(177.3900 mm, 53.6900 mm): Reference field of R4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(177.3900 mm, 53.6900 mm): Reference field of R4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(181.3900 mm, 55.4519 mm): Reference field of R19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(181.3900 mm, 55.4519 mm): Reference field of R19
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(178.5700 mm, 55.4519 mm): Reference field of R20
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(178.5700 mm, 55.4519 mm): Reference field of R20
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(180.0400 mm, 55.4519 mm): Reference field of R21
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(180.0400 mm, 55.4519 mm): Reference field of R21
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.4877 mm, 55.4519 mm): Reference field of R17
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.4877 mm, 55.4519 mm): Reference field of R17
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(184.9700 mm, 56.7500 mm): Reference field of R22
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(184.9700 mm, 56.7500 mm): Reference field of R22
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(174.6000 mm, 50.8519 mm): Reference field of R10
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(174.6000 mm, 50.8519 mm): Reference field of R10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(166.3738 mm, 55.4519 mm): Reference field of R18
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(166.3738 mm, 55.4519 mm): Reference field of R18
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(155.9200 mm, 99.4000 mm): Reference field of R11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(155.9200 mm, 99.4000 mm): Reference field of R11
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(131.8000 mm, 104.5000 mm): Reference field of R16
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(131.8000 mm, 104.5000 mm): Reference field of R16
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.5000 mm, 104.5000 mm): Reference field of R12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(161.5000 mm, 104.5000 mm): Reference field of R12
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(56.6050 mm, 50.8300 mm): Reference field of R30
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(56.6050 mm, 50.8300 mm): Reference field of R30
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(49.4400 mm, 55.4300 mm): Reference field of R37
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(49.4400 mm, 55.4300 mm): Reference field of R37
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(48.3500 mm, 55.4300 mm): Reference field of R38
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.3500 mm, 55.4300 mm): Reference field of R38
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(60.6100 mm, 55.4300 mm): Reference field of R39
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(60.6100 mm, 55.4300 mm): Reference field of R39
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(62.0100 mm, 55.4300 mm): Reference field of R40
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(62.0100 mm, 55.4300 mm): Reference field of R40
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(24.7250 mm, 33.2250 mm): Reference field of TP4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(24.7250 mm, 33.2250 mm): Reference field of TP4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(133.2500 mm, 49.8500 mm): Reference field of U4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(133.2500 mm, 49.8500 mm): Reference field of U4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(110.0000 mm, 46.1000 mm): Reference field of U6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(110.0000 mm, 46.1000 mm): Reference field of U6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(167.3000 mm, 18.3000 mm): Reference field of J10
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(167.3000 mm, 18.3000 mm): Reference field of J10
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(87.5500 mm, 149.7500 mm): Reference field of C23
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(87.5500 mm, 149.7500 mm): Reference field of C23
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(50.6600 mm, 70.4500 mm): Reference field of C24
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(50.6600 mm, 70.4500 mm): Reference field of C24
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(37.9200 mm, 99.4000 mm): Reference field of R31
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(37.9200 mm, 99.4000 mm): Reference field of R31
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(43.5000 mm, 104.5000 mm): Reference field of R32
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(43.5000 mm, 104.5000 mm): Reference field of R32
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(8.2200 mm, 99.4000 mm): Reference field of R35
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(8.2200 mm, 99.4000 mm): Reference field of R35
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(13.8000 mm, 104.5000 mm): Reference field of R36
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(13.8000 mm, 104.5000 mm): Reference field of R36
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(79.3000 mm, 18.3000 mm): Reference field of J5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(79.3000 mm, 18.3000 mm): Reference field of J5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(126.2200 mm, 99.4000 mm): Reference field of R15
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(126.2200 mm, 99.4000 mm): Reference field of R15
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(128.9500 mm, 45.1500 mm): Reference field of C58
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(128.9500 mm, 45.1500 mm): Reference field of C58
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(128.4000 mm, 47.5500 mm): Reference field of C62
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(128.4000 mm, 47.5500 mm): Reference field of C62
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(136.4600 mm, 53.5200 mm): Reference field of C50
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(136.4600 mm, 53.5200 mm): Reference field of C50
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(128.8300 mm, 51.0500 mm): Reference field of C59
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(128.8300 mm, 51.0500 mm): Reference field of C59
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(127.2500 mm, 54.8000 mm): Reference field of C63
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(127.2500 mm, 54.8000 mm): Reference field of C63
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(94.5500 mm, 36.6000 mm): Reference field of C86
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(94.5500 mm, 36.6000 mm): Reference field of C86
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(122.6000 mm, 51.8500 mm): Reference field of D3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(122.6000 mm, 51.8500 mm): Reference field of D3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(133.3900 mm, 55.8500 mm): Reference field of U5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(133.3900 mm, 55.8500 mm): Reference field of U5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(95.3000 mm, 18.3000 mm): Reference field of J9
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(95.3000 mm, 18.3000 mm): Reference field of J9
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(146.3000 mm, 18.3000 mm): Reference field of J7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.3000 mm, 18.3000 mm): Reference field of J7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(138.3000 mm, 18.3000 mm): Reference field of J8
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(138.3000 mm, 18.3000 mm): Reference field of J8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(55.8000 mm, 24.0500 mm): Reference field of C95
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(55.8000 mm, 24.0500 mm): Reference field of C95
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(60.2100 mm, 22.5500 mm): Reference field of C99
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(60.2100 mm, 22.5500 mm): Reference field of C99
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(173.6119 mm, 70.4000 mm): Reference field of C13
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(173.6119 mm, 70.4000 mm): Reference field of C13
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(189.4900 mm, 50.2100 mm): Reference field of C41
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(189.4900 mm, 50.2100 mm): Reference field of C41
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(187.2450 mm, 52.4850 mm): Reference field of R43
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(187.2450 mm, 52.4850 mm): Reference field of R43
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(198.1600 mm, 55.5050 mm): Reference field of R47
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(198.1600 mm, 55.5050 mm): Reference field of R47
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(198.0100 mm, 48.6000 mm): Reference field of R48
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(198.0100 mm, 48.6000 mm): Reference field of R48
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(198.5000 mm, 43.9000 mm): Reference field of R51
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(198.5000 mm, 43.9000 mm): Reference field of R51
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(201.5000 mm, 45.7000 mm): Reference field of TH3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(201.5000 mm, 45.7000 mm): Reference field of TH3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(7.3500 mm, 36.0000 mm): Reference field of J4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(7.3500 mm, 36.0000 mm): Reference field of J4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(46.9250 mm, 66.0750 mm): Reference field of C31
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(46.9250 mm, 66.0750 mm): Reference field of C31
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(200.1000 mm, 43.0050 mm): Reference field of C72
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(200.1000 mm, 43.0050 mm): Reference field of C72
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(192.4800 mm, 52.0100 mm): Reference field of U3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(192.4800 mm, 52.0100 mm): Reference field of U3
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(122.6000 mm, 55.5500 mm): Reference field of R50
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(122.6000 mm, 55.5500 mm): Reference field of R50
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(174.6300 mm, 53.2900 mm): Reference field of C5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(174.6300 mm, 53.2900 mm): Reference field of C5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(174.9000 mm, 57.2000 mm): Reference field of C4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(174.9000 mm, 57.2000 mm): Reference field of C4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(123.3000 mm, 18.3000 mm): Reference field of J6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(123.3000 mm, 18.3000 mm): Reference field of J6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(109.3000 mm, 16.7000 mm): Reference field of SW1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(109.3000 mm, 16.7000 mm): Reference field of SW1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(55.7900 mm, 25.0800 mm): Reference field of R60
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(55.7900 mm, 25.0800 mm): Reference field of R60
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(57.9900 mm, 25.0800 mm): Reference field of R58
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(57.9900 mm, 25.0800 mm): Reference field of R58
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(162.0200 mm, 25.0800 mm): Reference field of R57
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0200 mm, 25.0800 mm): Reference field of R57
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(165.3700 mm, 26.8000 mm): Reference field of R55
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(165.3700 mm, 26.8000 mm): Reference field of R55
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(159.8200 mm, 25.0800 mm): Reference field of R59
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(159.8200 mm, 25.0800 mm): Reference field of R59
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(58.0050 mm, 24.0500 mm): Reference field of C97
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(58.0050 mm, 24.0500 mm): Reference field of C97
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(164.8200 mm, 69.1650 mm): Reference field of C11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(164.8200 mm, 69.1650 mm): Reference field of C11
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(99.8500 mm, 69.4500 mm): Reference field of R45
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(99.8500 mm, 69.4500 mm): Reference field of R45
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(99.9000 mm, 71.2350 mm): Reference field of R46
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(99.9000 mm, 71.2350 mm): Reference field of R46
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(159.8650 mm, 22.5500 mm): Reference field of C96
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(159.8650 mm, 22.5500 mm): Reference field of C96
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(164.2050 mm, 24.1000 mm): Reference field of C100
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(164.2050 mm, 24.1000 mm): Reference field of C100
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(21.3500 mm, 27.8500 mm): Reference field of D4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(21.3500 mm, 27.8500 mm): Reference field of D4
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(12.9400 mm, 27.7900 mm): Reference field of F1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(12.9400 mm, 27.7900 mm): Reference field of F1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(136.9500 mm, 31.3750 mm): Reference field of U7
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(136.9500 mm, 31.3750 mm): Reference field of U7
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(131.5000 mm, 28.1700 mm): Reference field of C94
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(131.5000 mm, 28.1700 mm): Reference field of C94
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(16.1500 mm, 35.9000 mm): Reference field of U8
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(16.1500 mm, 35.9000 mm): Reference field of U8
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(63.3000 mm, 18.3000 mm): Reference field of J11
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(63.3000 mm, 18.3000 mm): Reference field of J11
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(162.0200 mm, 22.5500 mm): Reference field of C98
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(162.0200 mm, 22.5500 mm): Reference field of C98
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(60.2000 mm, 25.0500 mm): Reference field of R56
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(60.2000 mm, 25.0500 mm): Reference field of R56
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(182.2000 mm, 65.5500 mm): Reference field of C1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(182.2000 mm, 65.5500 mm): Reference field of C1
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(180.3800 mm, 69.5500 mm): Reference field of C36
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(180.3800 mm, 69.5500 mm): Reference field of C36
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0700 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(142.5000 mm, 28.1550 mm): Reference field of R54
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(142.5000 mm, 28.1550 mm): Reference field of R54
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(63.4000 mm, 67.3000 mm): Footprint C22
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(55.3900 mm, 57.2000 mm): Footprint C25
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(56.6000 mm, 54.8000 mm): Footprint C26
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(108.4000 mm, 56.5000 mm): Footprint C43
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(90.2000 mm, 48.8000 mm): Footprint C27
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(135.5000 mm, 47.5000 mm): Footprint C49
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(90.2000 mm, 47.0000 mm): Footprint C28
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(165.2000 mm, 58.0000 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(168.8500 mm, 54.8000 mm): Footprint C9
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(173.4000 mm, 70.4000 mm): Footprint C14
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(178.0000 mm, 70.4000 mm): Footprint C10
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(171.2000 mm, 70.4000 mm): Footprint C15
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(123.1000 mm, 78.0000 mm): Footprint C21
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(198.6000 mm, 64.5000 mm): Footprint C12
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(201.4000 mm, 64.5000 mm): Footprint C18
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(196.2000 mm, 64.5000 mm): Footprint C19
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(90.2000 mm, 43.4000 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(186.8000 mm, 58.5000 mm): Footprint C17
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(185.0000 mm, 55.2000 mm): Footprint C20
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(90.2000 mm, 45.2000 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(166.9000 mm, 70.4000 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(169.1000 mm, 70.4000 mm): Footprint C2
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(105.8200 mm, 56.5000 mm): Footprint C82
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(96.4000 mm, 38.3000 mm): Footprint C85
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(116.8000 mm, 56.5000 mm): Footprint C87
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(104.3000 mm, 30.8000 mm): Footprint C89
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(118.8000 mm, 36.4000 mm): Footprint C91
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(96.4000 mm, 47.1000 mm): Footprint C92
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(96.4000 mm, 48.9000 mm): Footprint C93
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(114.2000 mm, 56.5000 mm): Footprint C88
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(122.0500 mm, 39.2000 mm): Footprint C90
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(47.2000 mm, 58.0000 mm): Footprint C29
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(50.8500 mm, 54.8000 mm): Footprint C30
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(57.6000 mm, 70.4000 mm): Footprint C32
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(55.4000 mm, 70.4000 mm): Footprint C33
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(53.2000 mm, 70.4000 mm): Footprint C34
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(43.5000 mm, 59.5000 mm): Footprint C38
+[lib_footprint_mismatch]: Footprint 'D_SOD-123F' does not match copy in library 'Diode_SMD'
+    Local override; warning
+    @(185.0000 mm, 67.5000 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'L_Taiyo-Yuden_NR-60xx' does not match copy in library 'Inductor_SMD'
+    Local override; warning
+    @(190.4000 mm, 64.5000 mm): Footprint L1
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(128.2000 mm, 101.6500 mm): Footprint NT3
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(157.8500 mm, 101.6500 mm): Footprint NT1
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(128.2000 mm, 107.3500 mm): Footprint NT4
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(157.8500 mm, 107.3500 mm): Footprint NT2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(20.2000 mm, 35.0500 mm): Footprint R52
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(20.2000 mm, 36.9500 mm): Footprint R53
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(104.0000 mm, 21.5000 mm): Footprint R61
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(54.2500 mm, 54.8000 mm): Footprint R26
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(59.4000 mm, 55.2000 mm): Footprint R27
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(188.4000 mm, 58.5000 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(172.2500 mm, 54.8000 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(183.2000 mm, 58.5000 mm): Footprint R6
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(183.2000 mm, 55.2000 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(177.4000 mm, 55.2000 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(181.4000 mm, 57.2000 mm): Footprint R19
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(178.6000 mm, 57.2000 mm): Footprint R20
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(180.0000 mm, 57.2000 mm): Footprint R21
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(124.8000 mm, 78.0000 mm): Footprint R23
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(167.4500 mm, 57.2000 mm): Footprint R17
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(185.0000 mm, 58.5000 mm): Footprint R22
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(174.6000 mm, 52.6000 mm): Footprint R10
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(166.3500 mm, 57.2000 mm): Footprint R18
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(189.8000 mm, 80.5000 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(184.4000 mm, 80.5000 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(154.4000 mm, 80.5000 mm): Footprint R13
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(210.3000 mm, 80.5000 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(163.6000 mm, 80.5000 mm): Footprint R9
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(133.6000 mm, 80.5000 mm): Footprint R14
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(157.2000 mm, 99.4000 mm): Footprint R11
+[lib_footprint_mismatch]: Footprint 'R_2512_6332Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(131.8000 mm, 104.5000 mm): Footprint R16
+[lib_footprint_mismatch]: Footprint 'R_2512_6332Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(161.5000 mm, 104.5000 mm): Footprint R12
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(56.6000 mm, 52.6000 mm): Footprint R30
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(49.4500 mm, 57.2000 mm): Footprint R37
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(48.3500 mm, 57.2000 mm): Footprint R38
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(60.6000 mm, 57.2000 mm): Footprint R39
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(62.0000 mm, 57.2000 mm): Footprint R40
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(43.5000 mm, 57.5000 mm): Footprint R42
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(43.5000 mm, 55.5000 mm): Footprint TH2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(126.5000 mm, 78.0000 mm): Footprint TH1
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(132.0000 mm, 47.5000 mm): Footprint U4
+[lib_footprint_mismatch]: Footprint 'LQFP-64_10x10mm_P0.5mm' does not match copy in library 'Package_QFP'
+    Local override; warning
+    @(110.0000 mm, 44.0000 mm): Footprint U6
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(162.0000 mm, 18.3000 mm): Footprint J10
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(51.1000 mm, 70.4000 mm): Footprint C23
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(48.9000 mm, 70.4000 mm): Footprint C24
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(39.8500 mm, 107.3500 mm): Footprint NT6
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(71.8000 mm, 80.5000 mm): Footprint R24
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(92.3000 mm, 80.5000 mm): Footprint R25
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(66.4000 mm, 80.5000 mm): Footprint R28
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(39.2000 mm, 99.4000 mm): Footprint R31
+[lib_footprint_mismatch]: Footprint 'R_2512_6332Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(43.5000 mm, 104.5000 mm): Footprint R32
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(36.4000 mm, 80.5000 mm): Footprint R33
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(15.6000 mm, 80.5000 mm): Footprint R34
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(9.5000 mm, 99.4000 mm): Footprint R35
+[lib_footprint_mismatch]: Footprint 'R_2512_6332Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(13.8000 mm, 104.5000 mm): Footprint R36
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(74.0000 mm, 18.3000 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(131.4000 mm, 75.5000 mm): Footprint C16
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(166.1000 mm, 75.5000 mm): Footprint C69
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(190.4500 mm, 75.5000 mm): Footprint C76
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(197.5000 mm, 75.5000 mm): Footprint C71
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(188.1000 mm, 75.5000 mm): Footprint C74
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(127.5000 mm, 99.4000 mm): Footprint R15
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(74.8000 mm, 75.5000 mm): Footprint C60
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(136.1000 mm, 75.5000 mm): Footprint C64
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(138.4500 mm, 75.5000 mm): Footprint C65
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(140.8000 mm, 75.5000 mm): Footprint C66
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(161.4000 mm, 75.5000 mm): Footprint C67
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(163.7500 mm, 75.5000 mm): Footprint C68
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(128.5000 mm, 46.4000 mm): Footprint C58
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(128.5000 mm, 48.8000 mm): Footprint C62
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(133.7500 mm, 75.5000 mm): Footprint C61
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(135.5000 mm, 53.5000 mm): Footprint C50
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(128.5000 mm, 52.4000 mm): Footprint C59
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(128.5000 mm, 54.8000 mm): Footprint C63
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(96.4000 mm, 36.6000 mm): Footprint C86
+[lib_footprint_mismatch]: Footprint 'LED_0402_1005Metric' does not match copy in library 'LED_SMD'
+    Local override; warning
+    @(122.6000 mm, 52.8000 mm): Footprint D3
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(132.0000 mm, 53.5000 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(90.0000 mm, 18.3000 mm): Footprint J9
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(141.0000 mm, 18.3000 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(133.0000 mm, 18.3000 mm): Footprint J8
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(11.4000 mm, 75.5000 mm): Footprint C78
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(129.4000 mm, 75.5000 mm): Footprint C80
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(55.8000 mm, 23.3000 mm): Footprint C95
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(60.2000 mm, 23.3000 mm): Footprint C99
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(43.4000 mm, 75.5000 mm): Footprint C45
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(206.8000 mm, 64.5000 mm): Footprint C48
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(20.4500 mm, 75.5000 mm): Footprint C42
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(22.8000 mm, 75.5000 mm): Footprint C44
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(18.1000 mm, 75.5000 mm): Footprint C40
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(79.5000 mm, 75.5000 mm): Footprint C53
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(45.7500 mm, 75.5000 mm): Footprint C46
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(48.1000 mm, 75.5000 mm): Footprint C47
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(52.8000 mm, 75.5000 mm): Footprint C54
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(72.4500 mm, 75.5000 mm): Footprint C57
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(70.1000 mm, 75.5000 mm): Footprint C55
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(15.7500 mm, 75.5000 mm): Footprint C39
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(50.4500 mm, 75.5000 mm): Footprint C51
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(77.1500 mm, 75.5000 mm): Footprint C56
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(68.2000 mm, 75.5000 mm): Footprint C79
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(175.6000 mm, 70.4000 mm): Footprint C13
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(168.4500 mm, 75.5000 mm): Footprint C70
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(195.1500 mm, 75.5000 mm): Footprint C75
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(170.8000 mm, 75.5000 mm): Footprint C73
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(192.8000 mm, 75.5000 mm): Footprint C77
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(188.6000 mm, 50.2000 mm): Footprint C41
+[lib_footprint_mismatch]: Footprint 'TDSON-8-1' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(201.5000 mm, 57.5000 mm): Footprint Q13
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(188.6000 mm, 52.5000 mm): Footprint R43
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(188.6000 mm, 54.1000 mm): Footprint R44
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(196.4000 mm, 55.5000 mm): Footprint R47
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(196.4000 mm, 48.5000 mm): Footprint R48
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(198.5000 mm, 44.8000 mm): Footprint R51
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(201.5000 mm, 44.8000 mm): Footprint TH3
+[lib_footprint_mismatch]: Footprint 'CSTCE8M00G55-R0' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(96.8000 mm, 41.7000 mm): Footprint Y1
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(45.6000 mm, 80.5000 mm): Footprint R29
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' does not match copy in library 'Connector_USB'
+    Local override; warning
+    @(6.5000 mm, 36.0000 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(46.8000 mm, 67.8000 mm): Footprint C31
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(198.5000 mm, 43.0000 mm): Footprint C72
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(122.6000 mm, 54.6000 mm): Footprint R50
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(174.6000 mm, 54.8000 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(173.3900 mm, 57.2000 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'TDSON-8-1' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(201.5000 mm, 50.0000 mm): Footprint Q14
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(118.0000 mm, 18.3000 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(186.2000 mm, 75.5000 mm): Footprint C81
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(55.8000 mm, 26.8000 mm): Footprint R60
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(58.0000 mm, 26.8000 mm): Footprint R58
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(162.0000 mm, 26.8000 mm): Footprint R57
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(164.2000 mm, 26.8000 mm): Footprint R55
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(159.8000 mm, 26.8000 mm): Footprint R59
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(58.0000 mm, 23.3000 mm): Footprint C97
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(164.8000 mm, 67.8000 mm): Footprint C11
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(98.2000 mm, 69.5000 mm): Footprint R45
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(98.2000 mm, 71.2000 mm): Footprint R46
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(159.8000 mm, 23.3000 mm): Footprint C96
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(164.2000 mm, 23.3000 mm): Footprint C100
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(10.2000 mm, 101.6500 mm): Footprint NT7
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(13.4000 mm, 75.5000 mm): Footprint C35
+[lib_footprint_mismatch]: Footprint 'M00' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(102.0000 mm, 62.0000 mm): Footprint G1
+[lib_footprint_mismatch]: Footprint 'D_SOD-123F' does not match copy in library 'Diode_SMD'
+    Local override; warning
+    @(21.8000 mm, 27.8000 mm): Footprint D4
+[lib_footprint_mismatch]: Footprint 'Fuse_1206_3216Metric' does not match copy in library 'Fuse'
+    Local override; warning
+    @(15.8000 mm, 27.8000 mm): Footprint F1
+[lib_footprint_mismatch]: Footprint 'M1' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(108.5000 mm, 62.0000 mm): Footprint G2
+[lib_footprint_mismatch]: Footprint 'SOIC-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'
+    Local override; warning
+    @(137.0000 mm, 29.5000 mm): Footprint U7
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(131.5000 mm, 29.5000 mm): Footprint C94
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(16.2000 mm, 36.0000 mm): Footprint U8
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(58.0000 mm, 18.3000 mm): Footprint J11
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(162.0000 mm, 23.3000 mm): Footprint C98
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(10.2000 mm, 107.3500 mm): Footprint NT8
+[lib_footprint_mismatch]: Footprint 'batt' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(115.0000 mm, 62.0000 mm): Footprint G3
+[lib_footprint_mismatch]: Footprint 'DFU' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(121.5000 mm, 62.0000 mm): Footprint G4
+[lib_footprint_mismatch]: Footprint 'USB' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(102.0000 mm, 67.5000 mm): Footprint G5
+[lib_footprint_mismatch]: Footprint 'ENC0' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(108.5000 mm, 67.5000 mm): Footprint G6
+[lib_footprint_mismatch]: Footprint 'ENC1' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(115.0000 mm, 67.5000 mm): Footprint G7
+[lib_footprint_mismatch]: Footprint 'NetTie-2_SMD_Pad0.5mm' does not match copy in library 'NetTie'
+    Local override; warning
+    @(39.8500 mm, 101.6500 mm): Footprint NT5
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(60.2000 mm, 26.8000 mm): Footprint R56
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(182.2000 mm, 67.3000 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(180.4000 mm, 70.4000 mm): Footprint C36
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(142.5000 mm, 29.5000 mm): Footprint R54
+[lib_footprint_mismatch]: Footprint '++' does not match copy in library 'bldc_motor_cntroller'
+    Local override; warning
+    @(121.5000 mm, 67.5000 mm): Footprint G8
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(204.5500 mm, 75.5000 mm): Footprint C115
+[lib_footprint_mismatch]: Footprint 'AMASS_MR60PB-M_1x03_P5.50mm_Vertical' does not match copy in library 'Connector_AMASS'
+    Local override; warning
+    @(180.5000 mm, 123.0000 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(150.2000 mm, 75.5000 mm): Footprint C106
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(204.2000 mm, 64.5000 mm): Footprint C_AUX1
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(92.2000 mm, 41.7000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(101.5000 mm, 35.8000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(98.5000 mm, 45.7500 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(94.8000 mm, 38.3000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(105.6500 mm, 36.1000 mm): Via [+3.3V] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(114.9400 mm, 52.8000 mm): Via [Net-(U6-VCAP_1)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(119.1000 mm, 39.2000 mm): Via [Net-(U6-VCAP_2)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(120.2000 mm, 41.3000 mm): Via [/I/O Interface/USB_DN] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(120.2000 mm, 40.2500 mm): Via [/I/O Interface/USB_DP] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 41.3400 mm): Via [Net-(U6-PH0)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(99.3000 mm, 42.1000 mm): Via [Net-(U6-PH1)] on F.Cu - B.Cu
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(165.0000 mm, 86.4500 mm): Zone [/Motor Driver/SH_B] on B.Cu, priority 4
+
+** Found 150 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 32.7500 mm): Pad B12 [GND] of J4 on F.Cu
+    @(9.6300 mm, 31.6800 mm): PTH pad S1 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 39.2500 mm): Pad B1 [GND] of J4 on F.Cu
+    @(9.6300 mm, 40.3200 mm): PTH pad S1 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(15.1000 mm, 36.0000 mm): Pad 2 [GND] of U8 on F.Cu
+    @(16.1100 mm, 40.2000 mm): Pad 2 [GND] of R65 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(15.1000 mm, 36.0000 mm): Pad 2 [GND] of U8 on F.Cu
+    @(10.5450 mm, 39.2500 mm): Pad B1 [GND] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(16.1100 mm, 31.8000 mm): Pad 2 [GND] of R64 on F.Cu
+    @(15.1000 mm, 36.0000 mm): Pad 2 [GND] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(43.0150 mm, 57.5000 mm): Pad 1 [GND] of R42 on F.Cu
+    @(43.9850 mm, 59.5000 mm): Pad 2 [GND] of C38 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(43.9850 mm, 59.5000 mm): Pad 2 [GND] of C38 on F.Cu
+    @(47.2000 mm, 57.5150 mm): Pad 2 [GND] of C29 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.1000 mm, 72.9500 mm): Via [GND] on F.Cu - B.Cu
+    @(46.8000 mm, 67.3150 mm): Pad 2 [GND] of C31 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.2500 mm, 59.6773 mm): Pad 28 [GND] of U2 on F.Cu
+    @(47.2000 mm, 57.5150 mm): Pad 2 [GND] of C29 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.8500 mm, 54.3150 mm): Pad 2 [GND] of C30 on F.Cu
+    @(47.2000 mm, 57.5150 mm): Pad 2 [GND] of C29 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.2441 mm, 62.3189 mm): PTH pad 57 [GND] of U2
+    @(48.2500 mm, 59.6773 mm): Pad 28 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.2500 mm, 54.3150 mm): Pad 1 [GND] of R26 on F.Cu
+    @(50.8500 mm, 54.3150 mm): Pad 2 [GND] of C30 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(55.3937 mm, 64.6811 mm): PTH pad 57 [GND] of U2
+    @(55.7500 mm, 67.3227 mm): Pad 44 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(56.6000 mm, 54.3150 mm): Pad 2 [GND] of C26 on F.Cu
+    @(56.6000 mm, 52.1150 mm): Pad 1 [GND] of R30 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(56.6000 mm, 54.3150 mm): Pad 2 [GND] of C26 on F.Cu
+    @(54.2500 mm, 54.3150 mm): Pad 1 [GND] of R26 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(56.6000 mm, 54.3150 mm): Pad 2 [GND] of C26 on F.Cu
+    @(59.4000 mm, 54.7150 mm): Pad 2 [GND] of R27 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.4850 mm, 23.3000 mm): Pad 1 [GND] of C97 on F.Cu
+    @(56.2850 mm, 23.3000 mm): Pad 1 [GND] of C95 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.6850 mm, 23.3000 mm): Pad 1 [GND] of C99 on F.Cu
+    @(58.4850 mm, 23.3000 mm): Pad 1 [GND] of C97 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.6850 mm, 23.3000 mm): Pad 1 [GND] of C99 on F.Cu
+    @(60.0000 mm, 20.3000 mm): Pad 1 [GND] of J11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.2500 mm, 67.3227 mm): Pad 55 [GND] of U2 on F.Cu
+    @(57.7559 mm, 64.6811 mm): PTH pad 57 [GND] of U2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.4000 mm, 66.8150 mm): Pad 1 [GND] of C22 on F.Cu
+    @(61.2500 mm, 67.3227 mm): Pad 55 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.0000 mm, 20.3000 mm): Pad 3 [GND] of J5 on F.Cu
+    @(60.6850 mm, 23.3000 mm): Pad 1 [GND] of C99 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.5000 mm, 20.3000 mm): Pad 4 [GND] of J9 on F.Cu
+    @(73.0000 mm, 20.3000 mm): Pad 3 [GND] of J5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.7150 mm, 43.4000 mm): Pad 1 [GND] of C6 on F.Cu
+    @(92.2000 mm, 41.7000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.7150 mm, 45.2000 mm): Pad 1 [GND] of C7 on F.Cu
+    @(89.7150 mm, 43.4000 mm): Pad 1 [GND] of C6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.7150 mm, 47.0000 mm): Pad 1 [GND] of C28 on F.Cu
+    @(89.7150 mm, 48.8000 mm): Pad 1 [GND] of C27 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.7150 mm, 47.0000 mm): Pad 1 [GND] of C28 on F.Cu
+    @(89.7150 mm, 45.2000 mm): Pad 1 [GND] of C7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.1200 mm, 40.5000 mm): Track [GND] on F.Cu, length 2.4000 mm
+    @(92.2000 mm, 41.7000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.8000 mm, 38.3000 mm): Via [GND] on F.Cu - B.Cu
+    @(95.9150 mm, 38.3000 mm): Pad 2 [GND] of C85 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.6850 mm, 71.2000 mm): Pad 2 [GND] of R46 on F.Cu
+    @(67.6000 mm, 72.5500 mm): Zone [GND] on F.Cu, priority 3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.5000 mm, 35.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(106.7500 mm, 38.3250 mm): Pad 63 [GND] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.5150 mm, 21.5000 mm): Pad 1 [GND] of R61 on F.Cu
+    @(88.5000 mm, 20.3000 mm): Pad 4 [GND] of J9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.3000 mm, 30.3150 mm): Pad 2 [GND] of C89 on F.Cu
+    @(103.5150 mm, 21.5000 mm): Pad 1 [GND] of R61 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.3250 mm, 45.7500 mm): Pad 12 [GND] of U6 on F.Cu
+    @(106.7500 mm, 49.6750 mm): Pad 18 [GND] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.6000 mm, 55.9000 mm): Pad 1 [GND] of TP12 on F.Cu
+    @(120.7000 mm, 56.9850 mm): Track [GND] on F.Cu, length 3.3729 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.6000 mm, 55.9000 mm): Pad 1 [GND] of TP12 on F.Cu
+    @(128.5000 mm, 55.2850 mm): Pad 2 [GND] of C63 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.5000 mm, 48.3150 mm): Pad 2 [GND] of C62 on F.Cu
+    @(128.5000 mm, 45.9150 mm): Pad 2 [GND] of C58 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.5000 mm, 48.3150 mm): Pad 2 [GND] of C62 on F.Cu
+    @(128.5000 mm, 52.8850 mm): Pad 2 [GND] of C59 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.5000 mm, 55.2850 mm): Pad 2 [GND] of C63 on F.Cu
+    @(128.5000 mm, 52.8850 mm): Pad 2 [GND] of C59 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.5000 mm, 55.2850 mm): Pad 2 [GND] of C63 on F.Cu
+    @(132.0000 mm, 54.6000 mm): Pad 2 [GND] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5000 mm, 29.9850 mm): Pad 1 [GND] of C94 on F.Cu
+    @(134.5250 mm, 28.8650 mm): Pad 2 [GND] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5000 mm, 29.9850 mm): Pad 1 [GND] of C94 on F.Cu
+    @(122.1000 mm, 38.2500 mm): Track [GND] on F.Cu, length 0.6152 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0000 mm, 48.6000 mm): Pad 2 [GND] of U4 on F.Cu
+    @(128.5000 mm, 48.3150 mm): Pad 2 [GND] of C62 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0000 mm, 48.6000 mm): Pad 2 [GND] of U4 on F.Cu
+    @(135.5000 mm, 47.0150 mm): Pad 2 [GND] of C49 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0000 mm, 54.6000 mm): Pad 2 [GND] of U5 on F.Cu
+    @(135.5000 mm, 53.0150 mm): Pad 2 [GND] of C50 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.5150 mm, 23.3000 mm): Pad 1 [GND] of C98 on F.Cu
+    @(159.3150 mm, 23.3000 mm): Pad 1 [GND] of C96 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.9800 mm, 59.5000 mm): Pad 2 [GND] of C101 on F.Cu
+    @(160.9900 mm, 57.5000 mm): Pad 1 [GND] of R62 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.7500 mm, 72.9500 mm): Via [GND] on F.Cu - B.Cu
+    @(164.8000 mm, 67.3150 mm): Pad 2 [GND] of C11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.0000 mm, 20.3000 mm): Pad 1 [GND] of J10 on F.Cu
+    @(164.6850 mm, 23.3000 mm): Pad 1 [GND] of C100 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.6850 mm, 23.3000 mm): Pad 1 [GND] of C100 on F.Cu
+    @(161.5150 mm, 23.3000 mm): Pad 1 [GND] of C98 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(165.2000 mm, 57.5150 mm): Pad 2 [GND] of C8 on F.Cu
+    @(166.2500 mm, 59.6773 mm): Pad 28 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(165.2000 mm, 57.5150 mm): Pad 2 [GND] of C8 on F.Cu
+    @(161.9800 mm, 59.5000 mm): Pad 2 [GND] of C101 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(165.2000 mm, 57.5150 mm): Pad 2 [GND] of C8 on F.Cu
+    @(168.8500 mm, 54.3150 mm): Pad 2 [GND] of C9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.2500 mm, 59.6773 mm): Pad 28 [GND] of U1 on F.Cu
+    @(170.2441 mm, 62.3189 mm): PTH pad 57 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.5000 mm, 26.0000 mm): Zone [GND] on F.Cu, priority 0
+    @(164.6850 mm, 23.3000 mm): Pad 1 [GND] of C100 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.5000 mm, 26.0000 mm): Zone [GND] on F.Cu, priority 0
+    @(168.8500 mm, 54.3150 mm): Pad 2 [GND] of C9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(173.7500 mm, 67.3227 mm): Pad 44 [GND] of U1 on F.Cu
+    @(173.3937 mm, 64.6811 mm): PTH pad 57 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.5000 mm, 26.0000 mm): Zone [GND] on F.Cu, priority 0
+    @(170.5000 mm, 26.0000 mm): Zone [GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.8850 mm, 70.4000 mm): Pad 2 [GND] of C36 on F.Cu
+    @(180.2000 mm, 72.9500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.2000 mm, 68.3000 mm): Zone [GND] on F.Cu, priority 3
+    @(182.2000 mm, 66.8150 mm): Pad 1 [GND] of C1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.8000 mm, 58.0150 mm): Pad 2 [GND] of C17 on F.Cu
+    @(170.5000 mm, 26.0000 mm): Zone [GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.4000 mm, 58.0150 mm): Pad 2 [GND] of R5 on F.Cu
+    @(186.8000 mm, 58.0150 mm): Pad 2 [GND] of C17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.5000 mm, 26.0000 mm): Zone [GND] on F.Cu, priority 0
+    @(170.5000 mm, 26.0000 mm): Zone [GND] on F.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(56.6000 mm, 55.2850 mm): Pad 1 [GVDD] of C26 on F.Cu
+    @(55.7500 mm, 59.6773 mm): Pad 13 [GVDD] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.2000 mm, 60.8000 mm): Pad 1 [GVDD] of TP7 on F.Cu
+    @(56.6000 mm, 55.2850 mm): Pad 1 [GVDD] of C26 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(167.3420 mm, 64.4880 mm): Track [GVDD] on B.Cu, length 1.1140 mm
+    @(98.2000 mm, 60.8000 mm): Pad 1 [GVDD] of TP7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.7150 mm, 69.5000 mm): Pad 2 [/Microcontroller Interface/VBUS_S] of R45 on F.Cu
+    @(97.7150 mm, 71.2000 mm): Pad 1 [/Microcontroller Interface/VBUS_S] of R46 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.7150 mm, 69.5000 mm): Pad 2 [/Microcontroller Interface/VBUS_S] of R45 on F.Cu
+    @(108.4000 mm, 56.0150 mm): Pad 1 [/Microcontroller Interface/VBUS_S] of C43 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.4000 mm, 56.0150 mm): Pad 1 [/Microcontroller Interface/VBUS_S] of C43 on F.Cu
+    @(108.7500 mm, 49.6750 mm): Pad 22 [/Microcontroller Interface/VBUS_S] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(163.0000 mm, 20.3000 mm): Pad 2 [+5V] of J10 on F.Cu
+    @(144.2215 mm, 25.2365 mm): Via [+5V] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.2000 mm, 58.0150 mm): Track [+5V] on F.Cu, length 0.2418 mm
+    @(138.5000 mm, 50.5000 mm): Track [+5V] on F.Cu, length 5.7023 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.7250 mm, 91.1500 mm): Pad 3 [/Motor Driver/SH_C] of Q5 on F.Cu
+    @(169.5200 mm, 69.2050 mm): Track [/Motor Driver/SH_C] on F.Cu, length 1.6900 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.0000 mm, 26.3150 mm): Pad 1 [+3.3V] of R58 on F.Cu
+    @(55.8000 mm, 26.3150 mm): Pad 1 [+3.3V] of R60 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(58.2500 mm, 67.3227 mm): Pad 49 [+3.3V] of U2 on F.Cu
+    @(60.6000 mm, 56.7150 mm): Pad 2 [+3.3V] of R39 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.2000 mm, 26.3150 mm): Pad 1 [+3.3V] of R56 on F.Cu
+    @(58.0000 mm, 26.3150 mm): Pad 1 [+3.3V] of R58 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.2000 mm, 26.3150 mm): Pad 1 [+3.3V] of R56 on F.Cu
+    @(60.6000 mm, 56.7150 mm): Pad 2 [+3.3V] of R39 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.0000 mm, 56.7150 mm): Pad 2 [+3.3V] of R40 on F.Cu
+    @(60.6000 mm, 56.7150 mm): Pad 2 [+3.3V] of R39 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.8850 mm, 38.3000 mm): Track [+3.3V] on F.Cu, length 0.8000 mm
+    @(60.2000 mm, 26.3150 mm): Pad 1 [+3.3V] of R56 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(105.7000 mm, 16.7000 mm): Pad 1 [+3.3V] of SW1 on F.Cu
+    @(105.7000 mm, 31.1900 mm): Via [+3.3V] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2850 mm, 36.4000 mm): Pad 1 [+3.3V] of C91 on F.Cu
+    @(118.3890 mm, 37.4000 mm): Track [+3.3V] on F.Cu, length 2.3110 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.0000 mm, 46.1000 mm): Zone [+3.3V] on F.Cu, priority 4
+    @(125.6000 mm, 50.5000 mm): Pad 1 [+3.3V] of TP2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5000 mm, 29.0150 mm): Pad 2 [+3.3V] of C94 on F.Cu
+    @(134.5250 mm, 30.1350 mm): Pad 3 [+3.3V] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5000 mm, 29.0150 mm): Pad 2 [+3.3V] of C94 on F.Cu
+    @(120.7000 mm, 37.4000 mm): Via [+3.3V] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.5250 mm, 30.1350 mm): Pad 3 [+3.3V] of U7 on F.Cu
+    @(159.8000 mm, 26.3150 mm): Pad 1 [+3.3V] of R59 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 26.3150 mm): Pad 1 [+3.3V] of R57 on F.Cu
+    @(159.8000 mm, 26.3150 mm): Pad 1 [+3.3V] of R59 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 26.3150 mm): Pad 1 [+3.3V] of R57 on F.Cu
+    @(164.2000 mm, 26.3150 mm): Pad 1 [+3.3V] of R55 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.9900 mm, 28.5000 mm): Pad 1 [+3.3V] of R69 on F.Cu
+    @(164.2000 mm, 26.3150 mm): Pad 1 [+3.3V] of R55 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.6000 mm, 56.7150 mm): Pad 2 [+3.3V] of R20 on F.Cu
+    @(176.2500 mm, 67.3227 mm): Pad 49 [+3.3V] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.5200 mm, 29.2000 mm): Pad 1 [+3.3V] of C135 on F.Cu
+    @(172.9900 mm, 28.5000 mm): Pad 1 [+3.3V] of R69 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.0000 mm, 56.7150 mm): Pad 2 [+3.3V] of R21 on F.Cu
+    @(178.6000 mm, 56.7150 mm): Pad 2 [+3.3V] of R20 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.4000 mm, 56.7150 mm): Pad 2 [+3.3V] of R19 on F.Cu
+    @(180.0000 mm, 56.7150 mm): Pad 2 [+3.3V] of R21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.4750 mm, 32.0950 mm): Pad 8 [+3.3V] of U9 on F.Cu
+    @(179.5200 mm, 29.2000 mm): Pad 1 [+3.3V] of C135 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.9900 mm, 31.5000 mm): Pad 1 [+3.3V] of R70 on F.Cu
+    @(182.4750 mm, 32.0950 mm): Pad 8 [+3.3V] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.9900 mm, 31.5000 mm): Pad 1 [+3.3V] of R70 on F.Cu
+    @(196.0200 mm, 29.0000 mm): Pad 1 [+3.3V] of C137 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.9900 mm, 33.5000 mm): Pad 1 [+3.3V] of R71 on F.Cu
+    @(184.9900 mm, 35.5000 mm): Pad 1 [+3.3V] of R72 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.9900 mm, 33.5000 mm): Pad 1 [+3.3V] of R71 on F.Cu
+    @(184.9900 mm, 31.5000 mm): Pad 1 [+3.3V] of R70 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.9900 mm, 35.5000 mm): Pad 1 [+3.3V] of R72 on F.Cu
+    @(181.4000 mm, 56.7150 mm): Pad 2 [+3.3V] of R19 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(197.6375 mm, 31.8500 mm): Pad 5 [+3.3V] of U11 on F.Cu
+    @(196.0200 mm, 29.0000 mm): Pad 1 [+3.3V] of C137 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(197.6375 mm, 37.8500 mm): Pad 5 [+3.3V] of U10 on F.Cu
+    @(200.3200 mm, 37.8000 mm): Pad 1 [+3.3V] of C136 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(197.6375 mm, 37.8500 mm): Pad 5 [+3.3V] of U10 on F.Cu
+    @(197.6375 mm, 31.8500 mm): Pad 5 [+3.3V] of U11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(43.0150 mm, 55.5000 mm): Pad 1 [+3.3VA] of TH2 on F.Cu
+    @(8.0000 mm, 79.9900 mm): Pad 1 [+3.3VA] of TH5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(50.2500 mm, 59.6773 mm): Pad 24 [+3.3VA] of U2 on F.Cu
+    @(43.0150 mm, 55.5000 mm): Pad 1 [+3.3VA] of TH2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(96.8850 mm, 47.1000 mm): Track [+3.3VA] on F.Cu, length 1.8000 mm
+    @(50.2500 mm, 59.6773 mm): Pad 24 [+3.3VA] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.4390 mm, 46.2500 mm): Track [+3.3VA] on F.Cu, length 4.8860 mm
+    @(124.0831 mm, 51.7018 mm): Track [+3.3VA] on F.Cu, length 0.0189 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.5000 mm, 77.5150 mm): Pad 1 [+3.3VA] of TH1 on F.Cu
+    @(128.0850 mm, 51.7020 mm): Track [+3.3VA] on B.Cu, length 7.2633 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.9900 mm, 55.5000 mm): Pad 1 [+3.3VA] of TH4 on F.Cu
+    @(168.2500 mm, 59.6773 mm): Pad 24 [+3.3VA] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.9900 mm, 55.5000 mm): Pad 1 [+3.3VA] of TH4 on F.Cu
+    @(137.1710 mm, 56.8380 mm): Track [+3.3VA] on F.Cu, length 2.3603 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.2500 mm, 59.6773 mm): Pad 24 [+3.3VA] of U1 on F.Cu
+    @(201.0150 mm, 44.8000 mm): Pad 1 [+3.3VA] of TH3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(43.0150 mm, 59.5000 mm): Pad 1 [/Microcontroller Interface/M1_TEMP] of C38 on F.Cu
+    @(43.9850 mm, 57.5000 mm): Pad 2 [/Microcontroller Interface/M1_TEMP] of R42 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(43.9850 mm, 57.5000 mm): Pad 2 [/Microcontroller Interface/M1_TEMP] of R42 on F.Cu
+    @(43.9850 mm, 55.5000 mm): Pad 2 [/Microcontroller Interface/M1_TEMP] of TH2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.7500 mm, 49.6750 mm): Pad 20 [/Microcontroller Interface/M1_TEMP] of U6 on F.Cu
+    @(43.9850 mm, 55.5000 mm): Pad 2 [/Microcontroller Interface/M1_TEMP] of TH2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 35.2500 mm): Pad B7 [/I/O Interface/USB_J4_DN] of J4 on F.Cu
+    @(10.5450 mm, 36.2500 mm): Pad A7 [/I/O Interface/USB_J4_DN] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(15.1000 mm, 35.0500 mm): Pad 1 [/I/O Interface/USB_J4_DN] of U8 on F.Cu
+    @(10.5450 mm, 35.2500 mm): Pad B7 [/I/O Interface/USB_J4_DN] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(17.3000 mm, 35.0500 mm): Pad 6 [/I/O Interface/USB_J4_DN] of U8 on F.Cu
+    @(15.1000 mm, 35.0500 mm): Pad 1 [/I/O Interface/USB_J4_DN] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(19.7150 mm, 35.0500 mm): Pad 2 [/I/O Interface/USB_J4_DN] of R52 on F.Cu
+    @(17.3000 mm, 35.0500 mm): Pad 6 [/I/O Interface/USB_J4_DN] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 35.7500 mm): Pad A6 [/I/O Interface/USB_J4_DP] of J4 on F.Cu
+    @(10.5450 mm, 36.7500 mm): Pad B6 [/I/O Interface/USB_J4_DP] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 36.7500 mm): Pad B6 [/I/O Interface/USB_J4_DP] of J4 on F.Cu
+    @(15.1000 mm, 36.9500 mm): Pad 3 [/I/O Interface/USB_J4_DP] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(15.1000 mm, 36.9500 mm): Pad 3 [/I/O Interface/USB_J4_DP] of U8 on F.Cu
+    @(17.3000 mm, 36.9500 mm): Pad 4 [/I/O Interface/USB_J4_DP] of U8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(17.3000 mm, 36.9500 mm): Pad 4 [/I/O Interface/USB_J4_DP] of U8 on F.Cu
+    @(19.7150 mm, 36.9500 mm): Pad 2 [/I/O Interface/USB_J4_DP] of R53 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.2500 mm, 59.6773 mm): Pad 4 [/Motor Driver/PWRGD] of U1 on F.Cu
+    @(181.4000 mm, 57.6850 mm): Pad 1 [/Motor Driver/PWRGD] of R19 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.7500 mm, 59.6773 mm): Pad 5 [/Motor Driver/nOCTW] of U1 on F.Cu
+    @(180.0000 mm, 57.6850 mm): Pad 1 [/Motor Driver/nOCTW] of R21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(59.7500 mm, 59.6773 mm): Pad 5 [/Motor_Driver2/nOCTW] of U2 on F.Cu
+    @(62.0000 mm, 57.6850 mm): Pad 1 [/Motor_Driver2/nOCTW] of R40 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.3250 mm, 47.7500 mm): Pad 16 [/I/O Interface/GPIO_3] of U6 on F.Cu
+    @(120.5000 mm, 20.3000 mm): Pad 1 [/I/O Interface/GPIO_3] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.2500 mm, 49.6750 mm): Pad 17 [/I/O Interface/GPIO_4] of U6 on F.Cu
+    @(119.5000 mm, 20.3000 mm): Pad 2 [/I/O Interface/GPIO_4] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(198.0150 mm, 43.8300 mm): Track [/Microcontroller Interface/AUX_TEMP] on F.Cu, length 1.3718 mm
+    @(108.2500 mm, 49.6750 mm): Pad 21 [/Microcontroller Interface/AUX_TEMP] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.3625 mm, 37.8500 mm): Pad 1 [OVP_IN_LI] of U10 on F.Cu
+    @(112.2500 mm, 49.6750 mm): Pad 29 [OVP_IN_LI] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(200.2900 mm, 39.8000 mm): Pad 1 [OVP_IN_LI] of R76 on F.Cu
+    @(195.3625 mm, 37.8500 mm): Pad 1 [OVP_IN_LI] of U10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.3625 mm, 31.8500 mm): Track [OVP_IN_HI] on F.Cu, length 0.9035 mm
+    @(112.7500 mm, 49.6750 mm): Pad 30 [OVP_IN_HI] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.5000 mm, 20.3000 mm): Pad 2 [/I/O Interface/DEBUG_SWDIO] of J9 on F.Cu
+    @(115.6750 mm, 41.2500 mm): Pad 46 [/I/O Interface/DEBUG_SWDIO] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.5000 mm, 20.3000 mm): Pad 3 [/I/O Interface/DEBUG_SWCLK] of J9 on F.Cu
+    @(113.7500 mm, 38.3250 mm): Pad 49 [/I/O Interface/DEBUG_SWCLK] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.2500 mm, 38.3250 mm): Pad 50 [/I/O Interface/GPIO_7] of U6 on F.Cu
+    @(116.5000 mm, 20.3000 mm): Pad 5 [/I/O Interface/GPIO_7] of J6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.6750 mm, 36.2000 mm): Pad 1 [VDC] of R66 on F.Cu
+    @(178.2500 mm, 67.3227 mm): Pad 53 [VDC] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.2500 mm, 68.2390 mm): Track [VDC] on F.Cu, length 0.5000 mm
+    @(179.9150 mm, 70.4000 mm): Pad 1 [VDC] of C36 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.1150 mm, 54.6000 mm): Pad 1 [Net-(D3-A)] of R50 on F.Cu
+    @(123.0850 mm, 52.8000 mm): Pad 2 [Net-(D3-A)] of D3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.4750 mm, 28.8650 mm): Pad 7 [CAN_H] of U7 on F.Cu
+    @(142.5000 mm, 29.9850 mm): Pad 2 [CAN_H] of R54 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.5000 mm, 20.3000 mm): Pad 1 [CAN_H] of J7 on F.Cu
+    @(133.5000 mm, 20.3000 mm): Pad 1 [CAN_H] of J8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.5000 mm, 20.3000 mm): Pad 1 [CAN_H] of J7 on F.Cu
+    @(139.4750 mm, 28.8650 mm): Pad 7 [CAN_H] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.4750 mm, 30.1350 mm): Pad 6 [CAN_L] of U7 on F.Cu
+    @(142.5000 mm, 29.0150 mm): Pad 1 [CAN_L] of R54 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.5000 mm, 20.3000 mm): Pad 2 [CAN_L] of J7 on F.Cu
+    @(132.5000 mm, 20.3000 mm): Pad 2 [CAN_L] of J8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.5000 mm, 29.0150 mm): Pad 1 [CAN_L] of R54 on F.Cu
+    @(140.5000 mm, 20.3000 mm): Pad 2 [CAN_L] of J7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.4000 mm, 51.2250 mm): Track [/Power Management/HS] on F.Cu, length 0.7320 mm
+    @(194.4000 mm, 52.4000 mm): Pad 6 [/Power Management/HS] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 33.5500 mm): Pad B9 [Net-(F1-Pad1)] of J4 on F.Cu
+    @(10.5450 mm, 38.4500 mm): Pad B4 [Net-(F1-Pad1)] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(14.4000 mm, 27.8000 mm): Pad 1 [Net-(F1-Pad1)] of F1 on F.Cu
+    @(10.5450 mm, 33.5500 mm): Pad B9 [Net-(F1-Pad1)] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 34.7500 mm): Pad A5 [/I/O Interface/USB_CC1] of J4 on F.Cu
+    @(15.0900 mm, 31.8000 mm): Pad 1 [/I/O Interface/USB_CC1] of R64 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.5450 mm, 37.7500 mm): Pad B5 [/I/O Interface/USB_CC2] of J4 on F.Cu
+    @(15.0900 mm, 40.2000 mm): Pad 1 [/I/O Interface/USB_CC2] of R65 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(17.2000 mm, 27.8000 mm): Pad 2 [Net-(D4-A)] of F1 on F.Cu
+    @(20.4000 mm, 27.8000 mm): Pad 2 [Net-(D4-A)] of D4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.0200 mm, 59.5000 mm): Pad 1 [/Motor Driver/TEMP_SENSE_2] of C101 on F.Cu
+    @(162.0100 mm, 57.5000 mm): Pad 2 [/Motor Driver/TEMP_SENSE_2] of R62 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0100 mm, 57.5000 mm): Pad 2 [/Motor Driver/TEMP_SENSE_2] of R62 on F.Cu
+    @(162.0100 mm, 55.5000 mm): Pad 2 [/Motor Driver/TEMP_SENSE_2] of TH4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.4000 mm, 80.9800 mm): Pad 1 [/Motor_Driver2/TEMP_SENSE_2] of C102 on F.Cu
+    @(6.2000 mm, 81.0100 mm): Pad 2 [/Motor_Driver2/TEMP_SENSE_2] of R63 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(6.2000 mm, 81.0100 mm): Pad 2 [/Motor_Driver2/TEMP_SENSE_2] of R63 on F.Cu
+    @(8.0000 mm, 81.0100 mm): Pad 2 [/Motor_Driver2/TEMP_SENSE_2] of TH5 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,41 @@
+{
+  "reference_id": "odrive-sasasu",
+  "url": "https://github.com/Sasasu/ODrive",
+  "revision": "aa720cff554198ea71cac7a9456401e8a0286b54",
+  "license": "Unlicensed / Inspect-Only (no LICENSE file in repository; treated as read-only architectural reference)",
+  "identity_disposition": "sanitized",
+  "detected_kicad_version": "6.0",
+  "target_kicad_version": "10.0.8",
+  "kicad_cli_path": "/bin/kicad-cli",
+  "upgraded_in_place": true,
+  "artifacts": [
+    {
+      "path": "ODrive.kicad_sch",
+      "pre_upgrade_sha256": "6f922fd5f166d467678cee5b6bc7150dd2ba70094f974c8ad2ef3a74f6cb0b20",
+      "post_upgrade_sha256": "4d644e731c05c40caca4d2911da5e2002dc3d735f274f9490fe5abd6bfd83ade"
+    },
+    {
+      "path": "M0.kicad_sch",
+      "pre_upgrade_sha256": "800669e830ff4ee118812034523872b8a6db382c67ca57d8611b0fca2c48e1d6",
+      "post_upgrade_sha256": "6a3231cec1d09fedef27caecb066214e5f05e1505a2f17155fee639e29280662"
+    },
+    {
+      "path": "M1.kicad_sch",
+      "pre_upgrade_sha256": "c29f6e7b89cbda7122b7a4cd4f1f6550b19b626fa043c05ab7daf75fd309dd5a",
+      "post_upgrade_sha256": "917d570bb3d2cb39abb2202bd819bc7b2312937b23a677a0914a620c0b8b374c"
+    },
+    {
+      "path": "ODrive.kicad_pcb",
+      "pre_upgrade_sha256": "25f5273fa1afe1b9b13d39e80721b47ae57dfa5fd06b856c5f79306c81f3a211",
+      "post_upgrade_sha256": "cda640fb58e6b45e09cc6891736eae004d1325951060826d17ea42514960c2dd"
+    }
+  ],
+  "reusable_blocks": [
+    "Dual DRV8301DCAR gate-driver placement within ~10-14 mm of power MOSFET rows",
+    "2.2 Ohm gate resistor array placement adjacent to DRV8301 / MOSFET gate pins",
+    "LM5109 half-bridge brake chopper placement aligned with DC input connector and power stage",
+    "Differential Kelvin current-shunt RC filter placement (120R + 2.2nF) between shunts and DRV8301",
+    "4-layer copper zone partitioning for high-current DC bus (VDC) and ground return planes"
+  ],
+  "confidence": "adapted_partial_reference"
+}

@@ -1,0 +1,43 @@
+{
+  "reference_id": "garypippi-pippitank",
+  "url": "https://github.com/garypippi/pippitank",
+  "revision": "665d1d1d15a6fa854aae7045a3e9a7719a26daaa",
+  "license": "MIT",
+  "identity_disposition": "allowed",
+  "detected_kicad_version": "9.0",
+  "target_kicad_version": "10.0.8",
+  "kicad_cli_path": "/usr/bin/kicad-cli",
+  "upgraded_in_place": true,
+  "artifacts": [
+    {
+      "path": "pcb/pippitank-esc-adaptor/rev_a/pippitank-esc-adaptor.kicad_sch",
+      "pre_upgrade_sha256": "ecc0e06d9a84df7f882223491e6afb99226c82c0f6ba30bb4114914d57781a7a",
+      "post_upgrade_sha256": "1d1efe5c80a587b2ebf006f155c51995f72cd08b75e451e9d8be5a2c990ebd88"
+    },
+    {
+      "path": "pcb/pippitank-esc-adaptor/rev_a/pippitank-esc-adaptor.kicad_pcb",
+      "pre_upgrade_sha256": "8aa82ef24508109ad7cc539d195a195e126e0481f4cb648be820a89b27f9aedc",
+      "post_upgrade_sha256": "5d28b6cf80c02d4711cca047c705c995290cd851d802065e3f667a8e0d182e5e"
+    },
+    {
+      "path": "pcb/pippitank-engine/rev_a/pippitank-engine.kicad_sch",
+      "pre_upgrade_sha256": "de7d48d61f835eb97bf104efe360577c69314d14e12a5c73d694a2af343e5377",
+      "post_upgrade_sha256": "f263457cca1d3febc7c0709adc5f07b42b740c8c2d359c824a8d0a7e22001d81"
+    },
+    {
+      "path": "pcb/pippitank-engine/rev_a/pippitank-engine.kicad_pcb",
+      "pre_upgrade_sha256": "850ab72bbd39a185d1546547319d977dcfc7187ad255a85d818634c7d4f82bdd",
+      "post_upgrade_sha256": "3b7ec534b12fb3ef9827dc16b89260436b3a97cd49049a401247df64c745b2b3"
+    },
+    {
+      "path": "pcb/pippitank.kicad_sym",
+      "pre_upgrade_sha256": "4351ce8c4854159e1703da4d5ed089e10bfb38848187a2d187b93886ec47d5ab",
+      "post_upgrade_sha256": "b9da2277141d627c592b7a6c21386240490823c9054fab94d79a94bcc86e8568"
+    }
+  ],
+  "reusable_blocks": [
+    "3-phase motor connector symbol-to-footprint pin mapping (J2: Conn_01x03_Pin -> AMASS 3-pin connector)",
+    "AMASS connector courtyard and silkscreen conventions"
+  ],
+  "confidence": "adapted_partial_reference"
+}

@@ -1,0 +1,1382 @@
+(session "bldc_motor_cntroller"
+  (base_design "bldc_motor_cntroller")
+  (placement
+    (resolution um 10)
+    (component "Capacitor_SMD:C_0402_1005Metric"
+      (place C22 528000 -772000 front 0)
+      (place C27 520000 -705000 front 0)
+      (place C28 520000 -680000 front 0)
+      (place C14 1060000 -830000 front 0)
+      (place C10 1146000 -818000 front 0)
+      (place C15 1032500 -830000 front 0)
+      (place C21 867500 -990000 front 0)
+      (place C19 1245000 -785000 front 0)
+      (place C6 960000 -705000 front 0)
+      (place C7 960000 -680000 front 0)
+      (place C3 940000 -800000 front 0)
+      (place C2 940000 -785000 front 0)
+      (place C89 725000 -485000 front 0)
+      (place C91 810000 -495000 front 0)
+      (place C32 467500 -830000 front 0)
+      (place C33 440000 -830000 front 0)
+      (place C34 412500 -830000 front 0)
+      (place C38 632500 -990000 front 0)
+      (place R61 740000 -455000 front 0)
+      (place R23 867500 -975000 front 0)
+      (place R11 965000 -785000 front 0)
+      (place R42 632500 -975000 front 0)
+      (place TH2 632500 -960000 front 0)
+      (place TH1 867500 -960000 front 0)
+      (place C23 320000 -785000 front 0)
+      (place C24 320000 -800000 front 0)
+      (place R31 345000 -785000 front 0)
+      (place R35 345000 -800000 front 0)
+      (place R15 965000 -800000 front 0)
+      (place C13 1087500 -830000 front 0)
+      (place R43 765000 -790000 front 0)
+      (place R44 765000 -805000 front 0)
+      (place R47 805000 -820000 front 0)
+      (place R48 840000 -820000 front 0)
+      (place R50 840000 -625000 front 0)
+      (place R45 700000 -740000 front 0)
+      (place R46 700000 -755000 front 0)
+      (place C96 1130000 -455000 front 0)
+      (place C98 1150000 -455000 front 0)
+      (place C36 1115000 -828000 front 0)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::1"
+      (place C25 450000 -705000 front 90)
+      (place C26 360000 -680000 front 90)
+      (place C8 985000 -705000 front 90)
+      (place C9 1045000 -705000 front 90)
+      (place C17 1165000 -680000 front 90)
+      (place C20 1145000 -680000 front 90)
+      (place C29 350000 -705000 front 90)
+      (place C30 410000 -705000 front 90)
+      (place R27 400000 -680000 front 90)
+      (place R5 1105000 -680000 front 90)
+      (place R6 1065000 -680000 front 90)
+      (place R4 985000 -680000 front 90)
+      (place R19 1045000 -680000 front 90)
+      (place R20 1005000 -680000 front 90)
+      (place R21 1025000 -680000 front 90)
+      (place R17 1025000 -705000 front 90)
+      (place R22 1125000 -680000 front 90)
+      (place R18 1005000 -705000 front 90)
+      (place R37 390000 -705000 front 90)
+      (place R38 370000 -705000 front 90)
+      (place R39 420000 -680000 front 90)
+      (place R40 440000 -680000 front 90)
+      (place C58 440000 -530000 front 90)
+      (place C62 460000 -530000 front 90)
+      (place C5 1105000 -705000 front 90)
+      (place R60 861000 -455000 front 90)
+      (place R58 843000 -455000 front 90)
+      (place R57 879000 -455000 front 90)
+      (place R55 915000 -455000 front 90)
+      (place R59 897000 -455000 front 90)
+      (place C94 940000 -530000 front 90)
+      (place R56 825000 -455000 front 90)
+      (place C1 1145000 -705000 front 90)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::2"
+      (place C43 725000 -748000 front 270)
+      (place C82 710000 -660000 front 270)
+      (place C85 660000 -625000 front 270)
+      (place C87 700000 -485000 front 270)
+      (place C92 765000 -660000 front 270)
+      (place C93 790000 -660000 front 270)
+      (place C88 735000 -660000 front 270)
+      (place C90 840000 -560000 front 270)
+      (place R26 430000 -705000 front 270)
+      (place R3 1065000 -705000 front 270)
+      (place R7 1085000 -680000 front 270)
+      (place R10 1125000 -705000 front 270)
+      (place R1 1157000 -848000 front 270)
+      (place R8 1042000 -848000 front 270)
+      (place R13 927000 -848000 front 270)
+      (place R2 1212000 -848000 front 270)
+      (place R9 1097000 -848000 front 270)
+      (place R14 982000 -848000 front 270)
+      (place R30 380000 -680000 front 270)
+      (place R24 537000 -848000 front 270)
+      (place R25 592000 -848000 front 270)
+      (place R28 422000 -848000 front 270)
+      (place R33 307000 -848000 front 270)
+      (place R34 362000 -848000 front 270)
+      (place C59 440000 -610000 front 270)
+      (place C63 460000 -610000 front 270)
+      (place C78 449500 -848000 front 270)
+      (place C80 1069500 -848000 front 270)
+      (place C79 564500 -848000 front 270)
+      (place C52 845000 -785000 front 270)
+      (place R51 738000 -925000 front 270)
+      (place TH3 755000 -925000 front 270)
+      (place R29 477000 -848000 front 270)
+      (place C31 334500 -848000 front 270)
+      (place C72 721000 -925000 front 270)
+      (place C4 1085000 -705000 front 270)
+      (place C81 1184500 -848000 front 270)
+      (place C11 954500 -848000 front 270)
+      (place R54 1060000 -530000 front 270)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::3"
+      (place C49 490000 -485000 front 180)
+      (place R52 180000 -530000 front 180)
+      (place R53 180000 -550000 front 180)
+      (place C50 490000 -650000 front 180)
+      (place C86 660000 -645000 front 180)
+      (place C95 300000 -455000 front 180)
+      (place C99 340000 -455000 front 180)
+      (place C41 765000 -775000 front 180)
+      (place C97 320000 -455000 front 180)
+      (place C100 1170000 -455000 front 180)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric"
+      (place C12 1245000 -745000 front 90)
+      (place C18 1275000 -745000 front 90)
+      (place C48 750000 -865000 front 90)
+      (place F1 180000 -495000 front 90)
+    )
+    (component "Diode_SMD:D_SOD-123F"
+      (place D1 1152000 -785000 front 270)
+    )
+    (component "Inductor_SMD:L_Taiyo-Yuden_NR-60xx"
+      (place L1 1201000 -775000 front 90)
+    )
+    (component "NetTie:NetTie-2_SMD_Pad0.5mm"
+      (place NT3 940000 -755000 front 0)
+      (place NT1 965000 -755000 front 0)
+      (place NT4 940000 -768000 front 0)
+      (place NT2 965000 -768000 front 0)
+      (place NT6 345000 -768000 front 0)
+      (place NT7 320000 -755000 front 0)
+      (place NT8 320000 -768000 front 0)
+      (place NT5 345000 -755000 front 0)
+    )
+    (component "Resistor_SMD:R_2512_6332Metric"
+      (place R16 982500 -988000 front 0)
+      (place R12 1097500 -988000 front 0)
+      (place R32 477500 -988000 front 0)
+      (place R36 362500 -988000 front 0)
+    )
+    (component "TestPoint:TestPoint_Pad_D1.0mm"
+      (place TP4 215000 -530000 front 0)
+      (place TP5 215000 -552000 front 0)
+      (place TP1 1220000 -580000 front 0)
+      (place TP3 840000 -660000 front 0)
+      (place TP2 815000 -660000 front 0)
+      (place TP6 1060000 -580000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5"
+      (place U4 490000 -530000 front 90)
+      (place U5 490000 -610000 front 90)
+    )
+    (component "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+      (place U6 750000 -570000 front 0)
+    )
+    (component "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+      (place J10 1150000 -405000 front 180)
+      (place J11 320000 -405000 front 180)
+    )
+    (component "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+      (place J5 430000 -405000 front 180)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric::1"
+      (place C16 948000 -730000 front 0)
+      (place C76 1255000 -905000 front 0)
+      (place C45 582500 -948000 front 0)
+      (place C42 467500 -948000 front 0)
+      (place C44 527500 -948000 front 0)
+      (place C40 412500 -948000 front 0)
+      (place C53 632500 -875000 front 0)
+      (place C46 297500 -948000 front 0)
+      (place C47 632500 -845000 front 0)
+      (place C54 632500 -905000 front 0)
+      (place C55 632500 -935000 front 0)
+      (place C39 352500 -948000 front 0)
+      (place C70 1255000 -845000 front 0)
+      (place C75 1255000 -875000 front 0)
+      (place C77 1255000 -935000 front 0)
+      (place C35 328000 -730000 front 0)
+    )
+    (component "MG-WDSON-8:Infineon-MG-WDSON-8-05_2016-901-MFG"
+      (place Q6 972500 -895000 front 270)
+      (place Q5 917500 -895000 front 270)
+      (place Q4 1087500 -895000 front 270)
+      (place Q3 1032500 -895000 front 270)
+      (place Q10 467500 -895000 front 270)
+      (place Q9 412500 -895000 front 270)
+      (place Q7 527500 -895000 front 270)
+      (place Q8 582500 -895000 front 270)
+      (place Q11 297500 -895000 front 270)
+      (place Q12 352500 -895000 front 270)
+      (place Q2 1202500 -895000 front 270)
+      (place Q1 1147500 -895000 front 270)
+    )
+    (component "Capacitor_SMD:C_1206_3216Metric::2"
+      (place C69 867500 -845000 front 180)
+      (place C71 867500 -875000 front 180)
+      (place C74 867500 -935000 front 180)
+      (place C60 245000 -935000 front 180)
+      (place C64 1032500 -948000 front 180)
+      (place C65 1087500 -948000 front 180)
+      (place C66 1147500 -948000 front 180)
+      (place C67 1202500 -948000 front 180)
+      (place C68 917500 -948000 front 180)
+      (place C61 972500 -948000 front 180)
+      (place C57 245000 -905000 front 180)
+      (place C51 245000 -845000 front 180)
+      (place C56 245000 -875000 front 180)
+      (place C73 867500 -905000 front 180)
+    )
+    (component "LED_SMD:LED_0402_1005Metric"
+      (place D3 840000 -605000 front 0)
+    )
+    (component "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+      (place J9 630000 -405000 front 180)
+    )
+    (component "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+      (place J7 1010000 -405000 front 180)
+      (place J8 530000 -405000 front 180)
+    )
+    (component "Diode_SMD:D_SOD-123F::1"
+      (place D2 805000 -745000 front 0)
+      (place D4 180000 -450000 front 0)
+    )
+    (component "TestPoint:TestPoint_Round"
+      (place H5 815000 -998000 front 0)
+      (place H6 815000 -968000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:TDSON-8-1"
+      (place Q13 805000 -865000 front 0)
+      (place Q14 805000 -925000 front 0)
+    )
+    (component "Crystal:CSTCE8M00G55-R0"
+      (place Y1 635000 -570000 front 270)
+    )
+    (component "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+      (place J4 100000 -510000 front 270)
+    )
+    (component "Package_SON:WSON-8_4x4mm_P0.8mm"
+      (place U3 805000 -785000 front 0)
+    )
+    (component "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+      (place H1 115000 -785000 front 0)
+      (place H2 115000 -985000 front 0)
+      (place H3 1385000 -785000 front 0)
+      (place H4 1385000 -985000 front 0)
+    )
+    (component "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+      (place J6 870000 -405000 front 180)
+    )
+    (component "Button_Switch_SMD:SW_SPST_B3U-1000P"
+      (place SW1 740000 -405000 front 180)
+    )
+    (component "bldc_motor_cntroller:DRV8301DCA"
+      (place U2 440000 -772000 front 270)
+      (place U1 1060000 -772000 front 270)
+    )
+    (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (place U7 1000000 -530000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-6"
+      (place U8 180000 -585000 front 180)
+    )
+    (component "Connector_AMASS:AMASS_MR60PB-M_1x03_P5.50mm_Vertical"
+      (place J1 1115000 -1075000 front 180)
+      (place J2 495000 -1075000 front 180)
+    )
+    (component "Resistor_SMD:R_0402_1005Metric"
+      (place R62 1255000 -975000 front 0)
+      (place R63 245000 -975000 front 0)
+      (place TH4 1255000 -960000 front 0)
+      (place TH5 245000 -960000 front 0)
+    )
+    (component "Connector_AMASS:AMASS_XT90-M_1x02_P10.90mm_Vertical"
+      (place J3 725500 -1075000 front 0)
+    )
+    (component "Capacitor_SMD:C_0402_1005Metric::4"
+      (place C102 245000 -990000 front 0)
+      (place C101 1255000 -990000 front 0)
+    )
+    (component "MountingHole:MountingHole_4.3mm_M4_Pad"
+      (place H9 100000 -1085000 front 0)
+      (place H7 100000 -400000 front 0)
+      (place H10 1400000 -1085000 front 0)
+      (place H8 1400000 -400000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "10.0.8-10.0.8~ubuntu26.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-3]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle In1.Cu 6000 0 0)
+        )
+        (shape
+          (circle In2.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "/Motor Driver/SH_B"
+        (wire
+          (path F.Cu 2000
+            1060822 -927000
+            1060822 -918805
+            1050767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1060000 -1075000
+            1058411 -1073411
+            1058411 -929411
+            1060822 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1060822 -927000
+            1063233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1041000 -908750
+            1050767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1075500 -927000
+            1099500 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1099500 -863000
+            1075500 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1056978 -863000
+            1056978 -831828
+            1055150 -830000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1024000 -879500
+            1030850 -872650
+            1052896 -872650
+            1056978 -868568
+            1056978 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1063233 -863000
+            1056978 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1075500 -863000
+            1063233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1055150 -830000
+            1052500 -827350
+            1052500 -810227
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1024000 -908750
+            1041000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1041000 -893250
+            1041000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1024000 -893250
+            1041000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1024000 -879500
+            1024000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1075500 -927000
+            1063233 -927000
+          )
+        )
+      )
+      (net "/Motor Driver/SH_C"
+        (wire
+          (path F.Cu 2000
+            1026371 -838432
+            1027650 -837153
+            1027650 -830000
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1005000 -1075000
+            1005000 -859803
+            1026371 -838432
+          )
+        )
+        (via "Via[0-3]_600:300_um" 1026371 -838432
+        )
+        (wire
+          (path F.Cu 2000
+            960500 -863000
+            984500 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            960500 -927000
+            972233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            960500 -863000
+            948233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            948233 -863000
+            940716 -870517
+            917983 -870517
+            909000 -879500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            926000 -908750
+            935767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            960500 -927000
+            948233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            935767 -908750
+            935767 -914534
+            948233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            909000 -908750
+            926000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            926000 -893250
+            926000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            909000 -893250
+            926000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            909000 -879500
+            909000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1027500 -810227
+            1027500 -829850
+            1027650 -830000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            984500 -927000
+            972233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1005000 -1075000
+            972233 -1042233
+            972233 -927000
+          )
+        )
+      )
+      (net "/Motor_Driver2/SH_A"
+        (wire
+          (path F.Cu 2000
+            465329 -823567
+            465329 -822114
+            462809 -819594
+            457500 -819594
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            462650 -830000
+            465329 -827321
+            465329 -823567
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            465329 -823567
+            527704 -823567
+            555022 -850885
+            555022 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            457500 -810227
+            457500 -819594
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            519000 -879500
+            527983 -870517
+            550716 -870517
+            555022 -866211
+            555022 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            555022 -863000
+            558233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            519000 -908750
+            536000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            536000 -893250
+            536000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            519000 -893250
+            536000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            519000 -879500
+            519000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            536000 -908750
+            545767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            558233 -927000
+            545767 -914534
+            545767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            495000 -1075000
+            558233 -1011767
+            558233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            570500 -927000
+            594500 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            570500 -863000
+            558233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            570500 -863000
+            594500 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            570500 -927000
+            558233 -927000
+          )
+        )
+      )
+      (net "/Motor_Driver2/SH_B"
+        (wire
+          (path F.Cu 2000
+            435150 -830000
+            432500 -827350
+            432500 -810227
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            404000 -879500
+            412983 -870517
+            435716 -870517
+            443233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            455500 -863000
+            443233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            435150 -830000
+            435150 -854917
+            443233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            440822 -927000
+            440822 -918805
+            430767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            440000 -1075000
+            438411 -1073411
+            438411 -929411
+            440822 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            440822 -927000
+            443233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            421000 -908750
+            430767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            455500 -927000
+            479500 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            455500 -863000
+            479500 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            404000 -908750
+            421000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            421000 -893250
+            421000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            404000 -893250
+            421000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            404000 -879500
+            404000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            455500 -927000
+            443233 -927000
+          )
+        )
+      )
+      (net "/Motor_Driver2/SH_C"
+        (wire
+          (path F.Cu 2000
+            403345 -838243
+            407650 -833938
+            407650 -830000
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            385000 -1075000
+            385000 -856588
+            403345 -838243
+          )
+        )
+        (via "Via[0-3]_600:300_um" 403345 -838243
+        )
+        (wire
+          (path F.Cu 2000
+            340500 -863000
+            364500 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            289000 -908750
+            306000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            306000 -893250
+            306000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            289000 -893250
+            306000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            289000 -879500
+            289000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            306000 -908750
+            315767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            340500 -927000
+            328233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            328233 -927000
+            315767 -914534
+            315767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            340500 -927000
+            352233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            340500 -863000
+            328233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            328233 -863000
+            320716 -870517
+            297983 -870517
+            289000 -879500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            407500 -810227
+            407500 -829850
+            407650 -830000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            364500 -927000
+            352233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            385000 -1075000
+            352233 -1042233
+            352233 -927000
+          )
+        )
+      )
+      (net "/Motor Driver/SL_C"
+        (wire
+          (path F.Cu 2000
+            1017500 -810227
+            1017500 -847926
+            1005925 -859501
+            1005925 -860876
+            996284 -870517
+            972983 -870517
+            964000 -879500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            981000 -893250
+            981000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            981000 -908750
+            990767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            990767 -908750
+            996767 -914750
+            996767 -973267
+            1011500 -988000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            964000 -908750
+            981000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            964000 -893250
+            981000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            964000 -879500
+            964000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1017500 -810227
+            1017500 -802499
+            976501 -761500
+            951500 -761500
+            945000 -755000
+          )
+        )
+      )
+      (net "/Motor Driver/SL_B"
+        (wire
+          (path F.Cu 2000
+            1096000 -893250
+            1105767 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1105767 -893250
+            1112240 -886777
+            1112240 -855498
+            1132392 -835346
+            1132392 -802683
+            1130569 -800860
+            1042515 -800860
+            1042500 -800875
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1096000 -893250
+            1096000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1042500 -801868
+            1042500 -800875
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1042500 -800875
+            1042500 -800860
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1042500 -810227
+            1042500 -801868
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            970000 -755000
+            977320 -755000
+            1023180 -800860
+            1042500 -800860
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1096000 -908750
+            1105767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1105767 -908750
+            1117500 -920483
+            1117500 -979000
+            1126500 -988000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1079000 -908750
+            1096000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1079000 -893250
+            1096000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1079000 -879500
+            1079000 -893250
+          )
+        )
+      )
+      (net "/Motor_Driver2/SL_B"
+        (wire
+          (path F.Cu 2000
+            418650 -798668
+            400988 -798668
+            357320 -755000
+            350000 -755000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            422500 -801868
+            419300 -798668
+            418650 -798668
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            418650 -798668
+            444520 -824538
+            444520 -878204
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            459000 -879500
+            449233 -879500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            444520 -878204
+            447937 -878204
+            449233 -879500
+          )
+        )
+        (via "Via[0-3]_600:300_um" 444520 -878204
+        )
+        (via "Via[0-3]_600:300_um" 418650 -798668
+        )
+        (wire
+          (path F.Cu 2000
+            422500 -810227
+            422500 -801868
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            476000 -893250
+            476000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            476000 -908750
+            485767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            485767 -908750
+            497500 -920483
+            497500 -979000
+            506500 -988000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            459000 -908750
+            476000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            459000 -893250
+            476000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            459000 -879500
+            459000 -893250
+          )
+        )
+      )
+      (net "/Motor_Driver2/SL_C"
+        (wire
+          (path F.Cu 2000
+            397500 -810227
+            397500 -835580
+            385925 -847155
+            385925 -860018
+            375426 -870517
+            352983 -870517
+            344000 -879500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            361000 -893250
+            361000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            361000 -908750
+            370767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            370767 -908750
+            376767 -914750
+            376767 -973267
+            391500 -988000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            344000 -908750
+            361000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            344000 -893250
+            361000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            344000 -879500
+            344000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            397500 -810227
+            397500 -802499
+            356501 -761500
+            331500 -761500
+            325000 -755000
+          )
+        )
+      )
+      (net "/Motor Driver/SH_A"
+        (wire
+          (path F.Cu 2000
+            1077500 -824850
+            1074628 -824850
+          )
+        )
+        (wire
+          (path B.Cu 2000
+            1115000 -1075000
+            1115000 -865222
+            1074628 -824850
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1077500 -824850
+            1082650 -830000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1077500 -810227
+            1077500 -824850
+          )
+        )
+        (via "Via[0-3]_600:300_um" 1074628 -824850
+        )
+        (wire
+          (path F.Cu 2000
+            1178233 -863000
+            1170716 -870517
+            1147983 -870517
+            1139000 -879500
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1190500 -927000
+            1214500 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1190500 -863000
+            1178233 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1190500 -863000
+            1214500 -863000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1156000 -908750
+            1165767 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1165767 -908750
+            1165767 -914534
+            1178233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1139000 -908750
+            1156000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1156000 -893250
+            1156000 -908750
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1139000 -893250
+            1156000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1139000 -879500
+            1139000 -893250
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1190500 -927000
+            1178233 -927000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1115000 -1075000
+            1178233 -1011767
+            1178233 -927000
+          )
+        )
+      )
+      (net "/Power Management/HS"
+        (wire
+          (path F.Cu 2000
+            780027 -845950
+            787756 -838221
+            801327 -838221
+            845000 -794548
+            845000 -789850
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            780027 -845950
+            783267 -845950
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            776000 -845950
+            779634 -845950
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            779634 -845950
+            780027 -845950
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            815500 -925000
+            815500 -899933
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            783267 -871350
+            783267 -882059
+            801141 -899933
+            815500 -899933
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            783267 -858650
+            783267 -871350
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            783267 -858650
+            783267 -845950
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            776000 -858650
+            783267 -858650
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            776000 -871350
+            783267 -871350
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            815500 -925000
+            815500 -950067
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            815500 -950067
+            815000 -950567
+            815000 -968000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            824000 -789000
+            844150 -789000
+            845000 -789850
+          )
+        )
+      )
+    )
+  )
+)

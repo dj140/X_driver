@@ -1,0 +1,57 @@
+
+
+(footprint "AMASS_MR60PB-M_1x03_P5.50mm_Vertical" (version 20260206) (generator "pcbnew") (generator_version "10.0") (layer "F.Cu") 
+
+(property "Reference" "REF**" (at 5.5 6.5 0.0) (unlocked yes) (layer "F.SilkS") (uuid "b76be6b0-53ea-4af5-85a1-4f489b75ed2a") (effects (font (size 1 1) (thickness 0.1)))) 
+
+(property "Value" "AMASS_MR60PB-M_1x03_P5.50mm_Vertical" (at 5.5 3.2 0.0) (unlocked yes) (layer "F.Fab") (uuid "6002c607-d31a-4a4b-96a7-be3ce487dc6a") (effects (font (size 1 1) (thickness 0.15)))) 
+
+(property "Datasheet" "https://www.china-amass.com" (at 0 0 0) (unlocked yes) (layer "F.Fab") (hide yes) (uuid "0bfa21eb-177f-448a-ac87-5d3205be930b") (effects (font (size 1 1) (thickness 0.15)))) 
+
+(property "Description" "Amass MR60PB-M 3-pin vertical through-hole PCB connector, 5.50mm pitch, 30A/60A" (at 0 0 0) (unlocked yes) (layer "F.Fab") (hide yes) (uuid "a67ab26d-ed15-41d5-a8d8-b460059a03eb") (effects (font (size 1 1) (thickness 0.15)))) (attr through_hole) (duplicate_pad_numbers_are_jumpers no) 
+
+(fp_text user "${REFERENCE}" (at 0 2.5 0) (unlocked yes) (layer "F.Fab") (uuid "d14c759a-56c3-4fc9-843f-0a5e5304ffe3") (effects (font (size 1 1) (thickness 0.15)))) (embedded_fonts no) 
+
+(property "MPN" "MR60PB-M" (at 0 0 0) (unlocked yes) (layer "F.Fab") (uuid "41c44730-dfed-4ada-94bc-f1f260ca8e6c") (effects (font (size 1 1) (thickness 0.15)))) 
+
+(pad "1" thru_hole roundrect (at 0.0 0.0) (size 4.8 4.8) (drill 3.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "f99bc88b-88bb-4f79-a887-ee15c6916d5b") (roundrect_rratio 0.25)) 
+
+(pad "2" thru_hole circle (at 5.5 0.0) (size 4.8 4.8) (drill 3.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "33aba75c-1c9f-41e5-ba91-252f5837f343")) 
+
+(pad "3" thru_hole circle (at 11.0 0.0) (size 4.8 4.8) (drill 3.3) (layers "*.Cu" "*.Mask") (remove_unused_layers no) (uuid "1226f18b-fc39-42da-b8a4-95f92eb57a75")) 
+
+(fp_line (start -5.3 -2) (end -5.3 2) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "76473cb5-ba89-4440-ad4d-92106a931038")) 
+
+(fp_line (start -5.3 2) (end -2.3 4.9) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "5e6dc2fd-e3c2-4b5b-8cba-6a0f1c3734a6")) 
+
+(fp_line (start -2.3 -4.9) (end -5.3 -2) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "4b6f0b40-6643-4f33-837b-1616c2148f08")) 
+
+(fp_line (start -2.3 4.9) (end 16.3 4.9) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "23b3a2bc-0d00-41e5-8349-6c57f3d4de63")) 
+
+(fp_line (start 16.3 -4.9) (end -2.3 -4.9) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "35b9268f-0569-4a90-8a3f-1b1a7dd698c6")) 
+
+(fp_line (start 16.3 4.9) (end 16.3 -4.9) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "9d67d038-f254-49f2-8aab-2ba5a7b7aec7")) 
+
+(fp_line (start -5.3 -2) (end -5.3 2) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "b5039ae7-2e9d-47ef-9898-f3c279c8c429")) 
+
+(fp_line (start -5.3 2) (end -2.3 4.9) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "7fc1cecc-1928-4273-baf5-dedeb53c3b71")) 
+
+(fp_line (start -2.3 -4.9) (end -5.3 -2) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "1acdd5a6-7504-4bc9-8ca6-43c5c88e5e57")) 
+
+(fp_line (start -2.3 4.9) (end 16.3 4.9) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "a074509e-6576-46f7-99ea-2e77cc9d3a78")) 
+
+(fp_line (start 16.3 -4.9) (end -2.3 -4.9) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "bae8abd6-1223-4efc-a2be-e5837630097c")) 
+
+(fp_line (start 16.3 4.9) (end 16.3 -4.9) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "171cdf12-6e55-4313-aab9-cbb8fbeb0535")) 
+
+(fp_line (start -5.8 -2.2) (end -2.6 -5.4) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "1370ef7e-fe0f-407e-b9c6-17510d0879c5")) 
+
+(fp_line (start -5.8 2.2) (end -5.8 -2.2) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "2b2735d4-a92f-4ee2-90cd-23d29ed6c6a6")) 
+
+(fp_line (start -2.6 -5.4) (end 16.8 -5.4) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "62921569-8782-41ef-b8b1-59a2d7d472a3")) 
+
+(fp_line (start -2.6 5.4) (end -5.8 2.2) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "caf704e2-5fff-4a1b-ac61-c0fc492e06d3")) 
+
+(fp_line (start 16.8 -5.4) (end 16.8 5.4) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "dac6e539-fd9d-4768-a2e7-61a1b75d5335")) 
+
+(fp_line (start 16.8 5.4) (end -2.6 5.4) (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (uuid "c355f3cf-341e-4dd5-af42-e2ee3c1522af")))
